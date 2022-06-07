@@ -1,7 +1,7 @@
 # Learn HTML and CSS in 30 Days
 | **Day** |   **Topics**  |
 |:-------:|:------------:|
-|    1    | Introduction |
+|    1    | [Introduction](./day-01-introduction/DAY01.md) |
 |    2    |              |
 |    3    |              |
 |    4    |              |
