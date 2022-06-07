@@ -37,11 +37,12 @@ HTML is used to buld the ***STRUCTURE*** of the web pages.
 </html>
 ```
 
-[Click to View Code](./basic-html-boilerplate.html)
+
 
 
 ### How Web Works?
-Hey, Rather wasting some time, I'm gonna provide you some useful resources to learn how the web works! 
+---
+Hey, rather wasting some time, I'm gonna provide you some useful resources to learn how the web works! 
 Here we go:
 1. An amazing Video [Explanation](https://youtu.be/zN8YNNHcaZc) on freeCodeCamp.
 2. Another Amazing [Explanation](https://github.com/vasanthk/how-web-works) by Vasa.
