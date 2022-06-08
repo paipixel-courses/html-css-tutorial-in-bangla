@@ -91,3 +91,8 @@ It may help to realize that both are valid and semantic elements in HTML5 and th
 
 [Visit here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to learn more.
 
+[<h3 align="center">Go to Home Page</h3>](../README.md) 
+
+[<h3 align="center">Go to DAY-01</h3>](../day-01-introduction/DAY01.md)
+
+[<h3 align="center">Go to DAY-03</h3>](../day-03-html-entities-links-images-audio-videos/DAY03.md)
