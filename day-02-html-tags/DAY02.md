@@ -1,6 +1,6 @@
 <h1 align="center"> Day-02: Commonly Used HTML Tags & Their Usage </h1>
 
-  - [&lt;em&gt;](#-em)
+  - [&lt;em&gt;](#&lt;em&gt;)
   - [&lt;i&gt; vs &lt;em&gt;](#-i-vs-em)
   - [&lt;strong&gt;](#-strong)
   - [&lt;b&gt; vs &lt;strong&gt;](#-b-vs-strong)
@@ -26,17 +26,13 @@ Visit [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) for l
 </head>
 <body>
     <article>
-        Cox’s Bazar is a town on the southeast coast of <em>Bangladesh</em>. It’s known for its very long, 
-        sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. 
-        Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. 
-        South of town, the tropical rainforest of Himchari National Park has waterfalls and many 
-        birds. North, sea turtles breed on nearby Sonadia Island.
+        Cox’s Bazar is a town on the southeast coast of <em>Bangladesh</em>. 
     </article>
 </body>
 </html>
 ```
 **Output:**
-![Em Element Example](em1.png)
+Cox’s Bazar is a town on the southeast coast of *Bangladesh*.
 
 
 ### &lt;i&gt; vs &lt;em&gt;
