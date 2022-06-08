@@ -56,4 +56,6 @@ Here we go:
 3. Video [Explanation](https://www.youtube.com/watch?v=hJHvdBlSxug) on Academind.
 4. An [Explanation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) on Mozilla.
 
-[Go to Home Page](../README.md) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  [Go to DAY-02](../day-02-html-tags/DAY02.md)
+[<h3 align="center">Go to Home Page</h3>](../README.md) 
+
+[<h3 align="center">Go to DAY-02</h3>](../day-02-html-tags/DAY02.md)

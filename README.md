@@ -2,7 +2,7 @@
 | **Day** |   **Topics**  |
 |:-------:|:------------:|
 |    [01](./day-01-introduction/DAY01.md)    | [Introduction](./day-01-introduction/DAY01.md) |
-|    02    |              |
+|    [02](./day-02-html-tags/DAY02.md)    |   [HTML Tags](./day-02-html-tags/DAY02.md)           |
 |    03    |              |
 |    04    |              |
 |    05    |              |

@@ -1,16 +1,38 @@
 <h1 align="center"> Day-02: Commonly Used HTML Tags & Their Usage </h1>
 
-  - [`<body>`](#what-is-html)
+  - [&lt;em&gt;](#ltemgt)
   - [HTML Basics](#html-basics)
   - [How Web Works?](#how-web-works)
   
   
 
-### What is HTML?
+### &lt;em&gt;
 ---
-The full meaning of HTML is ***Hyper Text Transfer Protocol***. HTML is a Markup language.  
-HTML is used to buld the ***STRUCTURE*** of the web pages.
-
+The **`<em>`** element is used to define emphasized text. By default, emphasized text is
+displayed in *italic*.
+**Example:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="TravellerAlim, Alim, Travel, AlimTheTraveller">
+    <meta name="description" content="Alim is an passionate traveler who travels around the world and loves to make adventures">
+    <title>TravellerAlim</title>
+</head>
+<body>
+    <article>
+        Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, 
+        sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. 
+        Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. 
+        South of town, the tropical rainforest of Himchari National Park has waterfalls and many 
+        birds. North, sea turtles breed on nearby Sonadia Island.
+    </article>
+</body>
+</html>
+```
 
 ### HTML Basics
 ---
