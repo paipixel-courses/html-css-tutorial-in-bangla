@@ -1,9 +1,9 @@
 <h1 align="center"> Day-02: Commonly Used HTML Tags & Their Usage </h1>
 
-  - [&lt;em&gt;](#ltemgt)
-  - [&lt;i&gt; vs &lt;em&gt;](#ltigt-vs-ltemgt)
-  - [&lt;strong&gt;](#ltstronggt)
-  - [&lt;b&gt; vs &lt;strong&gt;](#ltbgt-vs-ltstronggt)
+  - [&lt;em&gt;](#-em)
+  - [&lt;i&gt; vs &lt;em&gt;](#-i-vs-em)
+  - [&lt;strong&gt;](#-strong)
+  - [&lt;b&gt; vs &lt;strong&gt;](#-b-vs-strong)
   
   
 
