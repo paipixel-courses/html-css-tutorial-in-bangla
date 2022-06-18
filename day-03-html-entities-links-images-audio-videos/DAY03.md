@@ -25,3 +25,9 @@ Character entities are used to display reserved characters in HTML.
 
 **Note:** Entities names are case-sensitive.
 Here is the HTML code which generates all the entites listed above.
+
+[<h3 align="center">Go to Home Page</h3>](../README.md) 
+
+[<h3 align="center">Go to DAY-02</h3>](../day-02-html-tags/DAY02.md)
+
+[<h3 align="center">Go to DAY-04</h3>](../day-04-list-tables-containers/DAY04.md)
