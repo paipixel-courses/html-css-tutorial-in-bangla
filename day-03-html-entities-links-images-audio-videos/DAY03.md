@@ -1,7 +1,7 @@
 <h1 align="center"> Day-03: HTML Entities, Hyperlinks, Images, Audio, Videos </h1>
 
   - [HTML Entities](#html-entities)
-  - 
+  - [Hyperlinks](#hyperlinks)
   
   
 
@@ -24,7 +24,14 @@ Character entities are used to display reserved characters in HTML.
 |    ®   |       registered trademark        |    `&reg;`    |
 
 **Note:** Entities names are case-sensitive.
-Here is the HTML code which generates all the entites listed above.
+[Here](table.html) is the HTML code which generates all the entites listed above.
+
+
+### Hyperlinks
+---
+
+
+
 
 [<h3 align="center">Go to Home Page</h3>](../README.md) 
 
