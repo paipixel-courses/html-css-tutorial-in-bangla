@@ -24,14 +24,16 @@ Character entities are used to display reserved characters in HTML.
 |    ®   |       registered trademark        |    `&reg;`    |
 
 **Note:** Entities names are case-sensitive.
-[Here](table.html) is the HTML code which generates all the entites listed above.
+Here is the [HTML](table.html) and [CSS](table.css) code that generates all the entites listed above.
 
 
 ### Hyperlinks
 ---
+#### What is Hyperlinks?
+Hyperlinks allow us to link documents to other documents or resources, link to specific parts of documents, or make apps available at a web address. Almost any web content can be converted to a link so that when clicked or otherwise activated the web browser goes to another web address (URL).
 
-
-
+#### HTML Link Syntax
+The HTML 
 
 [<h3 align="center">Go to Home Page</h3>](../README.md) 
 
