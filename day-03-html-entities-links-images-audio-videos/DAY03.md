@@ -33,7 +33,17 @@ Here is the [HTML](table.html) and [CSS](table.css) code that generates all the 
 Hyperlinks allow us to link documents to other documents or resources, link to specific parts of documents, or make apps available at a web address. Almost any web content can be converted to a link so that when clicked or otherwise activated the web browser goes to another web address (URL).
 
 #### HTML Link Syntax
-The HTML 
+The HTML `<a>` tag defines a hyperlink. It has the following syntax:
+```html
+ <a href="url">link text</a>
+ ```
+The most important attribute of the `<a>` element is the ***href*** attribute, which indicates the link's destination.
+
+The **link text** is the part that will be visible to the reader. Clicking on the link text, will send the reader to the specified URL address.
+
+##### Example:
+```
+```
 
 [<h3 align="center">Go to Home Page</h3>](../README.md) 
 
