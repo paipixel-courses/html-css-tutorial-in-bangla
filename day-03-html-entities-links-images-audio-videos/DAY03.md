@@ -75,6 +75,9 @@ An absolute URL will always point to the same location, no matter where it's use
 
 **Relative URL:**
 Points to a location that is *relative* to the file you are linking from, more like what we looked at in the previous section. For example, if we wanted to link from our example file at `https://www.example.com/projects/index.html` to a PDF file in the same directory, the URL would just be the filename — `project-brief.pdf` — no extra information needed. If the PDF was available in a subdirectory inside `projects` called `pdfs`, the relative link would be `pdfs/project-brief.pdf`(the equivalent absolute URL would be `https://www.example.com/projects/pdfs/project-brief.pdf`)
+
+View the [SOURCE CODE](/day-03-html-entities-links-images-audio-videos/hyperlinks.html) here.
+
 [<h3 align="center">Go to Home Page</h3>](../README.md) 
 
 [<h3 align="center">Go to DAY-02</h3>](../day-02-html-tags/DAY02.md)
