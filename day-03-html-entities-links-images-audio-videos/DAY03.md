@@ -5,7 +5,7 @@
   
   
 
-### HTML Entities
+## HTML Entities
 ---
 Some characters are reserved in HTML. If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
 Character entities are used to display reserved characters in HTML.
@@ -27,12 +27,12 @@ Character entities are used to display reserved characters in HTML.
 Here is the [HTML](table.html) and [CSS](table.css) code that generates all the entites listed above.
 
 
-### Hyperlinks
+## Hyperlinks
 ---
-#### What is Hyperlinks?
+### What is Hyperlinks?
 Hyperlinks allow us to link documents to other documents or resources, link to specific parts of documents, or make apps available at a web address. Almost any web content can be converted to a link so that when clicked or otherwise activated the web browser goes to another web address (URL).
 
-#### HTML Link Syntax
+### HTML Link Syntax
 The HTML `<a>` tag defines a hyperlink. It has the following syntax:
 ```html
  <a href="url">link text</a>
@@ -41,14 +41,14 @@ The most important attribute of the `<a>` element is the ***href*** attribute, w
 
 The **link text** is the part that will be visible to the reader. Clicking on the link text, will send the reader to the specified URL address.
 
-##### Example:
+#### Example:
 ```html
 <a href="https://www.travelerabdulalim.com/">Visit My Travel Blog</a>
 ```
-##### Output:
+#### Output:
 [Visit My Travel Blog](https://www.travelerabdulalim.com/)
 
-#### HTML Links - The target Attribute
+### HTML Links - The target Attribute
 By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
 The ***target*** attribute specifies where to open the linked document.
 The **target** attribute can have one of the following values:
@@ -60,13 +60,13 @@ The **target** attribute can have one of the following values:
 
 View the [Source Code](hyperlinks.html) to see the application of these attributes.
 
-#### HTML Links - The title Attribute
+### HTML Links - The title Attribute
 The **title** contains additional information about the link, we can see the **title** text while hovering the link.
 
 Click the [Source Code](hyperlinks.html) to view the application of **title** attribute.
 
 
-#### Absolute URL vs. Relative URL
+### Absolute URL vs. Relative URL
 
 **Absolute URL:**
 Points to a location defined by its absolute location on the web, including protocol and domain name.For example, if an `index.html` page is uploaded to a directory called `projects` that sits inside the **root** of a web server, and the website's domain is `https://www.example.com`, the page would be available at `https://www.example.com/projects/index.html`
@@ -77,9 +77,10 @@ An absolute URL will always point to the same location, no matter where it's use
 Points to a location that is *relative* to the file you are linking from, more like what we looked at in the previous section. For example, if we wanted to link from our example file at `https://www.example.com/projects/index.html` to a PDF file in the same directory, the URL would just be the filename — `project-brief.pdf` — no extra information needed. If the PDF was available in a subdirectory inside `projects` called `pdfs`, the relative link would be `pdfs/project-brief.pdf`(the equivalent absolute URL would be `https://www.example.com/projects/pdfs/project-brief.pdf`)
 
 View the [SOURCE CODE](/day-03-html-entities-links-images-audio-videos/hyperlinks.html) here.
-##### A Real Example of Absolute and Relative URL
+#### A Real Example of Absolute and Relative URL
 
 Assume we are creating a subsite whose files are in the folder https://paipixel.com/shop.
+
   **1. Absolute URL**
    ```javascript
       Link to home page
@@ -131,7 +132,7 @@ href="t-shirts/t-shirt-life-is-good/"
 ```
 ***Note:*** Now you can move your site not only to any domain, but in any subfolder. Just keep in mind that, although URLs look like relative, in fact they are absolute. Especially pay attention to anchors. To navigate within the current page we have to write `href="t-shirts/t-shirt-life-is-good/#comments"` not `href="#comments"`. The latter will throw on home page.
 
-#### Absolute URL versus Relative URL (Another Discussion)
+### Absolute URL versus Relative URL (Another Discussion)
 
 ```html
 http://www.example.com/en/public/img/logo.gif
@@ -160,6 +161,8 @@ Thus:
 - https://stackoverflow.com/questions/904046/absolute-urls-relative-urls-and
 - https://www.w3schools.com/html/html_links.asp
 - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Generic_syntax
+  
+
 [<h3 align="center">Go to Home Page</h3>](../README.md) 
 
 [<h3 align="center">Go to DAY-02</h3>](../day-02-html-tags/DAY02.md)
