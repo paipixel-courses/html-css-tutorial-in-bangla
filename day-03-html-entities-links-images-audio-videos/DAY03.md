@@ -153,6 +153,16 @@ Thus:
 - `../../public/img/logo.gif` is a *relative URL* with a *relative URL path* and
 - `/en/public/img/logo.gif` is a *relative URL* with an *absolute URL path*.
 
+Click to view the [Source Code](hyperlinks.html) which demonstrates all the examples above.
+
+
+## Creating link to target a section/article on the same page
+
+[Click Here](hyperlinks.html) to view the source code.
+
+## Creating link to jump in Top
+
+[Click Here](hyperlinks.html) to view the source code.
 
 **References:**
 
