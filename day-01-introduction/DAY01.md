@@ -1,4 +1,4 @@
-<h1 align="center"> Day-01: Introduction </h1>
+# Day-01: Introduction
 
 - [What is HTML?](#what-is-html)
 - [HTML Basics](#html-basics)
