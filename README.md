@@ -35,20 +35,18 @@
 
 # Day-01: Introduction
 
+---
+
 - [What is HTML?](#what-is-html)
 - [HTML Basics](#html-basics)
 - [How Web Works?](#how-web-works)
 
-## What is HTML?
-
----
+### What is HTML?
 
 The full meaning of HTML is **_Hyper Text Transfer Protocol_**. HTML is a Markup language.  
 HTML is used to buld the **_STRUCTURE_** of the web pages.
 
-## HTML Basics
-
----
+### HTML Basics
 
 - **`<DOCTYPE html>`** is used to **tell** the browser, this is an HTML5 document.
 - **`<html>`** is the **container** of all HTML elements. This tag is used to **indicate** the beginning and end of all HTML elements in an HTML Document.
@@ -75,20 +73,21 @@ HTML is used to buld the **_STRUCTURE_** of the web pages.
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Traveller Abdul Alim, Abdul Alim, Travel />
+    <meta
+      name="keywords"
+      content="TravellerAlim, Alim, Travel, AlimTheTraveller"
+    />
     <meta
       name="description"
       content="Alim is an passionate traveler who travels around the world and loves to make adventures"
     />
-    <title>HTML Introduction</title>
+    <title>TravellerAlim</title>
   </head>
   <body></body>
 </html>
 ```
 
-## How Web Works?
-
----
+### How Web Works?
 
 Hey, rather wasting some time, I'm gonna provide you some useful resources to learn how the web works!
 Here we go:
@@ -102,14 +101,14 @@ Here we go:
 
 # Day-02: Commonly Used HTML Tags & Their Usage
 
+---
+
 - [&lt;em&gt;](#em)
 - [&lt;i&gt; vs &lt;em&gt;](#i-vs-em)
 - [&lt;strong&gt;](#strong)
 - [&lt;b&gt; vs &lt;strong&gt;](#b-vs-strong)
 
-## em
-
----
+### em
 
 The **`<em>`** element is used to define emphasized text. By default, emphasized text is displayed in _italic_. However, it should not be used to apply italic styling; use the CSS `font-style` property for that purpose. Use the `<cite>` element to mark the title of a work (book, play, song, etc.). Use the `<i>` element to mark text that is in an alternate tone or mood, which covers many common situations for italics such as scientific names or words in other languages. Use the `<strong>` element to mark text that has greater importance than surrounding text.<br>
 Visit [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) for learning more about this element.
@@ -144,9 +143,7 @@ Visit [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) for l
 **Output:**
 Cox’s Bazar is a town on the southeast coast of _Bangladesh_.
 
-## i vs em
-
----
+### i vs em
 
 New developers are often confused at seeing multiple elements that produce similar results. `<em>` and `<i>` are a common example, since they both italicize text. What's the difference? Which should you use?
 
@@ -172,9 +169,7 @@ In HTML 5, what was previously called _block-level_ content is now called _flow_
 
 Thanks [Mozilla Developer Network-MDN](https://developer.mozilla.org/en-US/docs/MDN/About) for [this awesome documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
 
-## strong
-
----
+### strong
 
 The `<strong>` element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.
 
@@ -184,9 +179,7 @@ Typically this element is rendered by default using a bold font weight. However,
 
 Another accepted use for `<strong>` is to denote the labels of paragraphs which represent notes or warnings within the text of a page.
 
-## b vs strong
-
----
+### b vs strong
 
 It is often confusing to new developers why there are so many ways to express the same thing on a rendered website. `<b>` and `<strong>` are perhaps one of the most common sources of confusion, causing developers to ask "Should I use `<b>` or `<strong>`? Don't they both do the same thing?"
 
@@ -200,8 +193,6 @@ The intended meaning or purpose of the enclosed text should be what determines w
 
 ### em vs strong
 
----
-
 While `<em>` is used to change the meaning of a sentence as spoken emphasis does ("I _love carrots_" vs. "I love _carrots_"), `<strong>` is used to give portions of a sentence added importance (e.g., "**Warning**! This is **very dangerous**.") Both `<strong>` and `<em>` can be nested to increase the relative degree of importance or stress emphasis, respectively.
 
 ### Example:
@@ -214,12 +205,12 @@ While `<em>` is used to change the meaning of a sentence as spoken emphasis does
 
 # Day-03: HTML Entities, Hyperlinks, Images, Audio, Videos
 
+---
+
 - [HTML Entities](#html-entities)
 - [Hyperlinks](#hyperlinks)
 
-## HTML Entities
-
----
+### HTML Entities
 
 Some characters are reserved in HTML. If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
 Character entities are used to display reserved characters in HTML.
@@ -240,9 +231,7 @@ Character entities are used to display reserved characters in HTML.
 **Note:** Entities names are case-sensitive.
 Here is the [HTML](table.html) and [CSS](table.css) code that generates all the entites listed above.
 
-## Hyperlinks
-
----
+### Hyperlinks
 
 ### What is Hyperlinks?
 
@@ -388,11 +377,11 @@ Thus:
 
 Click to view the [Source Code](hyperlinks.html) which demonstrates all the examples above.
 
-## Creating link to target a section/article on the same page
+### Creating link to target a section/article on the same page
 
 [Click Here](hyperlinks.html) to view the source code.
 
-## Creating link to jump in Top
+### Creating link to jump in Top
 
 [Click Here](hyperlinks.html) to view the source code.
 

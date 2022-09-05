@@ -1,11 +1,11 @@
 # Day-03: HTML Entities, Hyperlinks, Images, Audio, Videos
 
+---
+
 - [HTML Entities](#html-entities)
 - [Hyperlinks](#hyperlinks)
 
-## HTML Entities
-
----
+### HTML Entities
 
 Some characters are reserved in HTML. If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
 Character entities are used to display reserved characters in HTML.
@@ -26,9 +26,7 @@ Character entities are used to display reserved characters in HTML.
 **Note:** Entities names are case-sensitive.
 Here is the [HTML](table.html) and [CSS](table.css) code that generates all the entites listed above.
 
-## Hyperlinks
-
----
+### Hyperlinks
 
 ### What is Hyperlinks?
 
@@ -174,11 +172,11 @@ Thus:
 
 Click to view the [Source Code](hyperlinks.html) which demonstrates all the examples above.
 
-## Creating link to target a section/article on the same page
+### Creating link to target a section/article on the same page
 
 [Click Here](hyperlinks.html) to view the source code.
 
-## Creating link to jump in Top
+### Creating link to jump in Top
 
 [Click Here](hyperlinks.html) to view the source code.
 

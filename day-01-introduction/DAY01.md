@@ -1,17 +1,17 @@
 # Day-01: Introduction
 
+---
+
 - [What is HTML?](#what-is-html)
 - [HTML Basics](#html-basics)
 - [How Web Works?](#how-web-works)
 
-## What is HTML?
-
----
+### What is HTML?
 
 The full meaning of HTML is **_Hyper Text Transfer Protocol_**. HTML is a Markup language.  
 HTML is used to buld the **_STRUCTURE_** of the web pages.
 
-## HTML Basics
+### HTML Basics
 
 - **`<DOCTYPE html>`** is used to **tell** the browser, this is an HTML5 document.
 - **`<html>`** is the **container** of all HTML elements. This tag is used to **indicate** the beginning and end of all HTML elements in an HTML Document.
@@ -52,9 +52,7 @@ HTML is used to buld the **_STRUCTURE_** of the web pages.
 </html>
 ```
 
-## How Web Works?
-
----
+### How Web Works?
 
 Hey, rather wasting some time, I'm gonna provide you some useful resources to learn how the web works!
 Here we go:

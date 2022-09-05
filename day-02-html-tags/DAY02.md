@@ -1,13 +1,13 @@
 # Day-02: Commonly Used HTML Tags & Their Usage
 
+---
+
 - [&lt;em&gt;](#em)
 - [&lt;i&gt; vs &lt;em&gt;](#i-vs-em)
 - [&lt;strong&gt;](#strong)
 - [&lt;b&gt; vs &lt;strong&gt;](#b-vs-strong)
 
-## em
-
----
+### em
 
 The **`<em>`** element is used to define emphasized text. By default, emphasized text is displayed in _italic_. However, it should not be used to apply italic styling; use the CSS `font-style` property for that purpose. Use the `<cite>` element to mark the title of a work (book, play, song, etc.). Use the `<i>` element to mark text that is in an alternate tone or mood, which covers many common situations for italics such as scientific names or words in other languages. Use the `<strong>` element to mark text that has greater importance than surrounding text.<br>
 Visit [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) for learning more about this element.
@@ -42,9 +42,7 @@ Visit [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) for l
 **Output:**
 Cox’s Bazar is a town on the southeast coast of _Bangladesh_.
 
-## i vs em
-
----
+### i vs em
 
 New developers are often confused at seeing multiple elements that produce similar results. `<em>` and `<i>` are a common example, since they both italicize text. What's the difference? Which should you use?
 
@@ -70,9 +68,7 @@ In HTML 5, what was previously called _block-level_ content is now called _flow_
 
 Thanks [Mozilla Developer Network-MDN](https://developer.mozilla.org/en-US/docs/MDN/About) for [this awesome documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
 
-## strong
-
----
+### strong
 
 The `<strong>` element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.
 
@@ -82,9 +78,7 @@ Typically this element is rendered by default using a bold font weight. However,
 
 Another accepted use for `<strong>` is to denote the labels of paragraphs which represent notes or warnings within the text of a page.
 
-## b vs strong
-
----
+### b vs strong
 
 It is often confusing to new developers why there are so many ways to express the same thing on a rendered website. `<b>` and `<strong>` are perhaps one of the most common sources of confusion, causing developers to ask "Should I use `<b>` or `<strong>`? Don't they both do the same thing?"
 
@@ -98,8 +92,6 @@ The intended meaning or purpose of the enclosed text should be what determines w
 
 ### em vs strong
 
----
-
 While `<em>` is used to change the meaning of a sentence as spoken emphasis does ("I _love carrots_" vs. "I love _carrots_"), `<strong>` is used to give portions of a sentence added importance (e.g., "**Warning**! This is **very dangerous**.") Both `<strong>` and `<em>` can be nested to increase the relative degree of importance or stress emphasis, respectively.
 
 ### Example:
@@ -108,8 +100,4 @@ While `<em>` is used to change the meaning of a sentence as spoken emphasis does
 
 [Visit here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to learn more.
 
-[<h3 align="center">Go to Home Page</h3>](../README.md)
-
-[<h3 align="center">Go to DAY-01</h3>](../day-01-introduction/DAY01.md)
-
-[<h3 align="center">Go to DAY-03</h3>](../day-03-html-entities-links-images-audio-videos/DAY03.md)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
