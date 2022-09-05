@@ -1,18 +1,18 @@
 <h1 align="center"> Day-01: Introduction </h1>
 
-  - [What is HTML?](#what-is-html)
-  - [HTML Basics](#html-basics)
-  - [How Web Works?](#how-web-works)
-  
-  
+- [What is HTML?](#what-is-html)
+- [HTML Basics](#html-basics)
+- [How Web Works?](#how-web-works)
 
-### What is HTML?
+## What is HTML?
+
 ---
-The full meaning of HTML is ***Hyper Text Transfer Protocol***. HTML is a Markup language.  
-HTML is used to buld the ***STRUCTURE*** of the web pages.
 
+The full meaning of HTML is **_Hyper Text Transfer Protocol_**. HTML is a Markup language.  
+HTML is used to buld the **_STRUCTURE_** of the web pages.
 
-### HTML Basics
+## HTML Basics
+
 - **`<DOCTYPE html>`** is used to **tell** the browser, this is an HTML5 document.
 - **`<html>`** is the **container** of all HTML elements. This tag is used to **indicate** the beginning and end of all HTML elements in an HTML Document.
 
@@ -20,7 +20,7 @@ HTML is used to buld the ***STRUCTURE*** of the web pages.
 - **`<title>`** element specifies a title for the HTML page (which is shown in the browser's title bar and in the page's tab).
 - **`<body>`** element is the container for all the visible contents such as headings, paragraphs, images, hyperlinks, tables, lists, etc in the webpage.
 - The **`<em>`** element is used to define emphasized text. By default, emphasized text is
-displayed in *italic*.
+  displayed in _italic_.
 - The **`<strong>`** element is used to represent important content. Browsers, by default, render strong content in **bold**.
 - The **`<i>`** and **`<b>`** elements are considered deprecated because HTML should not be used for styling. That’s the role of CSS.
 - Headings are represented using **`<h1>`**, **`<h2>`**, **`<h3>`**, **`<h4>`**, **`<h5>`**, **`<h6>`**. Every web page should have one and only one **`<h1>`** element. Headings should have a natural hierarchy and should not be skipped.
@@ -30,33 +30,38 @@ displayed in *italic*.
 - The semantic elements in HTML5 are: **`<header>`, `<footer>`, `<nav>`, `<main>`, `<aside>`, `<article>`, `<section>`, `<figure>`, `<time>` and `<mark>.`**
 
   **An Example of Basic HTML Boilerplate is**
-  
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="TravellerAlim, Alim, Travel, AlimTheTraveller">
-    <meta name="description" content="Alim is an passionate traveler who travels around the world and loves to make adventures">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="TravellerAlim, Alim, Travel, AlimTheTraveller"
+    />
+    <meta
+      name="description"
+      content="Alim is an passionate traveler who travels around the world and loves to make adventures"
+    />
     <title>TravellerAlim</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body></body>
 </html>
 ```
 
-### How Web Works?
+## How Web Works?
+
 ---
-Hey, rather wasting some time, I'm gonna provide you some useful resources to learn how the web works! 
+
+Hey, rather wasting some time, I'm gonna provide you some useful resources to learn how the web works!
 Here we go:
+
 1. An amazing Video [Explanation](https://youtu.be/zN8YNNHcaZc) on freeCodeCamp.
 2. Another Amazing [Explanation](https://github.com/vasanthk/how-web-works) by Vasa.
 3. Video [Explanation](https://www.youtube.com/watch?v=hJHvdBlSxug) on Academind.
 4. An [Explanation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) on Mozilla.
 
-[<h3 align="center">Go to Home Page</h3>](../README.md) 
-
-[<h3 align="center">Go to DAY-02</h3>](../day-02-html-tags/DAY02.md)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
