@@ -35,8 +35,6 @@
 
 # Day-01: Introduction
 
----
-
 - [What is HTML?](#what-is-html)
 - [HTML Basics](#html-basics)
 - [How Web Works?](#how-web-works)
@@ -100,8 +98,6 @@ Here we go:
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
 # Day-02: Commonly Used HTML Tags & Their Usage
-
----
 
 - [&lt;em&gt;](#em)
 - [&lt;i&gt; vs &lt;em&gt;](#i-vs-em)
@@ -204,8 +200,6 @@ While `<em>` is used to change the meaning of a sentence as spoken emphasis does
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
 # Day-03: HTML Entities, Hyperlinks, Images, Audio, Videos
-
----
 
 - [HTML Entities](#html-entities)
 - [Hyperlinks](#hyperlinks)

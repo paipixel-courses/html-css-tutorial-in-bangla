@@ -1,7 +1,5 @@
 # Day-02: Commonly Used HTML Tags & Their Usage
 
----
-
 - [&lt;em&gt;](#em)
 - [&lt;i&gt; vs &lt;em&gt;](#i-vs-em)
 - [&lt;strong&gt;](#strong)

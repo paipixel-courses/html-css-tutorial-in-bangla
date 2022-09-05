@@ -1,7 +1,5 @@
 # Day-03: HTML Entities, Hyperlinks, Images, Audio, Videos
 
----
-
 - [HTML Entities](#html-entities)
 - [Hyperlinks](#hyperlinks)
 

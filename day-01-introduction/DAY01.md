@@ -1,7 +1,5 @@
 # Day-01: Introduction
 
----
-
 - [What is HTML?](#what-is-html)
 - [HTML Basics](#html-basics)
 - [How Web Works?](#how-web-works)
