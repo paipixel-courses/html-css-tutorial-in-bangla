@@ -12,7 +12,7 @@
 |                             08                             |                                                                                                          |
 |                             09                             |                                                                                                          |
 |                             10                             |                                                                                                          |
-|        [11](#day-11-css-position-z-index-overflow)         |                      [CSS Position Property](#day-11-css-position-z-index-overflow)                      |
+|        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
 |                             12                             |                                                                                                          |
 |                             13                             |                                                                                                          |
 |                             14                             |                                                                                                          |
@@ -391,7 +391,7 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
 
 # Day-11: CSS Position, Z-index, Overflow
 
-- [CSS Position](#position-property-values)
+- [CSS Position](#css-position)
 
   - [Position Property Values](#position-property-values)
   - [Static](#static)
@@ -400,6 +400,11 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
   - [Fixed](#fixed)
   - [Relative](#relative)
   - [Sticky](#sticky)
+
+- [CSS Z-index Property](#css-z-index-property)
+  - [How Z-index Works](#how-z-index-works)
+
+## CSS Position
 
 ### Position Property Values
 
@@ -452,3 +457,15 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 #### Example of Sticky Property
 
 [Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/abGOyjJ)
+
+## CSS Z-index Property
+
+### How Z-index Works
+
+- The `z-index` property specifies the stack order of an element. An element can have a positive or negative stack order.
+- z-index only works on `positioned elements` (position: absolute, position: relative, position: fixed, or position: sticky) and `flex items` (elements that are direct children of display: flex elements).
+- An element with greater stack order is always above an element with a lower stack order. অর্থাৎ যে Element এর Z-index যত বেশি সে Element Stack এর তত উপরে থাকবে।
+
+### Example of Z-index Property
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/jOxPQGZ)
