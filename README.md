@@ -391,8 +391,14 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
 
 # Day-11: CSS Position Property
 
-- [HTML Entities](#html-entities)
-- [Hyperlinks](#hyperlinks)
+- [Position Property Values](#position-property-values)
+
+- [Static](#static)
+
+- [Absolute](#absolute)
+- [Fixed](#fixed)
+- [Relative](#relative)
+- [Sticky](#sticky)
 
 ### Position Property Values
 
@@ -403,3 +409,45 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
 |   fixed   |                                                                                      The element is positioned relative to the browser window. এবং element টি একেবারে Fixed থাকে, আমার Document এ হাজার হাজার লাইন Text ও থাকে, তাহলেও fixed element তার Position কোনমতেও Change করবে না। একেবারে ঘারত্যারা যাকে বলে ! :D                                                                                      |
 | relative  |                                   The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's left position. অর্থাৎ Relative Element স্বাধীন। তাকে কোন Parent Element এর Under এ থাকতে হবে বিষয় টা সেরকম নয়। যখনি কোন Element এর Property Relative করা হবে, তখন ওই Element এ Left, Right, Top, Down Properties গুলো কাজ করবে।                                    |
 |  sticky   | যদি element এ top: 100px; দেয়া হয়, তাহলে এই element যে Position এ Normally থাকার কথা সেই Position এই থাকবে, কিন্তু Users Scroll করে ওই Position এর নিচে চলে যাবে, তখন এই Sticky element ও সাথে সাথে নিচে চলে যাবে। আর যখন নিচে যাবে তখন top থেকে 100px নিচে থাকবে। Fixed আর Sticky কখনই এক নয়। Fixed হলে element টি তার Normal Position এ না থেকে তার Parent Element থেকে Left, Right, Top, Bottom Count করবে। |
+
+### Static
+
+Default Value. অর্থাৎ কোন Element এর যদি কোন position property না দেয়া হয়, তাহলে by default, static সেট হয়ে যায়। এই Property এর বৈশিষ্ট্য হলো, element টি যে order এ আছে, সেই order এ document এ render এবং position সেট হবে। কোন Element এর Position Static থাকা অবস্থায় ওই Element এ Left, Right, Top, Bottom এর Property গুলো কাজ করবে না।
+তাই কোন Element এ Static Property দেয়া না দেয়া একই কথা।
+
+### Absolute
+
+The element is positioned relative to its first positioned (not static) ancestor element. অর্থাৎ position absolute একা একা কাজ করতে পারে না, তাকে কোন একটা Parent Element এর Under এ থাকতে হয়, এবং ওই Parent Element এর Position থেকে সে তার Position Change করে।
+অর্থাৎ কোন একটা Absolute Element এ যদি `left: 100px` দেয়া হয়, তাহলে ওই Element টি তার Parent Element এর Left থেকে 100px সরে সরে যাবে। Absolute Property সারারনত ব্যবহার করা হয় যখন একটা Element কে আরেকটি Element এর ভিতরে নিয়ে কাজ করার প্রয়োজন পরে।
+
+#### Example of Absolute Property
+
+[Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/vYjOJWd)
+
+### Fixed
+
+The element is positioned relative to the browser window. এবং element টি একেবারে Fixed থাকে, আমার Document এ হাজার হাজার লাইন Text ও থাকে, তাহলেও fixed element তার Position কোনমতেও Change করবে না। একেবারে ঘারত্যারা যাকে বলে ! :D
+Fixed Propertyও Absolute এর মত কোন একটা Parent Element এর Child হিসেবে থাকে।
+
+#### Example of Fixed Property
+
+[Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/oNdXeEe)
+
+### Relative
+
+The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's left position. অর্থাৎ Relative Element স্বাধীন। তাকে কোন Parent Element এর Under এ থাকতে হবে বিষয় টা সেরকম নয়। যখনি কোন Element এর Property Relative করা হবে, তখন ওই Element এ Left, Right, Top, Down Properties গুলো কাজ করবে।
+
+#### Example of Relative Property
+
+[Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/dyeozmZ)
+
+### Sticky
+
+যদি element এ top: 100px; দেয়া হয়, তাহলে এই element যে Position এ Normally থাকার কথা সেই Position এই থাকবে, কিন্তু User যখন Scroll করে ওই Position এর নিচে চলে যাবে, তখন এই Sticky element ও সাথে সাথে নিচে চলে যাবে। আর যখন নিচে যাবে তখন top থেকে 100px নিচে থাকবে। Fixed আর Sticky কখনই এক নয়। Fixed হলে element টি তার Normal Position এ না থেকে তার Parent Element থেকে Left, Right, Top, Bottom Count করবে।
+
+অপরপক্ষে, Sticky Element এ যদি bottom: 100px; দেয়া হয় তাহলে Element টি যে Position এ Normally থাকার কথা সেই Position এই থাকবে, কিন্তু User যখন Scroll করে ওই Position এর উপরে
+চলে যাবে, তখন এই Sticky Element ও সাথে সাথে উপরে চলে যাবে।
+
+#### Example of Sticky Property
+
+[Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/abGOyjJ)
