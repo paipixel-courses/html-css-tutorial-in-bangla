@@ -5,14 +5,14 @@
 |                 [01](#day-01-introduction)                 |                                   [Introduction](#day-01-introduction)                                   |
 |     [02](#day-02-commonly-used-html-tags--their-usage)     |                        [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                         |
 | [03](#day-03-html-entities-hyperlinks-images-audio-videos) | [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos) |
-|       [04](./day-04-list-tables-containers/DAY04.md)       |                   [List, Tables, Containers](./day-04-list-tables-containers/DAY04.md)                   |
+|                           [04]()                           |
 |                             05                             |                                                                                                          |
 |                             06                             |                                                                                                          |
 |                             07                             |                                                                                                          |
 |                             08                             |                                                                                                          |
 |                             09                             |                                                                                                          |
 |                             10                             |                                                                                                          |
-|                             11                             |                                                                                                          |
+|            [11](#day-11-css-position-property)             |                          [CSS Position Property](#day-11-css-position-property)                          |
 |                             12                             |                                                                                                          |
 |                             13                             |                                                                                                          |
 |                             14                             |                                                                                                          |
@@ -388,3 +388,18 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
 - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Generic_syntax
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
+
+# Day-11: CSS Position Property
+
+- [HTML Entities](#html-entities)
+- [Hyperlinks](#hyperlinks)
+
+### Position Property Values
+
+| **Value** |                                                                                                                                                                                                **Description**                                                                                                                                                                                                 |
+| :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  static   |                                 Default Value. অর্থাৎ কোন Element এর যদি কোন position property না দেয়া হয়, তাহলে by default, static সেট হয়ে যায়। এই Property এর বৈশিষ্ট্য হলো, element টি যে order এ আছে, সেই order এ document এ render এবং position সেট হবে। কোন Element এর Position Static থাকা অবস্থায় ওই Element এ Left, Right, Top, Bottom এর Property গুলো কাজ করবে না।                                  |
+| absolute  |                                                                       The element is positioned relative to its first positioned (not static) ancestor element. অর্থাৎ position absolute একা একা কাজ করতে পারে না, তাকে কোন একটা Parent Element এর Under এ থাকতে হয়, এবং ওই Parent Element এর Position থেকে সে তার Position Change করে।                                                                        |
+|   fixed   |                                                                                      The element is positioned relative to the browser window. এবং element টি একেবারে Fixed থাকে, আমার Document এ হাজার হাজার লাইন Text ও থাকে, তাহলেও fixed element তার Position কোনমতেও Change করবে না। একেবারে ঘারত্যারা যাকে বলে ! :D                                                                                      |
+| relative  |                                   The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's left position. অর্থাৎ Relative Element স্বাধীন। তাকে কোন Parent Element এর Under এ থাকতে হবে বিষয় টা সেরকম নয়। যখনি কোন Element এর Property Relative করা হবে, তখন ওই Element এ Left, Right, Top, Down Properties গুলো কাজ করবে।                                    |
+|  sticky   | যদি element এ top: 100px; দেয়া হয়, তাহলে এই element যে Position এ Normally থাকার কথা সেই Position এই থাকবে, কিন্তু Users Scroll করে ওই Position এর নিচে চলে যাবে, তখন এই Sticky element ও সাথে সাথে নিচে চলে যাবে। আর যখন নিচে যাবে তখন top থেকে 100px নিচে থাকবে। Fixed আর Sticky কখনই এক নয়। Fixed হলে element টি তার Normal Position এ না থেকে তার Parent Element থেকে Left, Right, Top, Bottom Count করবে। |
