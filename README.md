@@ -392,17 +392,17 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
 # Day-11: CSS Position, Z-index, Overflow
 
 - [CSS Position](#css-position)
-
   - [Position Property Values](#position-property-values)
   - [Static](#static)
-
   - [Absolute](#absolute)
   - [Fixed](#fixed)
   - [Relative](#relative)
   - [Sticky](#sticky)
-
 - [CSS Z-index Property](#css-z-index-property)
   - [How Z-index Works](#how-z-index-works)
+- [CSS Overflow](#css-overflow)
+  - [How CSS Overflow Property Works](#how-css-overflow-property-works)
+  - [Example of CSS Overflow Property](#example-of-css-overflow-property)
 
 ## CSS Position
 
@@ -487,3 +487,7 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 ### Example of CSS Overflow Property
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/MWGaJXB)
+
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
+
+# Day-12: Float, Inline-block, Align
