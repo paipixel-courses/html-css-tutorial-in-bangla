@@ -491,3 +491,50 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
 # Day-12: Float, Inline-block, Align
+
+- [CSS Float](#css-float-property)
+  - [CSS Float Property](#css-float-property)
+  - [Example of CSS Float Property](#example-of-css-float-property)
+  - [Clear Property](#clear-property)
+  - [Example of Clear Property](#example-of-css-clear-property)
+  - [Clearfix Hack](#clearfix-hack)
+  - [Example of CSS Clearfix Hack](#example-of-css-clear-property)
+- [CSS Inline-block]()
+
+## CSS Float Property
+
+The `float` property is used for positioning and formatting content e.g. let an image float left to the text in a container. The float property can have one of the following values:
+
+- `left` - The element floats to the left of its container.
+- `right` - The element floats to the right of its container.
+- `none` - This is default. The element does not float (will be displayed just where it occurs in the text).
+- `inherit` - The element inherits the float value of its parent.
+
+The simplest use of `float` property is to to wrap text around images.
+
+### Example of CSS Float Property
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/zYjvzXQ)
+
+### Clear Property
+
+When we use the `float` property, and we want the next element below (not on right or left), we will have to use the `clear` property.
+The `clear` property specifies what should happen with the element that is next to a floating element.
+The `clear` property can have one of the following values:
+
+- This is default. `none` - The element is not pushed below left or right floated elements.
+- `left` - The element is pushed below left floated elements.
+- `right` - The element is pushed below right floated elements.
+- `both` - The element is pushed below both left and right floated elements. This is safe to use when you are in a confusion between `left` and 'right'.
+- `inherit` - The element inherits the clear value from its parent.
+
+### Clearfix Hack
+
+If a floated element is taller than the containing element, it will "overflow" outside of its container. We can then add a clearfix hack to solve this problem.
+The overflow: auto clearfix works well as long as you are able to keep control of your margins and padding (else you might see scrollbars). The new, modern clearfix hack however, is safer to use, and the following code is used for most webpages.
+
+### Example of CSS Clear Property
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/QWrjMJP)
+
+## CSS Inline-block
