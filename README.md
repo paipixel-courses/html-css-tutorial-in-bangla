@@ -469,3 +469,21 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 ### Example of Z-index Property
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/jOxPQGZ)
+
+## CSS Overflow
+
+### How CSS Overflow Property Works
+
+- The CSS `overflow` property controls what happens to content that is too big to fit into an area.
+- The overflow property has the following values:
+
+  - `visible` - Default. The overflow is not clipped. The content renders outside the element's box.
+  - `hidden` - The overflow is clipped, and the rest of the content will be invisible.
+  - `scroll` - The overflow is clipped, and a scrollbar is added to see the rest of the content.
+  - `auto` - Similar to scroll, but it adds scrollbars only when necessary.
+
+- Setting the overflow value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it).
+
+### Example of CSS Overflow Property
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/MWGaJXB)
