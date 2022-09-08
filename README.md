@@ -13,7 +13,7 @@
 |                             09                             |                                                                                                          |
 |                             10                             |                                                                                                          |
 |        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
-|                             12                             |                                                                                                          |
+|             [12](#day-12-float-display-align)              |                       [CSS Floar, Display and Align](#day-12-float-display-align)                        |
 |                             13                             |                                                                                                          |
 |                             14                             |                                                                                                          |
 |                             15                             |                                                                                                          |
@@ -490,16 +490,25 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
-# Day-12: Float, Inline-block, Align
+# Day-12: Float, Display, Align
 
 - [CSS Float](#css-float-property)
   - [CSS Float Property](#css-float-property)
   - [Example of CSS Float Property](#example-of-css-float-property)
+  - [Another Example of CSS Float Property](#another-example-of-css-float-property)
   - [Clear Property](#clear-property)
   - [Example of Clear Property](#example-of-css-clear-property)
   - [Clearfix Hack](#clearfix-hack)
   - [Example of CSS Clearfix Hack](#example-of-css-clear-property)
-- [CSS Inline-block]()
+- [CSS Display](#css-display-property)
+  - [Basic Concepts of Inline-block](#basic-concepts-of-inline-block)
+  - [Inline, Block and Inline-block Examples](#inline-block-and-inline-block-examples)
+- [CSS Alignment of Elements, Texts and Images](#css-alignment-of-elements-texts-and-images)
+  - [How to Center A Block Element](#how-to-center-a-block-element)
+  - [How to Center Texts Inside An Element](#how-to-center-texts-inside-an-element)
+  - [How to Center an Image](#how-to-center-an-image)
+  - [How to Align an Element - Using Position](#how-to-align-an-element---using-position)
+  - [CSS Alignment Examples](#css-alignment-examples)
 
 ## CSS Float Property
 
@@ -515,6 +524,10 @@ The simplest use of `float` property is to to wrap text around images.
 ### Example of CSS Float Property
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/zYjvzXQ)
+
+### Another Example of CSS Float Property
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/XWqmVVJ)
 
 ### Clear Property
 
@@ -537,4 +550,42 @@ The overflow: auto clearfix works well as long as you are able to keep control o
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/QWrjMJP)
 
-## CSS Inline-block
+## CSS Display Property
+
+### Basic Concepts of Inline-block
+
+- Compared to `display: inline`, the major difference is that `display: inline-block` allows to set a width and height on the element.
+- Also, with `display: inline-block`, the top and bottom margins/paddings are respected, but with `display: inline` they are not.
+- Compared to `display: block`, the major difference is that `display: inline-block` does not add a line-break after the element, so the element can sit next to other elements.
+- 'display: inline' Property দিলে তখন height ও width property দিলেও কাজ করবে না। 'display: inline-block' ও 'display: block' Property তে height ও width property কাজ করবে। তবে, যখন 'display: block' দেয়া হবে তখন ওই Element টি পুরো লাইন জুরে জায়গা নিবে। নিচের উদাহরণ টি দেখলেই বিষয়টি পরিষ্কার হয়ে যাবে।
+
+The following example shows the different behavior of `display: inline`, `display: inline-block` and `display: block`:
+
+### Inline, Block and Inline-block Examples
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/XWqmBYy)
+
+## CSS Alignment of Elements, Texts and Images
+
+### How to Center A Block Element
+
+- To horizontally center a block element (like `<div>`, `<h1>`, `<p>`), use `margin: auto`;
+- **Note:** Center aligning has no effect if the width property is not set (or set to 100%).
+
+### How to Center Texts Inside An Element
+
+- To center the text inside an element, use `text-align: center;`
+
+### How to Center an Image
+
+- To center an image, set left and right margin to `auto` and make it into a `block` element:
+
+### How to Align an Element - Using Position
+
+- One method for aligning elements is to use `position: absolute;`
+- **Note:** Absolute positioned elements are removed from the normal flow, and can overlap elements.
+- Another method for aligning elements is to use the `float` property.
+
+### CSS Alignment Examples
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/BaxjQoG)
