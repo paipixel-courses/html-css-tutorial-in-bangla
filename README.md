@@ -13,8 +13,8 @@
 |                             09                             |                                                                                                          |
 |                             10                             |                                                                                                          |
 |        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
-|             [12](#day-12-float-display-align)              |                       [CSS Floar, Display and Align](#day-12-float-display-align)                        |
-|                             13                             |                                                                                                          |
+|             [12](#day-12-float-display-align)              |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |
+|                           [13]()                           |                                                                                                          |
 |                             14                             |                                                                                                          |
 |                             15                             |                                                                                                          |
 |                             16                             |                                                                                                          |
@@ -490,7 +490,7 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
-# Day-12: Float, Display, Align
+# Day-12: CSS Float, Display, Alignment
 
 - [CSS Float](#css-float-property)
   - [CSS Float Property](#css-float-property)
@@ -511,6 +511,8 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
   - [CSS Alignment Examples](#css-alignment-examples)
 
 ## CSS Float Property
+
+**Note: CSS Float Property is now deprecated in modern programming concept.**
 
 The `float` property is used for positioning and formatting content e.g. let an image float left to the text in a container. The float property can have one of the following values:
 
@@ -589,3 +591,56 @@ The following example shows the different behavior of `display: inline`, `displa
 ### CSS Alignment Examples
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/BaxjQoG)
+
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
+
+## CSS Flexbox
+
+### CSS Flexbox Layout Module
+
+Before the Flexbox Layout module, there were four layout modes:
+
+1. Block, for sections in a webpage.
+2. Inline, for text.
+3. Table, for two-dimensional table data.
+4. Positioned, for explicit position of an element.
+
+**Note:** The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+### Flexbox Elements
+
+- To start using the Flexbox model, you need to first define a flex container. অর্থাৎ Flexbox Model নিয়ে কাজ করতে হলে আমাদের প্রথম যে কাজটি করতে হবে তা হলো একটি Flex Container তৈরি করা।
+- একটা Flex Model এর অবশ্যই একটা Flex Container থাকবে অর্থাৎ Flex Items গুলো একটা Parent Element ( যাকে Flex Containerও বলে) থাকবে। এবং ওই Flex Container/Parent Element এর **_display_** property এর Value **_flex_** থাকবে।
+- Flex Container এর যারা Direct Child তারা Automatically **_Flex items_** হয়ে যাবে।
+
+নিচে একটি Flex Container তৈরি করে দেখানো হলোঃ
+
+![Flex Container](./day-13-css-flexbox/images/flex-container.png)
+
+এখানে Flex Container হলো Blue Area Element. এবং তিনটি Flex Items হলো 1, 2 এবং 3.
+
+Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
+
+#### Tips
+
+- Using **_rem_** is good practice than using **_px_**.
+- Using **_float_** is deprecated in modern programming. Use **_flexbox_** instead.
+
+### Flex Direction
+
+`flex` has the following direction values:
+
+- `flex: row;`
+- `flex: row-reverse;`
+- `flex: column;`
+- `flex: column-reverse;`
+
+`flex-wrap` has the following values:
+
+- `flex-wrap: wrap;`
+- `flex-wrap: no-wrap;`
+- `flex-wrap: wrap-reverse;`
+
+### Flex Direction Example
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/yLjepNq)
