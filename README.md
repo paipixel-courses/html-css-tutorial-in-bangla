@@ -641,6 +641,56 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 - `flex-wrap: no-wrap;`
 - `flex-wrap: wrap-reverse;`
 
+**Note:** The `flex-flow` property is a shorthand property for setting both the `flex-direction` and `flex-wrap` properties. Example: `flex-flow: row wrap;`
+
 ### Flex Direction Example
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/yLjepNq)
+
+### Justify Content Property in Flex
+
+- The `justify-content: center;` aligns the flex items at the center of the container.
+- The `justify-content: flex-start;` aligns the flex items at the beginning of the container (this is default).
+- The `justify-content: flex-end;` aligns the flex items at the end of the container.
+- The `justify-content: space-around;` displays the flex items with space before, between, and after the lines.
+- The `justify-content: space-between;` displays the flex items with space between the lines.
+
+![center](./day-13-css-flexbox/images/center.png)
+![flex start](./day-13-css-flexbox/images/flex-start.png)
+![flex end](./day-13-css-flexbox/images/flex-end.png)
+![space around](./day-13-css-flexbox/images/space-around.png)
+![space between](./day-13-css-flexbox/images/space-between.png)
+
+### JUSTIFY CONTENT Property in Flex Example
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/abGNoMy)
+
+### ALIGN ITEMS Property in Flex
+
+- The align-items property is used to align the flex items.
+- The `align-items: center;` aligns the flex items in the middle of the container.
+- The `align-items: flex-start;` aligns the flex items at the top of the container.
+- The `align-items: flex-end;` aligns the flex items at the bottom of the container.
+- The `align-items: stretch;` stretches the flex items to fill the container (this is default).
+- The `align-items: baseline;` aligns the flex items such as their baselines aligns.
+
+![align-items: center](./day-13-css-flexbox/images/align-center.png)
+![align-items: flex start](./day-13-css-flexbox/images/align-flex-start.png)
+![align-items: flex end](./day-13-css-flexbox/images/align-flex-end.png)
+![align-items: baseline](./day-13-css-flexbox/images/align-baseline.png)
+
+### ALIGN ITEMS Property in Flex Example
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/zYjqxdQ)
+
+### The CSS Flexbox Container Properties Summary
+
+|  **Property**   |                                                             **Description**                                                              |
+| :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
+|  align-content  | Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines. |
+|   align-items   |                    Vertically aligns the flex items when the items do not use all available space on the cross-axis.                     |
+|     display     |                                           Specifies the type of box used for an HTML element.                                            |
+| flex-direction  |                                  Specifies the direction of the flexible items inside a flex container.                                  |
+|    flex-flow    |                                          A shorthand property for flex-direction and flex-wrap.                                          |
+|    flex-wrap    |               Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.                |
+| justify-content |                    Horizontally aligns the flex items when the items do not use all available space on the main-axis.                    |
