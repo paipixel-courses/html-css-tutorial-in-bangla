@@ -594,6 +594,20 @@ The following example shows the different behavior of `display: inline`, `displa
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
+# Day-13: CSS Flexbox
+
+- [CSS Flexbox](#css-flexbox)
+  - [CSS Flexbox Layout Module](#css-flexbox-layout-module)
+  - [Flexbox Elements](#flexbox-elements)
+  - [CSS Flexbox Tips](#tips)
+  - [Flex Direction](#flex-direction)
+  - [Flex Direction Example](#flex-direction-example)
+  - [Justify Content Property in Flex](#justify-content-property-in-flex)
+  - [Justify Content Property in Flex Example](#justify-content-property-in-flex-example)
+  - [Align Items Property in Flex](#align-items-property-in-flex)
+  - [Align Items Property in Flex Example](#align-items-property-in-flex-example)
+- [The CSS Flexbox Container Properties Summary](#the-css-flexbox-container-properties-summary)
+
 ## CSS Flexbox
 
 ### CSS Flexbox Layout Module
