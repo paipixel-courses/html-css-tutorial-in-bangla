@@ -715,6 +715,7 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 
 Very Very helpful link to visualize, practice and play with css properties.
 Link: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template
+Credit: W3Schools
 
 Note: Practice the properties as more as you can!
 
