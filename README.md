@@ -1,37 +1,37 @@
 # Learn HTML and CSS in 30 Days
 
-|                          **Day**                           |                                                **Topics**                                                |
-| :--------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-|                 [01](#day-01-introduction)                 |                                   [Introduction](#day-01-introduction)                                   |
-|     [02](#day-02-commonly-used-html-tags--their-usage)     |                        [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                         |
-| [03](#day-03-html-entities-hyperlinks-images-audio-videos) | [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos) |
-|                           [04]()                           |
-|                             05                             |                                                                                                          |
-|                             06                             |                                                                                                          |
-|                             07                             |                                                                                                          |
-|                             08                             |                                                                                                          |
-|                             09                             |                                                                                                          |
-|                             10                             |                                                                                                          |
-|        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
-|             [12](#day-12-float-display-align)              |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |
-|                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |
-|                             14                             |                                                                                                          |
-|                             15                             |                                                                                                          |
-|                             16                             |                                                                                                          |
-|                             17                             |                                                                                                          |
-|                             18                             |                                                                                                          |
-|    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |
-|                   [20](#css-grid-layout)                   |                                   [CSS Grid Layout](#css-grid-layout)                                    |
-|                             21                             |                                                                                                          |
-|                             22                             |                                                                                                          |
-|                             23                             |                                                                                                          |
-|                             24                             |                                                                                                          |
-|                             25                             |                                                                                                          |
-|                             26                             |                                                                                                          |
-|                             27                             |                                                                                                          |
-|                             28                             |                                                                                                          |
-|                             29                             |                                                                                                          |
-|                             30                             |                                                                                                          |
+|                            **Day**                            |                                                  **Topics**                                                   |
+| :-----------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+|                  [01](#day-01-introduction)                   |                                     [Introduction](#day-01-introduction)                                      |
+|      [02](#day-02-commonly-used-html-tags--their-usage)       |                           [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                           |
+|  [03](#day-03-html-entities-hyperlinks-images-audio-videos)   |   [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos)    |
+|                            [04]()                             |
+|                              05                               |                                                                                                               |
+|                              06                               |                                                                                                               |
+|                              07                               |                                                                                                               |
+|                              08                               |                                                                                                               |
+|                              09                               |                                                                                                               |
+|                              10                               |                                                                                                               |
+|          [11](#day-11-css-position-z-index-overflow)          |                   [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                    |
+|               [12](#day-12-float-display-align)               |                    [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                    |
+|                   [13](#day-13-css-flexbox)                   |                                      [CSS Flexbox](#day-13-css-flexbox)                                       |
+|                              14                               |                                                                                                               |
+|                              15                               |                                                                                                               |
+|                              16                               |                                                                                                               |
+|                              17                               |                                                                                                               |
+|                              18                               |                                                                                                               |
+|     [19](#day-19-visualize-and-play-with-css-properties)      |           [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)            |
+|                    [20](#css-grid-layout)                     |                                      [CSS Grid Layout](#css-grid-layout)                                      |
+| [21](#day-21-css-gradient-shadows-text-effects-and-web-fonts) | [CSS Gradients, Shadows, Text Effects and Web Fonts](#day-21-css-gradient-shadows-text-effects-and-web-fonts) |
+|                              22                               |                                                                                                               |
+|                              23                               |                                                                                                               |
+|                              24                               |                                                                                                               |
+|                              25                               |                                                                                                               |
+|                              26                               |                                                                                                               |
+|                              27                               |                                                                                                               |
+|                              28                               |                                                                                                               |
+|                              29                               |                                                                                                               |
+|                              30                               |                                                                                                               |
 
 # Day-01: Introduction
 
@@ -789,3 +789,110 @@ Note: Practice the properties as more as you can!
 Credit: W3Schools
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
+
+# Day-21: CSS Gradient, Shadows, Text Effects and Web Fonts
+
+- [CSS Gradients](#css-gradients)
+
+## CSS Gradients
+
+### Basic Concepts of CSS Gradients
+
+- CSS gradients let you display smooth transitions between two or more specified colors.
+
+### Types of Gradients
+
+1. Linear Gradients (goes down/up/left/right/diagonally).
+2. Radial Gradients (defined by their center).
+3. Conic Gradients (rotated around a center point).
+
+### Linear Gradients
+
+- Linear Gradients তৈরি করতে অন্তত ২ টি Colors লাগবে। ধরি, `background-image: linear-gradient(red, blue);` তাহলে লাল রং থেকে নীল রং Transition হবে, উপর থেকে নিচ বরাবর (Top to Bottom), যেটা By default প্রপার্টি, আমরা চাইলে এই By default প্রপার্টিকে পরিবর্তন করতে পারি।
+
+### Syntax of Linear Gradients
+
+`background-image: linear-gradient(direction, color-stop1, color-stop2, ...);`
+
+### Direction of Linear Gradients
+
+- Linear Gradient এর কাজটা হলো একটা Color থেকে ধীরে ধীরে আরেকটা Color তৈরি করা, যেটাকে ইংরেজিতে Transition বলা হচ্ছে। এখন কোন একটা Color কোথা থেকে শুরু করে কোথায় গিয়ে দ্বিতীয় Color এ Transition হবে সেটা আমরা `Direction` এর মাধ্যমে বলে দিতে পারি।
+
+### Direction - Top to Bottom (this is default )
+
+- অর্থাৎ আমরা যদি কোন Direction না দেই, তাহলে by default, Top to Bottom এ Transition হবে।
+
+Example: `background-image: linear-gradients(red, yellow);` . This linear gradient starts red, transitioning to yellow.
+
+Output Screenshot: ![Top to Bottom](./day-21-css-gradients-shadows-text-effects-web-fonts/images/to-to-bottom.png)
+
+### Direction - Left to Right
+
+Example: `background-image: linear-gradients(to right, red, yellow);`
+The following example shows a linear gradient that starts from the left. It starts red, transitioning to yellow.
+
+Output Screenshot:
+![Left to Right](./day-21-css-gradients-shadows-text-effects-web-fonts/images/left-to-right.png)
+
+### Direction - Top Left to Bottom Right
+
+Example: `background-image: linear-gradients( to bottom right, red, yellow);`
+The following example shows a linear gradient that starts at top left (and goes to bottom right). It starts red, transitioning to yellow.
+
+Output Screenshot:
+![Topleft to Bottomright](./day-21-css-gradients-shadows-text-effects-web-fonts/images/topleft-to-bottomright.png)
+
+### Direction - 180deg
+
+যদি Direction এর উপর আমরা আরও বেশি Control নিতে চাই, তাহলে আমাদের যে Pre-defined Directions (to bottom, to top, to right, to left, to bottom right, etc.) আছে, এগুলোর বদলে আমরা Angle ব্যবহার করতে পারি। A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
+Example: `background-image: linear-gradient(180deg, red, yellow);`
+Output Screenshot:
+![180deg](./day-21-css-gradients-shadows-text-effects-web-fonts/images/180deg.png)
+
+### Direction - 90deg
+
+Example: `background-image: linear-gradient(90deg, red, yellow);`
+Output Screenshot:
+![](./day-21-css-gradients-shadows-text-effects-web-fonts/images/90deg.png)
+
+### Direction - 0% x% 100%
+
+Example: `background-image: linear-gradient(#feffff 0%, #ddf1f9 35%, #a0d8ef 100%);`
+
+Output Screenshot:
+![Percentage 1](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage1.png)
+
+### Direction - 20% 70%
+
+Example: `background-image: linear-gradient(red 20%, yellow 70%);` এর অর্থ হলো ০ থেকে ২০% Red Color থাকবে, ৭০% থেকে ১০০% Yellow Color থাকবে, বাকি থাকলো ২১% থেকে ৬৯%, এইটুকু Red থেকে Yellow তে Transition হবে।
+
+Output Screenshot:
+![Percentage 1](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage2.png)
+
+### Direction - 50% 50%
+
+Example: `background-image: linear-gradient(to top right, red 50%, yellow 50%);`
+
+খেয়াল করে দেখুন, এখানে ০ থেকে ৫০% পর্যন্ত red color এবং ৫০% থেকে ১০০% পর্যন্ত yellow color থাকবে, কিন্তু Transition হবার মতো কোন যায়গা নেই।
+
+Output Screenshot:
+![Percentage 3](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage3.png)
+
+### Direction - 20% 20%-80% 80%
+
+Example: `background-image: linear-gradient(to top right, red 20%, green 20% 80%, red 80%);`
+
+### Using Transparency as Direction
+
+অর্থাৎ এখানে আসলে একটা Color ই থাকবে যার Value একদম ০ থেকে বাড়তে বাড়তে ১০০% হবে। এক্ষেত্রে আমরা rgba() function ব্যবহার করতে পারি, এই Function এর Last Parameter এ 0 দেওয়া মানে Full Transparency, 1 দেওয়া মানে Full Color (No Transparency).
+
+Example: `background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));`
+
+Output Screenshot:
+![Transparency](./day-21-css-gradients-shadows-text-effects-web-fonts/images/transparency.png)
+
+### Repeating a linear-gradient
+
+Example: `background-image: repeating-linear-gradient(red, yellow 10%, green 20%);`
+Output Screenshot:
+![Repeating linear gradient](./day-21-css-gradients-shadows-text-effects-web-fonts/images/repeating.png)
