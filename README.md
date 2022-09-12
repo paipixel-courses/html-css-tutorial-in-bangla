@@ -793,6 +793,24 @@ Credit: W3Schools
 # Day-21: CSS Gradient, Shadows, Text Effects and Web Fonts
 
 - [CSS Gradients](#css-gradients)
+  - [Basic Concepts of CSS Gradients](#basic-concepts-of-css-gradients)
+  - [Types of Gradients](#types-of-gradients)
+  - [Linear Gradients](#linear-gradients)
+  - [Syntax of Linear Gradients](#syntax-of-linear-gradients)
+  - [Direction of Linear Gradients](#direction-of-linear-gradients)
+  - [Direction - Top to Bottom](#direction---top-to-bottom-this-is-default)
+  - [Direction - Left to Right](#direction---left-to-right)
+  - [Direction - Top Left to Bottom Right](#direction---top-left-to-bottom-right)
+  - [Direction - 180deg](#direction---180deg)
+  - [Direction - 90deg](#direction---90deg)
+  - [Direction - 0% x% 100%](#direction---0-x-100)
+  - [Direction - 20% 70%](#direction---20-70)
+  - [Direction - 50% 50%](#direction---50-50)
+  - [Direction - 20% 20%-80% 80%](#direction---20-20-80-80)
+  - [Using Transparency as Direction](#using-transparency-as-direction)
+  - [Repeating a linear-gradient](#repeating-a-linear-gradient)
+  - [Linear Gradient Source Codes](#linear-gradient-source-codes)
+- [Radial Gradients](#radial-gradients)
 
 ## CSS Gradients
 
@@ -896,3 +914,9 @@ Output Screenshot:
 Example: `background-image: repeating-linear-gradient(red, yellow 10%, green 20%);`
 Output Screenshot:
 ![Repeating linear gradient](./day-21-css-gradients-shadows-text-effects-web-fonts/images/repeating.png)
+
+### Linear Gradient Source Codes
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/gOzMQYd)
+
+## Radial Gradients
