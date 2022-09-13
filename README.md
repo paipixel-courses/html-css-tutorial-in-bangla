@@ -68,6 +68,29 @@ After completing the 60-days module, jump in the [Projects Section](#20-html--cs
 
 # 20 HTML & CSS Projects
 
+| **Project No.** | **Project Name** | **Live Demo** |
+| :-------------: | :--------------: | :-----------: |
+|        1        |                  |   Live Demo   |
+|        2        |                  |               |
+|        3        |                  |               |
+|        4        |                  |               |
+|        5        |                  |               |
+|        6        |                  |               |
+|        7        |                  |               |
+|        8        |                  |               |
+|        9        |                  |               |
+|       10        |                  |               |
+|       11        |                  |               |
+|       12        |                  |               |
+|       13        |                  |               |
+|       14        |                  |               |
+|       15        |                  |               |
+|       16        |                  |               |
+|       17        |                  |               |
+|       18        |                  |               |
+|       19        |                  |               |
+|       20        |                  |               |
+
 # Day-00: How The Course is Designed
 
 # Day-01: Introduction
