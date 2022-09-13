@@ -1,37 +1,69 @@
 # Learn HTML and CSS in 30 Days
 
-|                            **Day**                            |                                                  **Topics**                                                   |
-| :-----------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|                  [01](#day-01-introduction)                   |                                     [Introduction](#day-01-introduction)                                      |
-|      [02](#day-02-commonly-used-html-tags--their-usage)       |                           [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                           |
-|  [03](#day-03-html-entities-hyperlinks-images-audio-videos)   |   [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos)    |
-|                            [04]()                             |
-|                              05                               |                                                                                                               |
-|                              06                               |                                                                                                               |
-|                              07                               |                                                                                                               |
-|                              08                               |                                                                                                               |
-|                              09                               |                                                                                                               |
-|                              10                               |                                                                                                               |
-|          [11](#day-11-css-position-z-index-overflow)          |                   [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                    |
-|               [12](#day-12-float-display-align)               |                    [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                    |
-|                   [13](#day-13-css-flexbox)                   |                                      [CSS Flexbox](#day-13-css-flexbox)                                       |
-|                              14                               |                                                                                                               |
-|                              15                               |                                                                                                               |
-|                              16                               |                                                                                                               |
-|                              17                               |                                                                                                               |
-|                              18                               |                                                                                                               |
-|     [19](#day-19-visualize-and-play-with-css-properties)      |           [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)            |
-|                    [20](#css-grid-layout)                     |                                      [CSS Grid Layout](#css-grid-layout)                                      |
-| [21](#day-21-css-gradient-shadows-text-effects-and-web-fonts) | [CSS Gradients, Shadows, Text Effects and Web Fonts](#day-21-css-gradient-shadows-text-effects-and-web-fonts) |
-|                              22                               |                                                                                                               |
-|                              23                               |                                                                                                               |
-|                              24                               |                                                                                                               |
-|                              25                               |                                                                                                               |
-|                              26                               |                                                                                                               |
-|                              27                               |                                                                                                               |
-|                              28                               |                                                                                                               |
-|                              29                               |                                                                                                               |
-|                              30                               |                                                                                                               |
+|                          **Day**                           |                                                **Topics**                                                |
+| :--------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+|                 [01](#day-01-introduction)                 |                                   [Introduction](#day-01-introduction)                                   |
+|     [02](#day-02-commonly-used-html-tags--their-usage)     |                        [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                         |
+| [03](#day-03-html-entities-hyperlinks-images-audio-videos) | [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos) |
+|                           [04]()                           |
+|                             05                             |                                                                                                          |
+|                             06                             |                                                                                                          |
+|                             07                             |                                                                                                          |
+|                             08                             |                                                                                                          |
+|                             09                             |                                                                                                          |
+|                             10                             |                                                                                                          |
+|        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
+|             [12](#day-12-float-display-align)              |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |
+|                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |
+|                             14                             |                                                                                                          |
+|                             15                             |                                                                                                          |
+|                             16                             |                                                                                                          |
+|                             17                             |                                                                                                          |
+|                             18                             |                                                                                                          |
+|    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |
+|                   [20](#css-grid-layout)                   |                                   [CSS Grid Layout](#css-grid-layout)                                    |
+|                 [21](#day-21-css-gradient)                 |                                  [CSS Gradients](#day-21-css-gradient)                                   |
+|    [22](#day-22-css-shadows-text-effects-and-web-fonts)    |        [CSS Shadows, Text Effects and Web Fonts](#day-22-css-shadows-text-effects-and-web-fonts)         |
+|                             23                             |                                                                                                          |
+|                             24                             |                                                                                                          |
+|                             25                             |                                                                                                          |
+|                             26                             |                                                                                                          |
+|                             27                             |                                                                                                          |
+|                             28                             |                                                                                                          |
+|                             29                             |                                                                                                          |
+|                             30                             |                                                                                                          |
+|                             31                             |                                                                                                          |
+|                             32                             |                                                                                                          |
+|                             33                             |                                                                                                          |
+|                             34                             |                                                                                                          |
+|                             35                             |                                                                                                          |
+|                             36                             |                                                                                                          |
+|                             37                             |                                                                                                          |
+|                             38                             |                                                                                                          |
+|                             39                             |                                                                                                          |
+|                             40                             |                                                                                                          |
+|                             41                             |                                                                                                          |
+|                             42                             |                                                                                                          |
+|                             43                             |                                                                                                          |
+|                             44                             |                                                                                                          |
+|                             45                             |                                                                                                          |
+|                             46                             |                                                                                                          |
+|                             47                             |                                                                                                          |
+|                             48                             |                                                                                                          |
+|                             49                             |                                                                                                          |
+|                             50                             |                                                                                                          |
+|                             51                             |                                                                                                          |
+|                             51                             |                                                                                                          |
+|                             52                             |                                                                                                          |
+|                             53                             |                                                                                                          |
+|                             54                             |                                                                                                          |
+|                             55                             |                                                                                                          |
+|                             56                             |                                                                                                          |
+|                             57                             |                                                                                                          |
+|                             58                             |                                                                                                          |
+|                             59                             |                                                                                                          |
+
+| 60 | |
 
 # Day-01: Introduction
 
@@ -790,12 +822,12 @@ Credit: W3Schools
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
 
-# Day-21: CSS Gradient, Shadows, Text Effects and Web Fonts
+# Day-21: CSS Gradient
 
-- [CSS Gradients](#css-gradients)
+- [CSS Gradients Introduction](#css-gradients-introduction)
   - [Basic Concepts of CSS Gradients](#basic-concepts-of-css-gradients)
   - [Types of Gradients](#types-of-gradients)
-  - [Linear Gradients](#linear-gradients)
+- [Linear Gradients](#linear-gradients)
   - [Syntax of Linear Gradients](#syntax-of-linear-gradients)
   - [Direction of Linear Gradients](#direction-of-linear-gradients)
   - [Direction - Top to Bottom](#direction---top-to-bottom-this-is-default)
@@ -827,7 +859,7 @@ Credit: W3Schools
   - [Multiple Radiant Gradients with Border Radius 50%](#multiple-radial-gradients-with-border-radius-50)
 - [Conic Gradients](#conic-gradients)
 
-## CSS Gradients
+## CSS Gradients Introduction
 
 ### Basic Concepts of CSS Gradients
 
@@ -839,7 +871,7 @@ Credit: W3Schools
 2. Radial Gradients (defined by their center).
 3. Conic Gradients (rotated around a center point).
 
-### Linear Gradients
+## Linear Gradients
 
 - Linear Gradients তৈরি করতে অন্তত ২ টি Colors লাগবে। ধরি, `background-image: linear-gradient(red, blue);` তাহলে লাল রং থেকে নীল রং Transition হবে, উপর থেকে নিচ বরাবর (Top to Bottom), যেটা By default প্রপার্টি, আমরা চাইলে এই By default প্রপার্টিকে পরিবর্তন করতে পারি।
 
@@ -857,7 +889,7 @@ Credit: W3Schools
 
 Example: `background-image: linear-gradients(red, yellow);` . This linear gradient starts red, transitioning to yellow.
 
-Output Screenshot: ![Top to Bottom](./day-21-css-gradients-shadows-text-effects-web-fonts/images/to-to-bottom.png)
+Output Screenshot: ![Top to Bottom](./day-21-css-gradients/images/to-to-bottom.png)
 
 ### Direction - Left to Right
 
@@ -865,7 +897,7 @@ Example: `background-image: linear-gradients(to right, red, yellow);`
 The following example shows a linear gradient that starts from the left. It starts red, transitioning to yellow.
 
 Output Screenshot:
-![Left to Right](./day-21-css-gradients-shadows-text-effects-web-fonts/images/left-to-right.png)
+![Left to Right](./day-21-css-gradients/images/left-to-right.png)
 
 ### Direction - Top Left to Bottom Right
 
@@ -873,34 +905,34 @@ Example: `background-image: linear-gradients( to bottom right, red, yellow);`
 The following example shows a linear gradient that starts at top left (and goes to bottom right). It starts red, transitioning to yellow.
 
 Output Screenshot:
-![Topleft to Bottomright](./day-21-css-gradients-shadows-text-effects-web-fonts/images/topleft-to-bottomright.png)
+![Topleft to Bottomright](./day-21-css-gradients/images/topleft-to-bottomright.png)
 
 ### Direction - 180deg
 
 যদি Direction এর উপর আমরা আরও বেশি Control নিতে চাই, তাহলে আমাদের যে Pre-defined Directions (to bottom, to top, to right, to left, to bottom right, etc.) আছে, এগুলোর বদলে আমরা Angle ব্যবহার করতে পারি। A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
 Example: `background-image: linear-gradient(180deg, red, yellow);`
 Output Screenshot:
-![180deg](./day-21-css-gradients-shadows-text-effects-web-fonts/images/180deg.png)
+![180deg](./day-21-css-gradients/images/180deg.png)
 
 ### Direction - 90deg
 
 Example: `background-image: linear-gradient(90deg, red, yellow);`
 Output Screenshot:
-![](./day-21-css-gradients-shadows-text-effects-web-fonts/images/90deg.png)
+![](./day-21-css-gradients/images/90deg.png)
 
 ### Direction - 0% x% 100%
 
 Example: `background-image: linear-gradient(#feffff 0%, #ddf1f9 35%, #a0d8ef 100%);`
 
 Output Screenshot:
-![Percentage 1](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage1.png)
+![Percentage 1](./day-21-css-gradients/images/percentage1.png)
 
 ### Direction - 20% 70%
 
 **Example: `background-image: linear-gradient(red 20%, yellow 70%);` এর অর্থ হলো Position 20% থেকে Position 70% পর্যন্ত Red থেকে Yellow Color এ Transition হবে। এবং 0 থেকে 20% Solid Red ও 70% থেকে 100% Solid Yellow Color থাকবে। Position ও Percentage এর বিষয়টা খুব ভালো করে খেয়াল করো এবং বুঝার চেষ্টা করো, কারন এই বিষয়ে খুব একটা ভালো Tutorial Online এ নেই বললেই চলে।**
 
 Output Screenshot:
-![Percentage 1](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage2.png)
+![Percentage 1](./day-21-css-gradients/images/percentage2.png)
 
 ### Direction - 50% 50%
 
@@ -909,7 +941,7 @@ Example: `background-image: linear-gradient(to top right, red 50%, yellow 50%);`
 খেয়াল করে দেখুন, এখানে 0% থেকে 50% পর্যন্ত Solid red color এবং 50% থেকে 100% পর্যন্ত Solid yellow color থাকবে, কিন্তু Transition হবার মতো কোন যায়গা নেই।
 
 Output Screenshot:
-![Percentage 3](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage3.png)
+![Percentage 3](./day-21-css-gradients/images/percentage3.png)
 
 ### Direction - 20% 20%-80% 80%
 
@@ -922,13 +954,13 @@ Example: `background-image: linear-gradient(to top right, red 20%, green 20% 80%
 Example: `background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));`
 
 Output Screenshot:
-![Transparency](./day-21-css-gradients-shadows-text-effects-web-fonts/images/transparency.png)
+![Transparency](./day-21-css-gradients/images/transparency.png)
 
 ### Repeating a linear-gradient
 
 Example: `background-image: repeating-linear-gradient(red, yellow 10%, green 20%);`
 Output Screenshot:
-![Repeating linear gradient](./day-21-css-gradients-shadows-text-effects-web-fonts/images/repeating.png)
+![Repeating linear gradient](./day-21-css-gradients/images/repeating.png)
 
 ### Linear Gradient Source Codes
 
@@ -952,7 +984,8 @@ background-image: radial-gradient(red, yellow, green);
 ```
 
 Screenshot:
-![By default Radial Gradient](./day-21-css-gradients-shadows-text-effects-web-fonts/images/by-deafult.png)
+
+![By default Radial Gradient](./day-21-css-gradients/images/by-deafult.png)
 
 ### Circle Shaped Example of Radial Gradients
 
@@ -961,12 +994,15 @@ background-image: radial-gradient(circle, red, yellow, green);
 ```
 
 Screenshot:
-![circle shape](./day-21-css-gradients-shadows-text-effects-web-fonts/images/circle.png)
+
+![circle shape](./day-21-css-gradients/images/circle.png)
 
 ### Providing The % To Tell Where The Color Should Transition
 
 আমরা চাইলে কোন Color কোথায় থেকে Transition হবে সেটা বলে দিতে পারি ।
 যেমন,
+
+Screenshot:
 
 ```css
 background-image: radial-gradient(red 5%, yellow 15%, green 60%);
@@ -974,7 +1010,9 @@ background-image: radial-gradient(red 5%, yellow 15%, green 60%);
 
 **যেমন এখানে Red 5% এবং Yellow 15% এর অর্থ হলো 5% থেকে 15% পর্যন্ত Red ধীরে ধীরে Yellow তে Transition হবে। আবার Yellow 15% এবং Green 60% এর মানে হলো, Yellow 15% থেকে 60% পর্যন্ত Yellow ধীরে ধীরে Green এ Transition হবে। এখানে লক্ষণীয় হলো, 0-5% পর্যন্ত Solid Red Color থাকবে এবং 60%-100% পর্যন্ত Solid Green Color থাকবে। এই বিষয়টা ভালো করে বুঝে নাও, কারন Online এ এই বিষয়ে ভালো মানের Tutorial খুজে পাইনি।**
 
-![Percentage Again](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage-again.png)
+Screenshot:
+
+![Percentage Again](./day-21-css-gradients/images/percentage-again.png)
 
 ### Bangladesh Flag Using Radial Gradients
 
@@ -983,7 +1021,8 @@ background-image: radial-gradient(circle, red 30%, green 30%);
 ```
 
 Screenshot:
-![Bangladesh Flag](./day-21-css-gradients-shadows-text-effects-web-fonts/images/bangladesh-flag.png)
+
+![Bangladesh Flag](./day-21-css-gradients/images/bangladesh-flag.png)
 
 ### Position of Radial Gradients
 
@@ -996,7 +1035,8 @@ background-image: radial-gradient(at top center, red, yellow, green);
 ```
 
 Screenshot:
-![Top Center](./day-21-css-gradients-shadows-text-effects-web-fonts/images/top-center.png)
+
+![Top Center](./day-21-css-gradients/images/top-center.png)
 
 Example: (Right Bottom)
 
@@ -1004,7 +1044,9 @@ Example: (Right Bottom)
 background-image: radial-gradient(at right bottom, red, yellow, green);
 ```
 
-![right bottom](./day-21-css-gradients-shadows-text-effects-web-fonts/images/right-bottom.png)
+Screenshot:
+
+![right bottom](./day-21-css-gradients/images/right-bottom.png)
 
 ### Position at X% Y%
 
@@ -1017,7 +1059,9 @@ Example:
 background-image: radial-gradient(at 30% 40%, red, yellow, green);
 ```
 
-![thirty](./day-21-css-gradients-shadows-text-effects-web-fonts/images/thirty.png)
+Screenshot:
+
+![thirty](./day-21-css-gradients/images/thirty.png)
 
 ### Position at Closest Side
 
@@ -1030,7 +1074,8 @@ background-image: radial-gradient(closest-side at 30% 40%, red, yellow, green);
 ```
 
 Screenshot:
-![closest side](./day-21-css-gradients-shadows-text-effects-web-fonts/images/closest.png)
+
+![closest side](./day-21-css-gradients/images/closest.png)
 
 ### Position at Farthest Side
 
@@ -1043,7 +1088,8 @@ background-image: radial-gradient(farthest-side at 30% 40%, red, yellow, green);
 ```
 
 Screenshot:
-![Farthest Side](./day-21-css-gradients-shadows-text-effects-web-fonts/images/farthest-side.png)
+
+![Farthest Side](./day-21-css-gradients/images/farthest-side.png)
 
 ### Position at Closest Corner
 
@@ -1061,7 +1107,8 @@ background-image: radial-gradient(
 ```
 
 Screenshot:
-![Closest Corner](./day-21-css-gradients-shadows-text-effects-web-fonts/images/closest-corner.png)
+
+![Closest Corner](./day-21-css-gradients/images/closest-corner.png)
 
 ### Repeating a radial-gradient
 
@@ -1074,7 +1121,8 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 এখানে 15% থেকে 100% পর্যন্ত Solid Green Color হতো যদি এটা শুধু radial-gradient হতো, এটা যেহেতু repeating-radial-gradient তাই ঐ 15% থেকে 100% red, yellow and green এর Transition Repeat হবে।
 
 Screenshot:
-![Repeating Radial](./day-21-css-gradients-shadows-text-effects-web-fonts/images/r-radial-gradients.png)
+
+![Repeating Radial](./day-21-css-gradients/images/r-radial-gradients.png)
 
 ### Transparent Radial Gradient
 
@@ -1085,7 +1133,8 @@ background-image: radial-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
 ```
 
 Screenshot:
-![Transparent Radial](./day-21-css-gradients-shadows-text-effects-web-fonts/images/transparent-radial.png)
+
+![Transparent Radial](./day-21-css-gradients/images/transparent-radial.png)
 
 ### Using Multiple Radiant Gradients
 
@@ -1102,7 +1151,8 @@ background-image: radial-gradient(
 ```
 
 Screenshot:
-![Using Multiple Radiant Gradients](./day-21-css-gradients-shadows-text-effects-web-fonts/images/using-multiple.png)
+
+![Using Multiple Radiant Gradients](./day-21-css-gradients/images/using-multiple.png)
 
 ### Multiple Radial Gradients with Border Radius 50%
 
@@ -1122,10 +1172,13 @@ border-radius: 50%;
 ```
 
 Screenshot:
-![With Border Radius](./day-21-css-gradients-shadows-text-effects-web-fonts/images/withborder.png)
+
+![With Border Radius](./day-21-css-gradients/images/withborder.png)
 
 ### Radial Gradients Source Codes of All Examples
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/poVELjM)
 
 ## Conic Gradients
+
+# Day-22: CSS Shadows, Text Effects and Web Fonts
