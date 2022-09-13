@@ -889,7 +889,9 @@ Credit: W3Schools
 
 Example: `background-image: linear-gradients(red, yellow);` . This linear gradient starts red, transitioning to yellow.
 
-Output Screenshot: ![Top to Bottom](./day-21-css-gradients/images/to-to-bottom.png)
+Output Screenshot:
+
+![Top to Bottom](./day-21-css-gradients/images/to-to-bottom.png)
 
 ### Direction - Left to Right
 
@@ -897,6 +899,7 @@ Example: `background-image: linear-gradients(to right, red, yellow);`
 The following example shows a linear gradient that starts from the left. It starts red, transitioning to yellow.
 
 Output Screenshot:
+
 ![Left to Right](./day-21-css-gradients/images/left-to-right.png)
 
 ### Direction - Top Left to Bottom Right
@@ -905,19 +908,24 @@ Example: `background-image: linear-gradients( to bottom right, red, yellow);`
 The following example shows a linear gradient that starts at top left (and goes to bottom right). It starts red, transitioning to yellow.
 
 Output Screenshot:
+
 ![Topleft to Bottomright](./day-21-css-gradients/images/topleft-to-bottomright.png)
 
 ### Direction - 180deg
 
 যদি Direction এর উপর আমরা আরও বেশি Control নিতে চাই, তাহলে আমাদের যে Pre-defined Directions (to bottom, to top, to right, to left, to bottom right, etc.) আছে, এগুলোর বদলে আমরা Angle ব্যবহার করতে পারি। A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
 Example: `background-image: linear-gradient(180deg, red, yellow);`
+
 Output Screenshot:
+
 ![180deg](./day-21-css-gradients/images/180deg.png)
 
 ### Direction - 90deg
 
 Example: `background-image: linear-gradient(90deg, red, yellow);`
+
 Output Screenshot:
+
 ![](./day-21-css-gradients/images/90deg.png)
 
 ### Direction - 0% x% 100%
@@ -925,6 +933,7 @@ Output Screenshot:
 Example: `background-image: linear-gradient(#feffff 0%, #ddf1f9 35%, #a0d8ef 100%);`
 
 Output Screenshot:
+
 ![Percentage 1](./day-21-css-gradients/images/percentage1.png)
 
 ### Direction - 20% 70%
@@ -932,6 +941,7 @@ Output Screenshot:
 **Example: `background-image: linear-gradient(red 20%, yellow 70%);` এর অর্থ হলো Position 20% থেকে Position 70% পর্যন্ত Red থেকে Yellow Color এ Transition হবে। এবং 0 থেকে 20% Solid Red ও 70% থেকে 100% Solid Yellow Color থাকবে। Position ও Percentage এর বিষয়টা খুব ভালো করে খেয়াল করো এবং বুঝার চেষ্টা করো, কারন এই বিষয়ে খুব একটা ভালো Tutorial Online এ নেই বললেই চলে।**
 
 Output Screenshot:
+
 ![Percentage 1](./day-21-css-gradients/images/percentage2.png)
 
 ### Direction - 50% 50%
@@ -941,6 +951,7 @@ Example: `background-image: linear-gradient(to top right, red 50%, yellow 50%);`
 খেয়াল করে দেখুন, এখানে 0% থেকে 50% পর্যন্ত Solid red color এবং 50% থেকে 100% পর্যন্ত Solid yellow color থাকবে, কিন্তু Transition হবার মতো কোন যায়গা নেই।
 
 Output Screenshot:
+
 ![Percentage 3](./day-21-css-gradients/images/percentage3.png)
 
 ### Direction - 20% 20%-80% 80%
@@ -954,12 +965,15 @@ Example: `background-image: linear-gradient(to top right, red 20%, green 20% 80%
 Example: `background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));`
 
 Output Screenshot:
+
 ![Transparency](./day-21-css-gradients/images/transparency.png)
 
 ### Repeating a linear-gradient
 
 Example: `background-image: repeating-linear-gradient(red, yellow 10%, green 20%);`
+
 Output Screenshot:
+
 ![Repeating linear gradient](./day-21-css-gradients/images/repeating.png)
 
 ### Linear Gradient Source Codes
