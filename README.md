@@ -882,7 +882,7 @@ Output Screenshot:
 
 ### Direction - 20% 70%
 
-Example: `background-image: linear-gradient(red 20%, yellow 70%);` এর অর্থ হলো ০ থেকে ২০% Red Color থাকবে, ৭০% থেকে ১০০% Yellow Color থাকবে, বাকি থাকলো ২১% থেকে ৬৯%, এইটুকু Red থেকে Yellow তে Transition হবে।
+**Example: `background-image: linear-gradient(red 20%, yellow 70%);` এর অর্থ হলো Position 20% থেকে Position 70% পর্যন্ত Red থেকে Yellow Color এ Transition হবে। এবং 0 থেকে 20% Solid Red ও 70% থেকে 100% Solid Yellow Color থাকবে। Position ও Percentage এর বিষয়টা খুব ভালো করে খেয়াল করো এবং বুঝার চেষ্টা করো, কারন এই বিষয়ে খুব একটা ভালো Tutorial Online এ নেই বললেই চলে।**
 
 Output Screenshot:
 ![Percentage 1](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage2.png)
@@ -891,7 +891,7 @@ Output Screenshot:
 
 Example: `background-image: linear-gradient(to top right, red 50%, yellow 50%);`
 
-খেয়াল করে দেখুন, এখানে ০ থেকে ৫০% পর্যন্ত red color এবং ৫০% থেকে ১০০% পর্যন্ত yellow color থাকবে, কিন্তু Transition হবার মতো কোন যায়গা নেই।
+খেয়াল করে দেখুন, এখানে 0% থেকে 50% পর্যন্ত Solid red color এবং 50% থেকে 100% পর্যন্ত Solid yellow color থাকবে, কিন্তু Transition হবার মতো কোন যায়গা নেই।
 
 Output Screenshot:
 ![Percentage 3](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage3.png)
@@ -920,3 +920,65 @@ Output Screenshot:
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/gOzMQYd)
 
 ## Radial Gradients
+
+### Basic Concept of Radial Gradients
+
+- Linear Gradient এর মতোই Radial Gradient তৈরি করতে অন্তত দুইটা Colors প্রয়োজন হয়। Radient Gradient Center থেকে তৈরি হয়।
+- By default, Radiant Gradient এর আকৃতি Elipse এর মতো।
+- By default, shape is ellipse, size is farthest-corner, and position is center.
+- Radial Gradient - Evenly Spaced Color Stops (this is default).
+
+### By Default Shape of Radial Gradients
+
+Example Code:
+
+```css
+background-image: radial-gradient(red, yellow, green);
+```
+
+Screenshot:
+![By default Radial Gradient](./day-21-css-gradients-shadows-text-effects-web-fonts/images/by-deafult.png)
+
+### Circle Shaped Example of Radial Gradients
+
+```css
+background-image: radial-gradient(circle, red, yellow, green);
+```
+
+Screenshot:
+![circle shape](./day-21-css-gradients-shadows-text-effects-web-fonts/images/circle.png)
+
+### Providing The % To Tell Where The Color Should Transition
+
+আমরা চাইলে কোন Color কোথায় থেকে Transition হবে সেটা বলে দিতে পারি ।
+যেমন,
+
+```css
+background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+```
+
+**যেমন এখানে Red 5% এবং Yellow 15% এর অর্থ হলো 5% থেকে 15% পর্যন্ত Red ধীরে ধীরে Yellow তে Transition হবে। আবার Yellow 15% এবং Green 60% এর মানে হলো, Yellow 15% থেকে 60% পর্যন্ত Yellow ধীরে ধীরে Green এ Transition হবে। এখানে লক্ষণীয় হলো, 0-5% পর্যন্ত Solid Red Color থাকবে এবং 60%-100% পর্যন্ত Solid Green Color থাকবে। এই বিষয়টা ভালো করে বুঝে নাও, কারন Online এ এই বিষয়ে ভালো মানের Tutorial খুজে পাইনি।**
+
+![Percentage Again](./day-21-css-gradients-shadows-text-effects-web-fonts/images/percentage-again.png)
+
+### Bangladesh Flag Using Radial Gradients
+
+```css
+background-image: radial-gradient(circle, red 30%, green 30%);
+```
+
+Screenshot:
+![Bangladesh Flag](./day-21-css-gradients-shadows-text-effects-web-fonts/images/bangladesh-flag.png)
+
+### Position of Radial Gradients
+
+By default, Radiant Gradient এর Position `center center` করা থাকে। আমরা চাইলে এই Position কে Change করতে পারি।
+
+Example:
+
+```css
+background-image: radial-gradient(at top center, red, yellow, green);
+```
+
+Screenshot:
+![Top Center](./day-21-css-gradients-shadows-text-effects-web-fonts/images/top-center.png)
