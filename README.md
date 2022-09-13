@@ -811,6 +811,21 @@ Credit: W3Schools
   - [Repeating a linear-gradient](#repeating-a-linear-gradient)
   - [Linear Gradient Source Codes](#linear-gradient-source-codes)
 - [Radial Gradients](#radial-gradients)
+  - [Basic Concept of Radial Gradients](#basic-concept-of-radial-gradients)
+  - [By Default Shape of Radial Gradients](#by-default-shape-of-radial-gradients)
+  - [Circle Shaped Example of Radial Gradients](#circle-shaped-example-of-radial-gradients)
+  - [Providing The % To Tell Where The Color Should Transition](#providing-the--to-tell-where-the-color-should-transition)
+  - [Bangladesh Flag Using Radial Gradients](#bangladesh-flag-using-radial-gradients)
+  - [Position of Radial Gradients](#position-of-radial-gradients)
+  - [Position at X% Y%](#position-at-x-y)
+  - [Position at Closest Side](#position-at-closest-side)
+  - [Position at Farthest Side](#position-at-farthest-side)
+  - [Position at Closest Corner](#position-at-closest-corner)
+  - [Repeating a radial-gradient](#repeating-a-radial-gradient)
+  - [Transparent Radial Gradients](#transparent-radial-gradient)
+  - [Using Multiple Radiant Gradients](#using-multiple-radiant-gradients)
+  - [Multiple Radiant Gradients with Border Radius 50%](#multiple-radial-gradients-with-border-radius-50)
+- [Conic Gradients](#conic-gradients)
 
 ## CSS Gradients
 
@@ -974,7 +989,7 @@ Screenshot:
 
 By default, Radiant Gradient এর Position `center center` করা থাকে। আমরা চাইলে এই Position কে Change করতে পারি।
 
-Example:
+Example (Top Center):
 
 ```css
 background-image: radial-gradient(at top center, red, yellow, green);
@@ -982,3 +997,135 @@ background-image: radial-gradient(at top center, red, yellow, green);
 
 Screenshot:
 ![Top Center](./day-21-css-gradients-shadows-text-effects-web-fonts/images/top-center.png)
+
+Example: (Right Bottom)
+
+```
+background-image: radial-gradient(at right bottom, red, yellow, green);
+```
+
+![right bottom](./day-21-css-gradients-shadows-text-effects-web-fonts/images/right-bottom.png)
+
+### Position at X% Y%
+
+আমরা চাইলে `center center` লিখার বদলে `50% 50%` ও লিখতে পারি, এর মানে হলো Center টা Left থেকে 50% এবং Top থেকে 50%. আবার `right bottom` লিখার বদলে `100% 100%` ও লিখতে পারি। অর্থাৎ Center তখন Left থেকে 100%, Top থেকে 100% Position এ থাকবে.
+এই লিখার মাধ্যমে আমারা কেবল 0%, 50% ও 100% নিয়ে কাজ করতে পারি, কিন্তু ধরলাম আমরা চাচ্ছি Center টাকে Left থেকে 30% এবং Top থেকে 40% এ নিয়ে যাব, তাহলে কিন্তু আমরা লিখার মাধ্যমে করতে পারবো না, সেক্ষেত্রে আমাদের সরাসরি % দিয়ে করবো।
+
+Example:
+
+```css
+background-image: radial-gradient(at 30% 40%, red, yellow, green);
+```
+
+![thirty](./day-21-css-gradients-shadows-text-effects-web-fonts/images/thirty.png)
+
+### Position at Closest Side
+
+By default, Radial Gradiant এ আমরা Center এর Position যেটাই দেই না কেন, সে Farthest Corner পর্যন্ত Transition করে, কিন্তু আমরা যদি চাই, Gradient এর বর্তমান Position থেকে সে তার Closest Sides পর্যন্ত Transition করবে তাহলে আমরা সেটা বলে দিতে পারি।
+
+Example:
+
+```css
+background-image: radial-gradient(closest-side at 30% 40%, red, yellow, green);
+```
+
+Screenshot:
+![closest side](./day-21-css-gradients-shadows-text-effects-web-fonts/images/closest.png)
+
+### Position at Farthest Side
+
+আমরা যে Position Set করে দিবো, সেখান থেকে Fartest Side পর্যন্ত Transition হবে।
+
+Example:
+
+```css
+background-image: radial-gradient(farthest-side at 30% 40%, red, yellow, green);
+```
+
+Screenshot:
+![Farthest Side](./day-21-css-gradients-shadows-text-effects-web-fonts/images/farthest-side.png)
+
+### Position at Closest Corner
+
+আমরা যে Position Set করে দিবো, সেখান থেকে Closest Corner পর্যন্ত Transition হবে।
+
+Example:
+
+```css
+background-image: radial-gradient(
+  closest-corner at 30% 40%,
+  red,
+  yellow,
+  green
+);
+```
+
+Screenshot:
+![Closest Corner](./day-21-css-gradients-shadows-text-effects-web-fonts/images/closest-corner.png)
+
+### Repeating a radial-gradient
+
+Example:
+
+```css
+background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+```
+
+এখানে 15% থেকে 100% পর্যন্ত Solid Green Color হতো যদি এটা শুধু radial-gradient হতো, এটা যেহেতু repeating-radial-gradient তাই ঐ 15% থেকে 100% red, yellow and green এর Transition Repeat হবে।
+
+Screenshot:
+![Repeating Radial](./day-21-css-gradients-shadows-text-effects-web-fonts/images/r-radial-gradients.png)
+
+### Transparent Radial Gradient
+
+Example:
+
+```css
+background-image: radial-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+```
+
+Screenshot:
+![Transparent Radial](./day-21-css-gradients-shadows-text-effects-web-fonts/images/transparent-radial.png)
+
+### Using Multiple Radiant Gradients
+
+Example:
+
+```css
+background-image: radial-gradient(
+    at 50% 0%,
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 0, 0, 0)
+  ), radial-gradient(at 50% 100%, rgba(47, 0, 255, 0.5), rgba(255, 0, 0, 0)),
+  radial-gradient(at 100% 50%, rgba(47, 0, 255, 0.5), rgba(255, 0, 0, 0)),
+  radial-gradient(at 0% 50%, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0));
+```
+
+Screenshot:
+![Using Multiple Radiant Gradients](./day-21-css-gradients-shadows-text-effects-web-fonts/images/using-multiple.png)
+
+### Multiple Radial Gradients with Border Radius 50%
+
+Same as previous example just added `border-radius: 50%`
+
+Example:
+
+```css
+background-image: radial-gradient(
+    at 50% 0%,
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 0, 0, 0)
+  ), radial-gradient(at 50% 100%, rgba(47, 0, 255, 0.5), rgba(255, 0, 0, 0)),
+  radial-gradient(at 100% 50%, rgba(47, 0, 255, 0.5), rgba(255, 0, 0, 0)),
+  radial-gradient(at 0% 50%, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0));
+border-radius: 50%;
+```
+
+Screenshot:
+![With Border Radius](./day-21-css-gradients-shadows-text-effects-web-fonts/images/withborder.png)
+
+### Radial Gradients Source Codes of All Examples
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/poVELjM)
+
+## Conic Gradients
