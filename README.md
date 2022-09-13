@@ -1,68 +1,74 @@
-<h1 align="center"> Learn HTML and CSS in 60 Days (with 10 Projects) </h1>
+# Learn HTML and CSS in 60 Days (with 20 Projects)
 
-|                          **Day**                           |                                                **Topics**                                                |
+After completing the 60-days module, jump in the [Projects Section](#20-html--css-projects).
+| **Day** | **Topics** |
 | :--------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-|                 [01](#day-01-introduction)                 |                                   [Introduction](#day-01-introduction)                                   |
-|     [02](#day-02-commonly-used-html-tags--their-usage)     |                        [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                         |
+| [00](#day-00-how-the-course-is-designed) | [How The Course is Designed](#day-00-how-the-course-is-designed) |
+| [01](#day-01-introduction) | [Introduction](#day-01-introduction) |
+| [02](#day-02-commonly-used-html-tags--their-usage) | [HTML Tags](#day-02-commonly-used-html-tags--their-usage) |
 | [03](#day-03-html-entities-hyperlinks-images-audio-videos) | [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos) |
-|                           [04]()                           |
-|                             05                             |                                                                                                          |
-|                             06                             |                                                                                                          |
-|                             07                             |                                                                                                          |
-|                             08                             |                                                                                                          |
-|                             09                             |                                                                                                          |
-|                             10                             |                                                                                                          |
-|        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
-|             [12](#day-12-float-display-align)              |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |
-|                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |
-|                             14                             |                                                                                                          |
-|                             15                             |                                                                                                          |
-|                             16                             |                                                                                                          |
-|                             17                             |                                                                                                          |
-|                             18                             |                                                                                                          |
-|    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |
-|                   [20](#css-grid-layout)                   |                                   [CSS Grid Layout](#css-grid-layout)                                    |
-|                 [21](#day-21-css-gradient)                 |                                  [CSS Gradients](#day-21-css-gradient)                                   |
-|    [22](#day-22-css-shadows-text-effects-and-web-fonts)    |        [CSS Shadows, Text Effects and Web Fonts](#day-22-css-shadows-text-effects-and-web-fonts)         |
-|                             23                             |                                                                                                          |
-|                             24                             |                                                                                                          |
-|                             25                             |                                                                                                          |
-|                             26                             |                                                                                                          |
-|                             27                             |                                                                                                          |
-|                             28                             |                                                                                                          |
-|                             29                             |                                                                                                          |
-|                             30                             |                                                                                                          |
-|                             31                             |                                                                                                          |
-|                             32                             |                                                                                                          |
-|                             33                             |                                                                                                          |
-|                             34                             |                                                                                                          |
-|                             35                             |                                                                                                          |
-|                             36                             |                                                                                                          |
-|                             37                             |                                                                                                          |
-|                             38                             |                                                                                                          |
-|                             39                             |                                                                                                          |
-|                             40                             |                                                                                                          |
-|                             41                             |                                                                                                          |
-|                             42                             |                                                                                                          |
-|                             43                             |                                                                                                          |
-|                             44                             |                                                                                                          |
-|                             45                             |                                                                                                          |
-|                             46                             |                                                                                                          |
-|                             47                             |                                                                                                          |
-|                             48                             |                                                                                                          |
-|                             49                             |                                                                                                          |
-|                             50                             |                                                                                                          |
-|                             51                             |                                                                                                          |
-|                             51                             |                                                                                                          |
-|                             52                             |                                                                                                          |
-|                             53                             |                                                                                                          |
-|                             54                             |                                                                                                          |
-|                             55                             |                                                                                                          |
-|                             56                             |                                                                                                          |
-|                             57                             |                                                                                                          |
-|                             58                             |                                                                                                          |
-|                             59                             |                                                                                                          |
-|                             60                             |                                                                                                          |
+| [04]() |
+| 05 | |
+| 06 | |
+| 07 | |
+| 08 | |
+| 09 | |
+| 10 | |
+| [11](#day-11-css-position-z-index-overflow) | [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow) |
+| [12](#day-12-float-display-align) | [CSS Float, Display and Alignment](#day-12-css-float-display-alignment) |
+| [13](#day-13-css-flexbox) | [CSS Flexbox](#day-13-css-flexbox) |
+| [14]() | |
+| 15 | |
+| 16 | |
+| 17 | |
+| 18 | |
+| [19](#day-19-visualize-and-play-with-css-properties) | [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties) |
+| [20](#css-grid-layout) | [CSS Grid Layout](#css-grid-layout) |
+| [21](#day-21-css-gradient) | [CSS Gradients](#day-21-css-gradient) |
+| [22](#day-22-css-shadows-text-effects-and-web-fonts) | [CSS Shadows, Text Effects and Web Fonts](#day-22-css-shadows-text-effects-and-web-fonts) |
+| 23 | |
+| 24 | |
+| 25 | |
+| 26 | |
+| 27 | |
+| 28 | |
+| 29 | |
+| 30 | |
+| 31 | |
+| 32 | |
+| 33 | |
+| 34 | |
+| 35 | |
+| 36 | |
+| 37 | |
+| 38 | |
+| 39 | |
+| 40 | |
+| 41 | |
+| 42 | |
+| 43 | |
+| 44 | |
+| 45 | |
+| 46 | |
+| 47 | |
+| 48 | |
+| 49 | |
+| 50 | |
+| 51 | |
+| 51 | |
+| 52 | |
+| 53 | |
+| 54 | |
+| 55 | |
+| 56 | |
+| 57 | |
+| 58 | |
+| 59 | |
+| 60 | |
+
+# 20 HTML & CSS Projects
+
+# Day-00: How The Course is Designed
 
 # Day-01: Introduction
 
@@ -741,6 +747,8 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 | justify-content |                    Horizontally aligns the flex items when the items do not use all available space on the main-axis.                    |
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-30-days)
+
+# Day-14:
 
 # Day-19: Visualize and Play with CSS Properties
 
