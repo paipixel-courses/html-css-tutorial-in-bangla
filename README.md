@@ -889,6 +889,7 @@ Credit: W3Schools
   - [Using Multiple Radiant Gradients](#using-multiple-radiant-gradients)
   - [Multiple Radiant Gradients with Border Radius 50%](#multiple-radial-gradients-with-border-radius-50)
 - [Conic Gradients](#conic-gradients)
+  - []
 
 ## CSS Gradients Introduction
 
@@ -1226,4 +1227,118 @@ Screenshot:
 
 ## Conic Gradients
 
-# Day-22: CSS Shadows, Text Effects and Web Fonts
+### Introduction To Conic Gradients
+
+- By default, Conic Gradient এ Colors গুলো ধীরে ধীরে Clock-wise Transition হয়।
+- By default, angle is 0deg and position is center.
+- If no degree is specified, the colors will be spread equally around the center point.
+
+### Conic Gradient Syntax
+
+```css
+background-image: conic-gradient(
+  [from angle] [at position,
+  ] color [degree],
+  color [degree],
+  ...
+);
+```
+
+### Conic Gradient with Three Colors
+
+Example:
+
+```css
+background-image: conic-gradient(red, yellow, green);
+```
+
+Screenshot:
+
+![Conic With Three Colors](./day-21-css-gradients/img-conic/conic-with-three-colors.png)
+
+আমরা চাইলে এখানে `border-radius: 50%;` set করে একে চতুর্ভুজ থেকে বৃত্ত আকৃতি নিয়ে আসতে পারি।
+
+Code:
+
+```css
+background-image: conic-gradient(red, yellow, green);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![With Border Radius](./day-21-css-gradients/img-conic/border.png)
+
+কিন্তু এখানে একটা বিষয় লক্ষণীয়, উপরের দিকে Solid Red and Solid Green একসাথে মিশে যাবার কারনে তা স্পষ্ট বুঝা যাচ্ছে, যেহেতু তারা ভিন্ন Color. তাই আমরা যদি প্রথম ও শেষ Color একই দেই, তাহলে সুন্দর একটা Conic Radient তৈরি হবে, এবং দুই Color এর মাঝে যে স্পষ্ট লাইন সেটা আর Visible হবে না।
+
+Code:
+
+```css
+background-image: conic-gradient(red, yellow, green, red);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![beautiful shape](./day-21-css-gradients/img-conic/3.png)
+
+### Starting Position of Conic Gradient
+
+আমরা চাইলে Conic Gradient কোথা থেকে শুরু হবে সেটা বলে দিতে পারি।
+
+Code:
+
+```css
+background-image: conic-gradient(from 45deg, red, yellow, green);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![starting position](./day-21-css-gradients/img-conic/4.png)
+
+### Changing the Center
+
+আমরা চাইলে Conic Gradient এর Center-ও পরিবর্তন করতে পারি। By default, Center টি থাকে 50% 50% এ, অর্থাৎ Left থেকে 50%, Top থেকে 50%. আমরা কিভাবে এই Position Change করতে পারি, তা নিচে দেখানো হলো ।
+
+Code:
+
+```css
+background-image: conic-gradient(at 60% 40%, red, yellow, green);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![Chaning the Center](./day-21-css-gradients/img-conic/5.png)
+
+### Changing Both: Starting Position and Center
+
+আমরা চাইলে Conic Gradient এর Center এবং Starting Angle দুটোই পরিবর্তন করতে পারি ।
+
+Code:
+
+```css
+background-image: conic-gradient(from 90deg at 60% 40%, red, yellow, green);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![Both Change](./day-21-css-gradients/img-conic/6.png)
+
+### Using Color Stops Xdeg, Ydeg, Zdeg
+
+একটা উদাহরণ নিয়ে আলোচনা করি, `conic-gradient(red 45deg, yellow 190deg, green 300deg)`, এখানে red 45deg and yellow 190deg এর অর্থ হলো Red Color 45deg থেকে 190deg পর্যন্ত ধীরে ধীরে Red থেকে Yellow তে Transition হবে। এবং 0deg থেকে 45deg পর্যন্ত Solid Red Color থাকবে। একইভাবে, yellow 190deg এবং green 300deg এর মানে হলো, yellow Color 190deg থেকে 300deg পর্যন্ত Yellow থেকে Green তে Transition হবে। এবং 300deg থেকে 360deg Solid green Color থাকবে। এই Cencepts গুলো Linear এবং Radial Gradient এর মতই। একবার ভালোভাবে বুঝলে, সব পানি হয়ে যাবে !
+Anyways, এখন উদাহরণ দেখুন, বিষয়গুলো পরিষ্কার হয়ে যাবে।
+
+Code:
+
+```css
+background-image: conic-gradient(red 45deg, yellow 190deg, green 300deg);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![Using Color Stops](./day-21-css-gradients/img-conic/7.png)
