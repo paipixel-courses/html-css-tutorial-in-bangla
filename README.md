@@ -889,7 +889,16 @@ Credit: W3Schools
   - [Using Multiple Radiant Gradients](#using-multiple-radiant-gradients)
   - [Multiple Radiant Gradients with Border Radius 50%](#multiple-radial-gradients-with-border-radius-50)
 - [Conic Gradients](#conic-gradients)
-  - []
+  - [Introduction To Conic Gradients](#introduction-to-conic-gradients)
+  - [Conic Gradient Syntax](#conic-gradient-syntax)
+  - [Conic Gradient with Three Colors](#conic-gradient-with-three-colors)
+  - [Starting Position of Conic Gradient](#starting-position-of-conic-gradient)
+  - [Changing the Center](#changing-the-center)
+  - [Changing Both: Starting Position and Center](#changing-both-starting-position-and-center)
+  - [Using Color Stops Xdeg, Ydeg, Zdeg](#using-color-stops-xdeg-ydeg-zdeg)
+  - [Creating A Beautiful Pie Chart](#creating-a-beautiful-pie-chart)
+  - [Beautiful Design with 'Background-Size' Property](#beautiful-design-with-background-size-property)
+  - [Repeating Conic Gradient](#repeating-conic-gradient)
 
 ## CSS Gradients Introduction
 
@@ -1404,3 +1413,5 @@ border-radius: 50%;
 Screenshot:
 
 ![Repeating Conic](./day-21-css-gradients/img-conic/10.png)
+
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
