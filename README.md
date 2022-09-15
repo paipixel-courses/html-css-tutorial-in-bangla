@@ -18,7 +18,7 @@ After completing the 60-days module, jump in the [Projects Section](#20-html--cs
 |        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
 |             [12](#day-12-float-display-align)              |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |
 |                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |
-|                           [14]()                           |                                                                                                          |
+|                           [14]()                           |                                       [CSS Background Size,...]()                                        |
 |                             15                             |                                                                                                          |
 |                             16                             |                                                                                                          |
 |                             17                             |                                                                                                          |
@@ -1342,3 +1342,65 @@ border-radius: 50%;
 Screenshot:
 
 ![Using Color Stops](./day-21-css-gradients/img-conic/7.png)
+
+### Creating A Beautiful Pie Chart
+
+আমরা যখন `yellow 100deg 150deg` দিবো, এর মানে হলো Solid Yellow Color 100deg থেকে 150deg পর্যন্ত হবে। এই Technique ব্যবহার করে নিচে আমরা একটা সুন্দর Pie Chart তৈরি করবো।
+
+Code:
+
+```css
+background-image: conic-gradient(
+  red 45deg,
+  yellow 45deg 90deg,
+  green 90deg 135deg,
+  blue 135deg 180deg,
+  orange 180deg 225deg,
+  aqua 225deg 270deg,
+  purple 270deg 315deg,
+  violet 315deg 360deg
+);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![Pie Chart](./day-21-css-gradients/img-conic/8.png)
+
+### Beautiful Design with 'Background-Size' Property
+
+Code:
+
+```css
+background-image: conic-gradient(
+  red 45deg,
+  yellow 45deg 90deg,
+  green 90deg 135deg,
+  blue 135deg 180deg,
+  orange 180deg 225deg,
+  aqua 225deg 270deg,
+  purple 270deg 315deg,
+  violet 315deg 360deg
+);
+border-radius: 50%;
+background-size: 20px 20px;
+```
+
+Screenshot:
+
+![Beautiful](./day-21-css-gradients/img-conic/9.png)
+
+### Repeating Conic Gradient
+
+Repeating Conic Gradient, Repeating Linear Gradient এবং Repeating Radial Gradient এর মতোই কাজ করে।
+
+Code:
+
+```css
+background-image: repeating-conic-gradient(red 20deg, yellow 30deg 40deg);
+border-radius: 50%;
+```
+
+Screenshot:
+
+![Repeating Conic](./day-21-css-gradients/img-conic/10.png)
