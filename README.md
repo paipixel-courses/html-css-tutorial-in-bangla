@@ -772,7 +772,44 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
 
-# Day-14:
+# Day-14: CSS Selectors
+
+- [CSS Selectors](#css-selectors)
+  - [What is CSS Selectors](#what-is-css-selectors)
+  - [Types of CSS Selectors](#types-of-css-selectors)
+
+## CSS Selectors
+
+### What is CSS Selectors?
+
+A CSS selector selects the HTML element(s) you want to style.
+
+### Types of CSS Selectors
+
+CSS Selectors কে ৫ ভাগে ভাগ করা যায়ঃ
+
+1. Simple selectors (select elements based on name, id, class).
+2. Combinator selectors (select elements based on a specific relationship between them).
+3. Pseudo-class selectors (select elements based on a certain state).
+4. Pseudo-elements selectors (select and style a part of an element).
+5. Attribute selectors (select elements based on an attribute or attribute value).
+
+### 01. Simple Selectors
+
+CONTENTS WILL BE WRITTEN SOON INSHALLAH...
+
+### 02: Combinator Selectors
+
+A combinator is something that explains the relationship between the selectors.
+A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+অর্থাৎ, একটা Selector একের অধিক Simple Selectors নিয়ে তৈরি হতে পারে। এই Simple Selectors দের আমরা চাইলে Combinator দিয়ে Connect করতে পারি।
+
+There are four different combinators in CSS:
+
+1. Descendant selector (space)
+2. Child selector (>)
+3. Adjacent sibling selector (+)
+4. General sibling selector (~)
 
 # Day-19: Visualize and Play with CSS Properties
 
