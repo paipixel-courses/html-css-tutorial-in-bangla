@@ -1,6 +1,8 @@
-# Learn HTML and CSS in 60 Days (with 20 Projects)
+# Learn HTML and CSS in 60 Days
 
-After completing the 60-days module, jump in the [Projects Section](#20-html--css-projects).
+### After completing this course, we'll build [20 Projects](#20-html--css-projects) with HTML and CSS.
+
+While you complete the 60-days module, jump in the [Projects Section](#20-html--css-projects).
 
 |                          **Day**                           |                                                **Topics**                                                |
 | :--------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
