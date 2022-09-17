@@ -4,95 +4,94 @@
 
 While you complete the 60-days module, jump in the [Projects Section](#20-html--css-projects).
 
-|                          **Day**                           |                                                **Topics**                                                |
-| :--------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-|          [00](#day-00-how-the-course-is-designed)          |                     [How The Course is Designed](#day-00-how-the-course-is-designed)                     |
-|                 [01](#day-01-introduction)                 |                                   [Introduction](#day-01-introduction)                                   |
-|     [02](#day-02-commonly-used-html-tags--their-usage)     |                        [HTML Tags](#day-02-commonly-used-html-tags--their-usage)                         |
-| [03](#day-03-html-entities-hyperlinks-images-audio-videos) | [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos) |
-|                           [04]()                           |
-|                             05                             |                                                                                                          |
-|                             06                             |                                                                                                          |
-|                             07                             |                                                                                                          |
-|                             08                             |                                                                                                          |
-|                             09                             |                                                                                                          |
-|                             10                             |                                                                                                          |
-|        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |
-|             [12](#day-12-float-display-align)              |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |
-|                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |
-|                           [14]()                           |                                       [CSS Background Size,...]()                                        |
-|                             15                             |                                                                                                          |
-|                             16                             |                                                                                                          |
-|                             17                             |                                                                                                          |
-|                             18                             |                                                                                                          |
-|    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |
-|                   [20](#css-grid-layout)                   |                                   [CSS Grid Layout](#css-grid-layout)                                    |
-|                 [21](#day-21-css-gradient)                 |                                  [CSS Gradients](#day-21-css-gradient)                                   |
-|    [22](#day-22-css-shadows-text-effects-and-web-fonts)    |        [CSS Shadows, Text Effects and Web Fonts](#day-22-css-shadows-text-effects-and-web-fonts)         |
-|                             23                             |                                                                                                          |
-|                             24                             |                                                                                                          |
-|                             25                             |                                                                                                          |
-|                             26                             |                                                                                                          |
-|                             27                             |                                                                                                          |
-|                             28                             |                                                                                                          |
-|                             29                             |                                                                                                          |
-|                             30                             |                                                                                                          |
-|                             31                             |                                                                                                          |
-|                             32                             |                                                                                                          |
-|                             33                             |                                                                                                          |
-|                             34                             |                                                                                                          |
-|                             35                             |                                                                                                          |
-|                             36                             |                                                                                                          |
-|                             37                             |                                                                                                          |
-|                             38                             |                                                                                                          |
-|                             39                             |                                                                                                          |
-|                             40                             |                                                                                                          |
-|                             41                             |                                                                                                          |
-|                             42                             |                                                                                                          |
-|                             43                             |                                                                                                          |
-|                             44                             |                                                                                                          |
-|                             45                             |                                                                                                          |
-|                             46                             |                                                                                                          |
-|                             47                             |                                                                                                          |
-|                             48                             |                                                                                                          |
-|                             49                             |                                                                                                          |
-|                             50                             |                                                                                                          |
-|                             51                             |                                                                                                          |
-|                             51                             |                                                                                                          |
-|                             52                             |                                                                                                          |
-|                             53                             |                                                                                                          |
-|                             54                             |                                                                                                          |
-|                             55                             |                                                                                                          |
-|                             56                             |                                                                                                          |
-|                             57                             |                                                                                                          |
-|                             58                             |                                                                                                          |
-|                             59                             |                                                                                                          |
-|                             60                             |                                                                                                          |
+|                            Day                             |                                                  Topics                                                  | Video Explanation |
+| :--------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: | :---------------: |
+|          [00](#day-00-how-the-course-is-designed)          |                     [How The Course is Designed](#day-00-how-the-course-is-designed)                     |     Watch Now     |
+|                 [01](#day-01-introduction)                 |                                   [Introduction](#day-01-introduction)                                   |     Watch Now     |
+|     [02](#day-02-commonly-used-html-tags--their-usage)     |          [Commonly Used HTML Tags & Their Usage](#day-02-commonly-used-html-tags--their-usage)           |     Watch Now     |
+| [03](#day-03-html-entities-hyperlinks-images-audio-videos) | [HTML Entities, Hyperlinks, Images, Audio, Videos](#day-03-html-entities-hyperlinks-images-audio-videos) |     Watch Now     |
+|                             04                             |                                                                                                          |     Watch Now     |
+|                             05                             |                                                                                                          |     Watch Now     |
+|                             06                             |                                                                                                          |     Watch Now     |
+|                             07                             |                                                                                                          |     Watch Now     |
+|                             08                             |                                                                                                          |     Watch Now     |
+|                             09                             |                                                                                                          |     Watch Now     |
+|                             10                             |                                                                                                          |     Watch Now     |
+|        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |     Watch Now     |
+|         [12](#day-12-css-float-display-alignment)          |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |     Watch Now     |
+|                 [13](#day-13-css-flexbox)                  |                                   [CSS Flexbox](#day-21-css-gradient)                                    |     Watch Now     |
+|                             14                             |                                         CSS Background Size,...                                          |     Watch Now     |
+|                             15                             |                                                                                                          |     Watch Now     |
+|                             16                             |                                                                                                          |     Watch Now     |
+|                             17                             |                                                                                                          |     Watch Now     |
+|                             18                             |                                                                                                          |     Watch Now     |
+|    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |     Watch Now     |
+|               [20](#day-20-css-grid-layout)                |                                [CSS Grid Layout](#day-20-css-grid-layout)                                |     Watch Now     |
+|                 [21](#day-21-css-gradient)                 |                                  [CSS Gradients](#day-21-css-gradient)                                   |     Watch Now     |
+|                             22                             |                                 CSS Shadows, Text Effects and Web Fonts                                  |     Watch Now     |
+|                             23                             |                                                                                                          |     Watch Now     |
+|                             24                             |                                                                                                          |     Watch Now     |
+|                             25                             |                                                                                                          |     Watch Now     |
+|                             26                             |                                                                                                          |     Watch Now     |
+|                             27                             |                                                                                                          |     Watch Now     |
+|                             28                             |                                                                                                          |     Watch Now     |
+|                             29                             |                                                                                                          |     Watch Now     |
+|                             30                             |                                                                                                          |     Watch Now     |
+|                             31                             |                                                                                                          |     Watch Now     |
+|                             32                             |                                                                                                          |     Watch Now     |
+|                             33                             |                                                                                                          |     Watch Now     |
+|                             34                             |                                                                                                          |     Watch Now     |
+|                             35                             |                                                                                                          |     Watch Now     |
+|                             36                             |                                                                                                          |     Watch Now     |
+|                             37                             |                                                                                                          |     Watch Now     |
+|                             38                             |                                                                                                          |     Watch Now     |
+|                             39                             |                                                                                                          |     Watch Now     |
+|                             40                             |                                                                                                          |     Watch Now     |
+|                             41                             |                                                                                                          |     Watch Now     |
+|                             42                             |                                                                                                          |     Watch Now     |
+|                             43                             |                                                                                                          |     Watch Now     |
+|                             44                             |                                                                                                          |     Watch Now     |
+|                             45                             |                                                                                                          |     Watch Now     |
+|                             46                             |                                                                                                          |     Watch Now     |
+|                             47                             |                                                                                                          |     Watch Now     |
+|                             48                             |                                                                                                          |     Watch Now     |
+|                             49                             |                                                                                                          |     Watch Now     |
+|                             50                             |                                                                                                          |     Watch Now     |
+|                             51                             |                                                                                                          |     Watch Now     |
+|                             52                             |                                                                                                          |     Watch Now     |
+|                             53                             |                                                                                                          |     Watch Now     |
+|                             54                             |                                                                                                          |     Watch Now     |
+|                             55                             |                                                                                                          |     Watch Now     |
+|                             56                             |                                                                                                          |     Watch Now     |
+|                             57                             |                                                                                                          |     Watch Now     |
+|                             58                             |                                                                                                          |     Watch Now     |
+|                             59                             |                                                                                                          |     Watch Now     |
+|                             60                             |                                                                                                          |     Watch Now     |
 
 # 20 HTML & CSS Projects
 
-| **Project No.** | **Project Name** | **Live Demo** |
-| :-------------: | :--------------: | :-----------: |
-|        1        |                  |   Live Demo   |
-|        2        |                  |               |
-|        3        |                  |               |
-|        4        |                  |               |
-|        5        |                  |               |
-|        6        |                  |               |
-|        7        |                  |               |
-|        8        |                  |               |
-|        9        |                  |               |
-|       10        |                  |               |
-|       11        |                  |               |
-|       12        |                  |               |
-|       13        |                  |               |
-|       14        |                  |               |
-|       15        |                  |               |
-|       16        |                  |               |
-|       17        |                  |               |
-|       18        |                  |               |
-|       19        |                  |               |
-|       20        |                  |               |
+| Project No. | Project Name | Video Explanation | Live Demo |
+| :---------: | :----------: | :---------------: | :-------: |
+|     01      |              |     Watch Now     | Live Demo |
+|     02      |              |     Watch Now     | Live Demo |
+|     03      |              |     Watch Now     | Live Demo |
+|     04      |              |     Watch Now     | Live Demo |
+|     05      |              |     Watch Now     | Live Demo |
+|     06      |              |     Watch Now     | Live Demo |
+|     07      |              |     Watch Now     | Live Demo |
+|     08      |              |     Watch Now     | Live Demo |
+|     09      |              |     Watch Now     | Live Demo |
+|     10      |              |     Watch Now     | Live Demo |
+|     11      |              |     Watch Now     | Live Demo |
+|     12      |              |     Watch Now     | Live Demo |
+|     13      |              |     Watch Now     | Live Demo |
+|     14      |              |     Watch Now     | Live Demo |
+|     15      |              |     Watch Now     | Live Demo |
+|     16      |              |     Watch Now     | Live Demo |
+|     17      |              |     Watch Now     | Live Demo |
+|     18      |              |     Watch Now     | Live Demo |
+|     19      |              |     Watch Now     | Live Demo |
+|     20      |              |     Watch Now     | Live Demo |
 
 # Day-00: How The Course is Designed
 
