@@ -795,6 +795,12 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 - [CSS Selectors](#css-selectors)
   - [What is CSS Selectors](#what-is-css-selectors)
   - [Types of CSS Selectors](#types-of-css-selectors)
+  - [01. Simple Selectors](#01-simple-selectors)
+  - [02: Combinator Selectors](#02-combinator-selectors)
+  - [03. Pseudo-class Selectors](#03-pseudo-class-selectors)
+  - [All CSS Pseudo Classes](#all-css-pseudo-classes)
+  - [04. All CSS Pseudo Elements](#04-all-css-pseudo-elements)
+  - [05. Attribute Selectors](#05-attribute-selectors)
 
 ## CSS Selectors
 
@@ -916,7 +922,7 @@ div + p {
 
 এখানে `<p>Paragraph 3. After a div.</p>` , `<p>Paragraph 4. After a div.</p>` , `<p>Paragraph 7. After a div.</p>` , `<p>Paragraph 8. After a div.</p>` এই সবকটি ভাইবোন Select হবে।
 
-### Pseudo-class Selectors
+### 03. Pseudo-class Selectors
 
 Pseudo-class Selector বিভিন্ন State বা অবস্থায় ব্যবহার করা হয়।
 যেমন, এই Selector সাধারণত নিচের ক্ষেত্রে ব্যবহার করা হয়ঃ
@@ -1135,7 +1141,7 @@ Example Codes:
 | 16           | :required            | input:required        | Selects `<input>` elements with a "required" attribute specified                                         |
 | 17           | :read-only           | input:read-only       | Selects `<input>` elements with a "readonly" attribute specified                                         |
 | 18           | :read-write          | input:read-write      | Selects `<input>` elements with no "readonly" attribute                                                  |
-| 19           | :empty               | p:empty               | Selects every `<p>` element that has no children and no content                                          |
+| 19           | :empty               | p:empty               | Selects every `<p>` element that has no children                                                         |
 | 20           | :first-child         | p:first-child         | Selects every `<p>` elements that is the first child of its parent                                       |
 | 21           | :last-child          | p:last-child          | Selects every `<p>` elements that is the last child of its parent                                        |
 | 22           | :first-of-type       | p:first-of-type       | Selects every `<p>` element that is the first `<p>` element of its parent                                |
@@ -1144,8 +1150,8 @@ Example Codes:
 | 25           | :not(selector)       | :not(p)               | Selects every element that is not a `<p>` element                                                        |
 | 26           | :nth-child(n)        | p:nth-child(2)        | Selects every `<p>` element that is the second child of its parent                                       |
 | 27           | :nth-last-child(n)   | p:nth-last-child(2)   | Selects every `<p>` element that is the second child of its parent, counting from the last child         |
-| 28           | :nth-last-of-type(n) | p:nth-last-of-type(2) | Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child |
-| 29           | :nth-of-type(n)      | p:nth-of-type(2)      | Selects every `<p>` element that is the second `<p>` element of its parent                               |
+| 28           | :nth-of-type(n)      | p:nth-of-type(2)      | Selects every `<p>` element that is the second `<p>` element of its parent                               |
+| 29           | :nth-last-of-type(n) | p:nth-last-of-type(2) | Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child |
 | 30           | :only-of-type        | p:only-of-type        | Selects every `<p>` element that is the only `<p>` element of its parent                                 |
 | 31           | :only-child          | p:only-child          | Selects every `<p>` element that is the only child of its parent                                         |
 
@@ -1464,9 +1470,409 @@ Screenshot:
 
 [Open in CodePen](https://codepen.io/travelerabdulalim/pen/yLjovoN)
 
-####
+#### First-of-type and Last-of-type Pseudo-class
 
-### All CSS Pseudo Elements
+`p:first-of-type` এর অর্থ হলো কোন একটা Parent Element এর যদি অনেকগুলো child elements থাকে, তাহলে প্রথম যে p element পাবে সেটাকে select করবে। এর মানে এটা নয় যে, প্রথম child হতে হবে।
+একইভাবে, `p:last-of-type` এর অর্থ হলো কোন একটা Parent Element এর যদি অনেকগুলো child elements থাকে, তাহলে শেষ যে p element পাবে সেটাকে select করবে।
+
+Example:
+
+```html
+<body>
+  <h1>First-of-type and Last-of-type Pseudo-class</h1>
+  <p>this is paragraph 1</p>
+  <p>this is paragraph 2</p>
+  <h3>this is h3</h3>
+  <div>
+    <h4>this is h4</h4>
+    <p>this is paragraph 4</p>
+    <p>this is paragraph 5</p>
+    <h3>this is another h3</h3>
+  </div>
+</body>
+```
+
+```css
+p:first-of-type {
+  background-color: greenyellow;
+}
+p:last-of-type {
+  background-color: burlywood;
+}
+```
+
+Screenshot:
+
+![first-of-type](./day-14-css-selectors/images/12.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjLYyP)
+
+#### :not Pseudo-class
+
+`:not(p)` এর মানে হলো, p elements বাদে বাকি সব elements কে select করবে।
+
+Example:
+
+```html
+<body>
+  <h1>:not() Pseudo-class</h1>
+  <p>this is paragraph 1</p>
+  <p>this is paragraph 2</p>
+  <div>this is a div element</div>
+</body>
+```
+
+```css
+p {
+  color: black;
+}
+
+:not(p) {
+  color: darkorange;
+}
+```
+
+Screenshot:
+
+![not](./day-14-css-selectors/images/13.png)
+
+#### :nth-child() Pseudo-class
+
+`p:nth-child(2)` এর অর্থ হলো কোন একটা Parent Element এর 2 নং Child Element যদি p হয়, তাহলে ঐ p কে select করবে।
+
+Example:
+
+```html
+<body>
+  <h1>nth-child() Pseudo-class</h1>
+  <div>
+    <h4>this is h4</h4>
+    <p>This is Paragraph 1</p>
+    <p>This is Paragraph 2</p>
+  </div>
+  <div>
+    <h4>this is another h4</h4>
+    <p>This is Paragraph 5</p>
+    <p>This is Paragraph 6</p>
+  </div>
+</body>
+```
+
+```css
+p:nth-child(2) {
+  color: red;
+}
+```
+
+Screenshot:
+
+![nth](./day-14-css-selectors/images/14.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/abGyYdG)
+
+#### nth-last-child() Pseudo-class
+
+এটি nth-child() এর মতোই, nth-child() এর সময় Count করতে হতো শুরু থেকে, আর nth-last-child() এর ক্ষেত্রে count করতে হবে শেষ থেকে।
+
+Example:
+
+```html
+<body>
+  <h1>nth-last-child() Pseudo-class</h1>
+  <div>
+    <p>This is Paragraph 1</p>
+    <p>This is Paragraph 2</p>
+    <h4>this is h4</h4>
+  </div>
+  <div>
+    <p>This is Paragraph 5</p>
+    <p>This is Paragraph 6</p>
+    <h4>this is another h4</h4>
+  </div>
+</body>
+```
+
+```css
+p:nth-last-child(2) {
+  color: red;
+}
+```
+
+Screenshot:
+
+![nth-last](./day-14-css-selectors/images/15.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/rNvzdMp)
+
+#### nth-of-type() Pseudo-class
+
+`p:nth-of-type(2)` এর অর্থ হলো কোন Parent Element এর 2 নং p element কে select করবে।
+
+আর যদি element এর নাম উল্লেখ করে না দেই, যেমন, `:nth-of-type(2)` এর অর্থ হলো যেকোনো Parent Element এর 2 নং Child Element কে select করবে।
+
+Example:
+
+```html
+<body>
+  <h1>nth-of-type Pseudo-class</h1>
+  <div>
+    <p>This is some text.</p>
+  </div>
+  <div>
+    <p>This is some text.</p>
+  </div>
+  <div>
+    <p>This is some text.</p>
+  </div>
+  <ul>
+    <li>First list item</li>
+    <li>Second list item</li>
+    <li>Third list item</li>
+    <li>Fourth list item</li>
+    <li>Fifth list item</li>
+  </ul>
+</body>
+```
+
+```css
+div:nth-of-type(2) {
+  color: red;
+}
+li:nth-of-type(2) {
+  color: lightgreen;
+}
+
+:nth-of-type(3) {
+  color: blue;
+}
+```
+
+Screenshot:
+
+![nth-of-type](./day-14-css-selectors/images/16.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/wvjqmQg)
+
+#### nth-of-last-type()
+
+এটি `:nth-of-type` এর মতোই, পার্থক্য শুধু শেষ থেকে count করতে হবে।
+
+#### only-of-type Pseudo-class
+
+`p:only-of-type` এর অর্থ হলো যেসকল Parent Element এর Child কেবলমাত্র একটা p, সেই p কে select করবে। যদি কোন Parent Element এর একাধিক p থাকে, তাহলে তাদের select করবে না।
+
+Example:
+
+```html
+<body>
+  <h1>only-of-type</h1>
+  <div>
+    <p>This is Paragraph 1</p>
+  </div>
+  <div>
+    <p>This is Paragraph 2</p>
+    <p>This is Paragraph 3</p>
+  </div>
+</body>
+```
+
+```css
+p:only-of-type {
+  background-color: lightgreen;
+}
+```
+
+Screenshot:
+
+![only-of-type](./day-14-css-selectors/images/17.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/XWqaqdG)
+
+#### only-child Pseudo-class
+
+`p:only-child` এর অর্থ হলো যদি কোন Parent Element এর কেবল একটি p element থাকে তাহলে সেটিকে select করবে ।
+
+Example:
+
+```html
+<body>
+  <h1>Only-child Pseudo-class</h1>
+  <div>
+    <p>This is Paragraph 1</p>
+  </div>
+  <div>
+    <p>This is Paragraph 2</p>
+    <p>This is Paragraph 3</p>
+  </div>
+</body>
+```
+
+```css
+p:only-child {
+  background-color: lightpink;
+}
+```
+
+Screenshot:
+
+![only-child](./day-14-css-selectors/images/18.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/LYmjmyp)
+
+### 04. All CSS Pseudo Elements
+
+| **Selector No.** | **Selector Name** |   **Example**   |                   **Example Description**                    |
+| :--------------: | :---------------: | :-------------: | :----------------------------------------------------------: |
+|        01        |      ::after      |    p::after     |            Insert content after every <p> element            |
+|        02        |     ::before      |    p::before    |           Insert content before every <p> element            |
+|        03        |  ::first-letter   | p::first-letter |        Selects the first letter of every <p> element         |
+|        04        |   ::first-line    |  p::first-line  |         Selects the first line of every <p> element          |
+|        05        |    ::selection    |  p::selection   | Selects the portion of an element that is selected by a user |
+
+#### Example
+
+```html
+<body>
+  <h1>Pseudo Elements</h1>
+  <p>Abdul Alim</p>
+  <p>Rafiqul Islam</p>
+</body>
+```
+
+```css
+p::before {
+  content: "Name: ";
+}
+
+p::after {
+  content: " Country: Bangladesh ";
+}
+
+p::first-letter {
+  font-size: 5rem;
+  color: pink;
+}
+
+p::first-line {
+  background-color: lightcyan;
+}
+
+p::selection {
+  background-color: red;
+}
+```
+
+#### Screenshot
+
+![pseudo-elements](./day-14-css-selectors/images/19.png)
+
+#### Source Codes
+
+[Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/YzLxLJV)
+
+#### Marker Pseudo Element
+
+`::marker` Pseudo Element টি list items coloring করতে ব্যবহার করা হয়।
+
+Example:
+
+```html
+<ul>
+  <li>C++</li>
+  <li>Java</li>
+  <li>Python</li>
+  <li>Kotlin</li>
+</ul>
+<ol>
+  <li>Farmer</li>
+  <li>Traveller</li>
+  <li>Developer</li>
+</ol>
+```
+
+```css
+::marker {
+  color: red;
+}
+```
+
+Screenshot:
+
+![marker](./day-14-css-selectors/images/20.png)
+
+[Open in Codepen](https://codepen.io/travelerabdulalim/pen/abGyGXd)
+
+### 05. Attribute Selectors
+
+|    **Selector**    |   **Example**    |                          **Example description **                          |
+| :----------------: | :--------------: | :------------------------------------------------------------------------: | ---- | ------------------------------------------------------------------- |
+|    [attribute]     |     [target]     |                Selects all elements with a target attribute                |
+| [attribute=value]  | [target=_blank]  |                 Selects all elements with target="\_blank"                 |
+| [attribute~=value] | [title~=flower]  |  Selects all elements with a title attribute containing the word "flower"  |
+|     [attribute     |     =value]      |                                   [lang                                    | =en] | Selects all elements with a lang attribute value starting with "en" |
+| [attribute^=value] | a[href^="https"] | Selects every `<a>` element whose href attribute value begins with "https" |
+
+#### Example Source Codes
+
+```html
+<body>
+  <h1>Attribute Selectors</h1>
+  <a href="http://google.com" target="_blank" rel="noopener noreferrer"
+    >Google</a
+  >
+  <a href="http://google.com">Google</a>
+  <img
+    src="/day-14-css-selectors/images/Abdul Alim.jpg"
+    title="Abdul Alim at Coxs Bazar"
+    alt="Abdul Alim"
+    width="300px"
+    height="300px"
+  />
+  <img
+    src="/day-14-css-selectors/images/abdul alim 4.jpg"
+    title=" at Dhaka"
+    alt="New Abdul Alim"
+    width="300px"
+    height="300px"
+  />
+</body>
+```
+
+```css
+a[target] {
+  color: red;
+}
+/* attribute with value */
+a[target="_blank"] {
+  background-color: aquamarine;
+}
+/* title text anywhere */
+img[title~="Alim"] {
+  border: 2px solid red;
+}
+/* start with*/
+a[href^="http"] {
+  font-size: 2rem;
+}
+/* end with */
+img[alt$="Alim"] {
+  border-radius: 50%;
+}
+/* substring */
+a[href*="google"] {
+  font-style: italic;
+}
+```
+
+#### Screenshot
+
+![attr](./day-14-css-selectors/images/21.png)
+
+#### Open in Codepen
+
+[Open in Codepen](https://codepen.io/travelerabdulalim/pen/eYrEKBJ)
+
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
 
 # Day-19: Visualize and Play with CSS Properties
 
