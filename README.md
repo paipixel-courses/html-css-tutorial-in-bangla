@@ -20,7 +20,7 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 |        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |     Watch Now     |
 |         [12](#day-12-css-float-display-alignment)          |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |     Watch Now     |
 |                 [13](#day-13-css-flexbox)                  |                                   [CSS Flexbox](#day-21-css-gradient)                                    |     Watch Now     |
-|                             14                             |                                         CSS Background Size,...                                          |     Watch Now     |
+|                [14](#day-14-css-selectors)                 |                                  [CSS Selectors](#day-14-css-selectors)                                  |     Watch Now     |
 |                             15                             |                                                                                                          |     Watch Now     |
 |                             16                             |                                                                                                          |     Watch Now     |
 |                             17                             |                                                                                                          |     Watch Now     |
