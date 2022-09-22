@@ -174,7 +174,7 @@ Here we go:
 3. Video [Explanation](https://www.youtube.com/watch?v=hJHvdBlSxug) on Academind.
 4. An [Explanation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) on Mozilla.
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60)
 
 # Day-02: Commonly Used HTML Tags & Their Usage
 
@@ -276,7 +276,7 @@ While `<em>` is used to change the meaning of a sentence as spoken emphasis does
 
 [Visit here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to learn more.
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-03: HTML Entities, Hyperlinks, Images, Audio, Videos
 
@@ -466,7 +466,7 @@ Click to view the [Source Code](hyperlinks.html) which demonstrates all the exam
 - https://www.w3schools.com/html/html_links.asp
 - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Generic_syntax
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-11: CSS Position, Z-index, Overflow
 
@@ -567,7 +567,7 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/MWGaJXB)
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-12: CSS Float, Display, Alignment
 
@@ -671,7 +671,7 @@ The following example shows the different behavior of `display: inline`, `displa
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/BaxjQoG)
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-13: CSS Flexbox
 
@@ -788,7 +788,7 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 |    flex-wrap    |               Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.                |
 | justify-content |                    Horizontally aligns the flex items when the items do not use all available space on the main-axis.                    |
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-14: CSS Selectors
 
@@ -1804,13 +1804,15 @@ Screenshot:
 
 ### 05. Attribute Selectors
 
-|    **Selector**    |   **Example**    |                          **Example description **                          |
-| :----------------: | :--------------: | :------------------------------------------------------------------------: | ---- | ------------------------------------------------------------------- |
-|    [attribute]     |     [target]     |                Selects all elements with a target attribute                |
-| [attribute=value]  | [target=_blank]  |                 Selects all elements with target="\_blank"                 |
-| [attribute~=value] | [title~=flower]  |  Selects all elements with a title attribute containing the word "flower"  |
-|     [attribute     |     =value]      |                                   [lang                                    | =en] | Selects all elements with a lang attribute value starting with "en" |
-| [attribute^=value] | a[href^="https"] | Selects every `<a>` element whose href attribute value begins with "https" |
+| **Selector No.** | **Selector Name** | **Example** |           **Example Description**            |
+| :--------------: | :---------------: | :---------: | :------------------------------------------: |
+|        01        |    [attribute]    |  [target]   | Selects all elements with a target attribute |
+|        02        |                   |             |                                              |
+|        03        |                   |             |                                              |
+|        04        |                   |             |                                              |
+|        05        |                   |             |                                              |
+|        06        |                   |             |                                              |
+|        07        |                   |             |                                              |
 
 #### Example Source Codes
 
@@ -1872,7 +1874,7 @@ a[href*="google"] {
 
 [Open in Codepen](https://codepen.io/travelerabdulalim/pen/eYrEKBJ)
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-19: Visualize and Play with CSS Properties
 
@@ -1882,7 +1884,7 @@ Credit: W3Schools
 
 Note: Practice the properties as more as you can!
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-20: CSS Grid Layout
 
@@ -1951,7 +1953,7 @@ Note: Practice the properties as more as you can!
 [Visualize and Play with Grid Properties](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-rows)
 Credit: W3Schools
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
 # Day-21: CSS Gradient
 
@@ -2514,4 +2516,4 @@ Screenshot:
 
 ![Repeating Conic](./day-21-css-gradients/img-conic/10.png)
 
-[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days-with-20-projects)
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
