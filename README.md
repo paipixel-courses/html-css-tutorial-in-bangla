@@ -95,6 +95,23 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 
 # Day-00: How The Course is Designed
 
+### কোর্সটি যেভাবে সাজানো হয়েছেঃ
+
+- কোর্সটি ৩০ দিনের মেয়াদে ভাগ করা হয়েছে। প্রত্যেকদিন HTML/CSS এর বিভিন্ন Topics নিয়ে আলোচনা করা হয়েছে।
+- প্রতিটা দিনের Module সাজানো হয়েছে ক্রমানুসারে । উদাহরণস্বরূপ, Day-05 এর টপিকসগুলো শিখতে হলে অবশ্যই আপনাকে Day-04 শেষ করে আসতে হবে। একইভাবে Day-04 শিখতে হলে আপনাকে Day-03 শেষ করে আসতে হবে ।
+- প্রতিটা দিনের Topics এর Written Explanation/Article এর সাথে সাথে Video Explanation-ও দেয়া আছে। যাতে শিক্ষার্থীরা খুব সহজেই টপিকসগুলো আত্মস্থ করতে পারে।
+
+### কোর্সটি কাদের জন্য?
+
+- এই কোর্সটিতে যেকেউ অংশগ্রহণ করতে পারবে। শিখার জন্য মনের ইচ্ছাটাই আসল ।
+- Course টি মূলত Beginner-friendly. যারা Web Programming এ নতুন তাদেরকে উদ্দেশ্য করেই Course টি সাজানো।
+
+### Prerequisite
+
+- HTML সম্পর্কে অল্প ধারনা থাকলে ভালো, না থাকলেও সমস্যা নেই।
+
+# Day-01: Introduction To Bootstrap 5
+
 # Day-01: Introduction
 
 - [What is HTML?](#what-is-html)
@@ -811,6 +828,645 @@ There are four different combinators in CSS:
 2. Child selector (>)
 3. Adjacent sibling selector (+)
 4. General sibling selector (~)
+
+#### Descendant Selector (Space)
+
+Descendant Selector হলো কোন একটা Element এর Under এ যত Child Elements আছে তাদের Select করে। সেই Child এর যদি Child থাকে তাদেরকেও Select করে।
+যেমন,
+
+```css
+div p {
+  background-color: yellow;
+}
+```
+
+এখানে div element এর মধ্যে যত p element আছে সব select হবে।
+
+#### Child selector (>)
+
+Child Selector শুধুমাত্র তাদের Immediate Child কে Select করে। Child এর Child কে Select করে না, যেটা Descendant Select করে।
+
+```css
+div p {
+  background-color: yellow;
+}
+```
+
+এখানে div element এর Immediate Child Select হবে, অর্থাৎ p select হবে। এখন যদি এই p এর মধ্যেও আরও p থাকে, সেগুলো select হবে না।
+
+#### Adjacent Sibling Selector (+)
+
+এই Select টার নামই তার পরিচয়। অর্থাৎ Adjacent Sibling Selector তার প্রথম Sibling কে Select করবে। অর্থাৎ তার পাশে তার অনেক ভাইবোন থাকতে পারে, তাই সে শুধু তার সবচেয়ে কাছে সে ভাই বা বোন লেগে আছে, তাকে Select করবে।
+যেমন,
+
+```html
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+```
+
+```css
+div + p {
+  background-color: yellow;
+}
+```
+
+এখানে `<p>Paragraph 3. After a div.</p>` এবং `<p>Paragraph 7. After a div.</p>` এই দুটো Selector Select হবে।
+
+#### General Sibling Selector (~)
+
+General sibling selector (~) তার নিচে থাকা সব ভাইবোনকেই Select করবে।
+যেমন,
+
+```html
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+```
+
+```css
+div + p {
+  background-color: yellow;
+}
+```
+
+এখানে `<p>Paragraph 3. After a div.</p>` , `<p>Paragraph 4. After a div.</p>` , `<p>Paragraph 7. After a div.</p>` , `<p>Paragraph 8. After a div.</p>` এই সবকটি ভাইবোন Select হবে।
+
+### Pseudo-class Selectors
+
+Pseudo-class Selector বিভিন্ন State বা অবস্থায় ব্যবহার করা হয়।
+যেমন, এই Selector সাধারণত নিচের ক্ষেত্রে ব্যবহার করা হয়ঃ
+১। যখন কোন একটা Element এর উপর মাউস হোভার করা হয়,
+২। যখন কোন একটা Link Visit কিংবা Univisted করা হয়,
+৩। যখন একটা Element কে Focus করা হয়।
+
+#### Syntax
+
+```css
+selector:pseudo-class {
+  property: value;
+}
+```
+
+#### Anchor Pseudo-classes
+
+Example:
+
+```css
+/* unvisited link */
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+```
+
+**Note:** `a:hover` MUST come after `a:link` and `a:visited` in the CSS definition in order to be effective! `a:active` MUST come after `a:hover` in the CSS definition in order to be effective! Pseudo-class names are not case-sensitive.
+
+#### Pseudo-classes and HTML Classes
+
+Pseudo-classes can be combined with HTML classes:
+When you hover over the link in the example, it will change color:
+
+```css
+a.highlight:hover {
+  color: #ff0000;
+}
+```
+
+#### Hover on `<div>`
+
+আমরা যদি একটা Div Element এর উপর Hover করি, তাহলে ঐ Div Element এর কি হবে, সেটা আমরা চাইলে বলে দিতে পারি।
+যেমন,
+
+```css
+div {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+div:hover {
+  background-color: blue;
+}
+```
+
+#### Simple Tooltip Hover
+
+Hover over a <div> element to show a <p> element (like a tooltip):
+Example:
+
+```html
+<div class="simple-class-hover">
+  Hover me this DIV element to show the P element.
+  <p class="tool-tip">Tada! I'm here!</p>
+</div>
+```
+
+```css
+.tool-tip {
+  display: none;
+  background-color: coral;
+}
+
+.simple-class-hover:hover p {
+  display: block;
+}
+```
+
+#### Implementation Codes of the Above Topics
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/JjvJpEO)
+
+#### CSS - The ':first-child' Pseudo-class
+
+যদি `p:first-child` এভাবে দেয়া হয়, এর মানে দাঁড়াবে p যেসব Element এর প্রথম Child Element হিসেবে আছে ঐগুলা Select হবে।
+যেমন,
+
+```html
+<div>
+  <p>This is Paragraph 1</p>
+  <p>This is Paragraph 2</p>
+  <p>This is Paragraph 3</p>
+</div>
+<div>
+  <p>This is Paragraph 4</p>
+  <p>This is Paragraph 5</p>
+  <p>This is Paragraph 6</p>
+</div>
+```
+
+```css
+p:first-child {
+  background-color: bisque;
+}
+```
+
+এখানে Paragraph 1 এবং Paragraph 4 Select হবে।
+
+[Open Example in CodePen](https://codepen.io/travelerabdulalim/pen/GRdEQeV)
+
+#### Match The First `<i>` Element in All `<p>` Elements
+
+আমরা যদি `i:first-child` এভাবে দেই, তাহলে ঐসব i element select হবে যেগুলো যেকোনো element এর প্রথম child element. কিন্তু যদি `p i:first-child` এভাবে দেই, তাহলে শুধুমাত্র যেসব p element এর প্রথম child i element আছে, ঐগুলো select হবে।
+
+Example:
+
+```html
+<p>This is <i>1st</i> i element. This is <i>2nd</i> i element.</p>
+<p>This is <i>3rd</i> i element. This is <i>4th</i> i element.</p>
+<div>This is <i>5th</i> i element. This is <i>6th</i> i element.</div>
+```
+
+```css
+p i:first-child {
+  background-color: red;
+}
+```
+
+এখানে লক্ষ্য করুন, Div Element এর মধ্যে যে প্রথম i element আছে, সেটা কিন্তু Select হয় নাই।
+
+Example Source Code:
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/KKRqLxM)
+
+#### Match all `<i>` elements in all first child `<p>` elements
+
+`p:first-child i` এর অর্থ হলো, কোন একটা P element যদি অন্য কোন element এর first child হয়, তাহলে ঐ p element এর মধ্যে যত i element আছে সব i elements কেই ধরবে ।
+
+Example:
+
+```html
+<body>
+  <h1>Match all i elements in all first child p elements</h1>
+  <div>
+    <p>This is <i>1st</i> paragraph. <i>This is another i element</i></p>
+    <p>This is <i>2nd</i> paragraph <i>This is another i element</i></p>
+  </div>
+  <article>
+    <p>This is <i>3rd</i> paragraph <i>This is another i element</i></p>
+    <p>This is <i>4th</i> paragraph <i>This is another i element</i></p>
+  </article>
+  <article>
+    <p>
+      <i>1</i>
+      <i>2</i>
+      <i>3</i>
+    </p>
+    <p>
+      <i>4</i>
+      <i>5</i>
+      <i>6</i>
+    </p>
+  </article>
+</body>
+```
+
+```css
+p:first-child i {
+  color: red;
+}
+```
+
+Screenshot:
+
+![1](./day-14-css-selectors/images/1.png)
+
+Example Codes:
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/XWqgLyo)
+
+### All CSS Pseudo Classes
+
+| Selector No. | Selector Name        | Example               | Example Description                                                                                      |
+| ------------ | -------------------- | --------------------- | -------------------------------------------------------------------------------------------------------- |
+| 01           | :root                | root                  | Selects the document's root element                                                                      |
+| 02           | :link                | a:link                | Selects all unvisited links                                                                              |
+| 03           | :visited             | a:visited             | Selects all visited links                                                                                |
+| 04           | :hover               | a:hover               | Selects links on mouse over                                                                              |
+| 05           | :active              | a:active              | Selects the active link.                                                                                 |
+| 06           | :target              | #news:target          | Selects the current active #news element (clicked on a URL containing that anchor name)                  |
+| 07           | :checked             | input:checked         | Selects every checked `<input>` element                                                                  |
+| 08           | :enabled             | input:enabled         | Selects every enabled `<input>` element                                                                  |
+| 09           | :disabled            | input:disabled        | Selects every disabled `<input>` element                                                                 |
+| 10           | :focus               | input:focus           | Selects the `<input>` element that has focus                                                             |
+| 11           | :in-range            | input:in-range        | Selects `<input>` elements with a value within a specified range                                         |
+| 12           | :out-of-range        | input:out-of-range    | Selects `<input>` elements with a value outside a specified range                                        |
+| 13           | :valid               | input:valid           | Selects all `<input>` elements with a valid value                                                        |
+| 14           | :invalid             | input:invalid         | Selects all `<input>` elements with an invalid value                                                     |
+| 15           | :optional            | input:optional        | Selects `<input>` elements with no "required" attribute                                                  |
+| 16           | :required            | input:required        | Selects `<input>` elements with a "required" attribute specified                                         |
+| 17           | :read-only           | input:read-only       | Selects `<input>` elements with a "readonly" attribute specified                                         |
+| 18           | :read-write          | input:read-write      | Selects `<input>` elements with no "readonly" attribute                                                  |
+| 19           | :empty               | p:empty               | Selects every `<p>` element that has no children and no content                                          |
+| 20           | :first-child         | p:first-child         | Selects every `<p>` elements that is the first child of its parent                                       |
+| 21           | :last-child          | p:last-child          | Selects every `<p>` elements that is the last child of its parent                                        |
+| 22           | :first-of-type       | p:first-of-type       | Selects every `<p>` element that is the first `<p>` element of its parent                                |
+| 23           | :last-of-type        | p:last-of-type        | Selects every `<p>` element that is the last `<p>` element of its parent                                 |
+| 24           | :lang(language)      | p:lang(it)            | Selects every `<p>` element with a lang attribute value starting with "it"                               |
+| 25           | :not(selector)       | :not(p)               | Selects every element that is not a `<p>` element                                                        |
+| 26           | :nth-child(n)        | p:nth-child(2)        | Selects every `<p>` element that is the second child of its parent                                       |
+| 27           | :nth-last-child(n)   | p:nth-last-child(2)   | Selects every `<p>` element that is the second child of its parent, counting from the last child         |
+| 28           | :nth-last-of-type(n) | p:nth-last-of-type(2) | Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child |
+| 29           | :nth-of-type(n)      | p:nth-of-type(2)      | Selects every `<p>` element that is the second `<p>` element of its parent                               |
+| 30           | :only-of-type        | p:only-of-type        | Selects every `<p>` element that is the only `<p>` element of its parent                                 |
+| 31           | :only-child          | p:only-child          | Selects every `<p>` element that is the only child of its parent                                         |
+
+#### `:target` Pseudo-class
+
+`:target` এর অর্থ হলো, কোন একটা Anchor Element এর href Attribute এ যে Element এর Id এর নাম দেওয়া থাকবে সেই Element কে Select করবে।
+
+Example:
+
+```html
+<body>
+  <h1>`:target` Pseudo-class</h1>
+  <div>
+    <a href="#article-01">Go To Article 01</a>
+  </div>
+  <div>
+    <a href="#article-02">Go To Article 02</a>
+  </div>
+  <article>
+    <h2 id="article-01">Article-01</h2>
+    Hi there, I'm Abdul Alim from Sirajganj, Bangladesh. Farming 🌾 and
+    Travelling ✈️ are my passion and profession. I love to share my farming and
+    travel experience through my YouTube Channel.
+  </article>
+  <article>
+    <h2 id="article-02">Article-02</h2>
+    During my university life, I used to solve competitive programming problems
+    in various online judges such as UVa, CodeForces, TopCoder, HackerRank,
+    GeeksforGeeks etc. Till now, I've solved more than 1300 problems in these
+    sites. Now-a-days, I spend most of the time in farming, travelling and
+    developing my own projects and ideas.
+  </article>
+</body>
+```
+
+```css
+:target {
+  border: 2px solid darkorange;
+  background-color: bisque;
+}
+```
+
+#### Screenshot
+
+![target](./day-14-css-selectors/images/2.png)
+
+[Open Example Project in CodePend](https://codepen.io/travelerabdulalim/pen/qBYXBMz)
+
+#### Pseudo-class `:checked`
+
+যে `input` element এ `checked` attribute থাকবে ঐ element কে ধরবে। এবার element টি ধরার পর চাইলে এর width and height পরিবর্তন করা যাবে।
+
+Example:
+
+```html
+<body>
+  <h1>Psedo-class `:checked`</h1>
+  <form action="">
+    <input type="radio" checked="checked" />
+    <label for="">Male</label> <br />
+    <input type="radio" />
+    <label for="">Female</label> <br />
+    <input type="checkbox" checked="checked" />
+    <label for="">C++</label> <br />
+    <input type="checkbox" />
+    <label for="">Python</label>
+  </form>
+</body>
+```
+
+```css
+input:checked {
+  height: 20px;
+  width: 20px;
+}
+```
+
+Screenshot:
+
+![checked](./day-14-css-selectors/images/3.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/ZEoJYXN)
+
+#### Pseudo-class `:enabled` and `:disabled`
+
+`:enabled` সেই Input Elements দের Select করবে যাদের property `disabled` নেই। একইভাবে `:disabled` সেই Input Elements দের Select করবে যাদের property `disabled` করা আছে।
+
+Example:
+
+```html
+<body>
+  <h1>`:enabled` and `:disabled` Pseudo-class</h1>
+  <form action="">
+    <label for="">First Name</label>
+    <input type="text" /> <br />
+    <label for="">Last Name</label>
+    <input type="text" /> <br />
+    <label for="">Country</label>
+    <input type="text" disabled value="Bangladesh" /> <br />
+  </form>
+</body>
+```
+
+```css
+input[type="text"]:enabled {
+  background-color: darkgray;
+}
+
+input[type="text"]:disabled {
+  background-color: red;
+}
+```
+
+Screenshot:
+
+![enabled](./day-14-css-selectors/images/4.png)
+
+[Open in Codepen](https://codepen.io/travelerabdulalim/pen/qBYXdWm)
+
+#### `:focus` Pseudo-class
+
+কোন একটা Input Element এ যখন Click করে Mouse এর Cursor রাখা হয়, তখন `:focus` Selector টি ঐ Input Element টিকে Select করে।
+
+Example:
+
+```html
+<form action="">
+  <label for="">Name</label>
+  <input type="text" /> <br />
+  <label for="">Email</label>
+  <input type="email" />
+</form>
+```
+
+```css
+input:focus {
+  background-color: aqua;
+}
+```
+
+Screenshot:
+
+![focus](./day-14-css-selectors/images/5.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/NWMvNyK)
+
+#### `:in-range` and `:out-of-range` Pseudo-class
+
+কোন একটা Input Field এর মধ্যে আমরা যে Value বসাই সেটা যদি Range এর মধ্যে থাকে তাহলে `:in-range` Selector কাজ করে, অন্যথায় `:out-of-range` কাজ করে।
+
+Example:
+
+```html
+<input type="number" min="5" max="10" value="7" />
+```
+
+```css
+input:in-range {
+  background-color: green;
+  color: white;
+}
+
+input:out-of-range {
+  background-color: red;
+  color: white;
+}
+```
+
+Screenshot:
+
+![in-range](./day-14-css-selectors/images/6.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/jOxLqdq)
+
+#### Valid and Invalid Pseud-class
+
+কোন Input Element এ যদি আমরা Valid infortmation দেই তাহলে `:valid` pseudo-class কাজ করবে, অন্যথায় `:invalid` Pseudo-class কাজ করবে।
+
+Example:
+
+```html
+<label for="">Email</label> <input type="email" />
+```
+
+```css
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+```
+
+Screenshot:
+
+![valid](./day-14-css-selectors/images/7.png)
+
+[Open in Codepen](https://codepen.io/travelerabdulalim/pen/abGyEyb)
+
+#### Optional and Required Pseudo-class
+
+কোন একটা Input Element এ যদি `required` attribute না দেয়া থাকে, তাহলে তখন `:optional` Pseudo-class কাজ করবে ।
+
+Example:
+
+```html
+<form action="">
+  <label for="">Name</label>
+  <input type="text" required /> <br />
+  <label for="">Country</label>
+  <input type="text" />
+</form>
+```
+
+```css
+input:optional {
+  background-color: beige;
+}
+```
+
+Screenshot:
+
+![optional](./day-14-css-selectors/images/8.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/bGMrajK)
+
+#### Read-only and Read-write Pseudo-class
+
+কোন একটা Input Element এ যদি `readonly` attribute দেয়া থাকে, তাহলে `:read-only` Pseudo-class কাজ করবে। অন্যথায়, `read-write` Pseudo-class কাজ করবে।
+
+Example:
+
+```html
+<form action="">
+  <label for="">Name</label>
+  <input type="text" /> <br />
+  <label for="">Country</label>
+  <input type="text" readonly value="Bangladesh" />
+</form>
+```
+
+```css
+input:read-only {
+  background-color: yellow;
+}
+
+input:read-write {
+  background-color: aliceblue;
+}
+```
+
+Screenshot:
+
+![read-only](./day-14-css-selectors/images/9.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/MWGvQgg)
+
+#### Empty Pseudo-class
+
+`p:empty` Pseudo-class ঐসব p Elements দের Select করে যাদের কোন Children নেই এবং কোন text-ও নেই।
+
+Example:
+
+```html
+<p>This is Paragraph 1</p>
+<p></p>
+<p>This is Paragraph 3</p>
+```
+
+```css
+p:empty {
+  height: 2rem;
+  background-color: red;
+}
+```
+
+Screenshot:
+
+![empty](./day-14-css-selectors/images/10.png)
+
+[Open in CodPen](https://codepen.io/travelerabdulalim/pen/yLjoveB)
+
+#### First-child and Last-child Pseudo-class
+
+যদি `p:first-child` দেয়া হয়, এর অর্থ হলো কোন p যদি কোন element এর first child হয়, তাহলে ঐ p কে select করবে। একইভাবে, যদি `p:last-child` দেয়া হয়, এর অর্থ হলো কোন p যদি কোন element এর last child হয়, তাহলে ঐ p কে select করবে।
+
+Example:
+
+```html
+<div>
+  <p>This is Paragraph 1</p>
+  <p>This is Paragraph 2</p>
+  <p>This is Paragraph 3</p>
+</div>
+<article>
+  <p>This is Paragraph 4</p>
+  <p>This is Paragraph 5</p>
+  <p>This is Paragraph 6</p>
+</article>
+<p>This is Paragraph 7</p>
+```
+
+```css
+p:first-child {
+  background-color: greenyellow;
+}
+p:last-child {
+  background-color: yellow;
+}
+```
+
+Screenshot:
+
+![first and last child](./day-14-css-selectors/images/11.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/yLjovoN)
+
+####
+
+### All CSS Pseudo Elements
 
 # Day-19: Visualize and Play with CSS Properties
 
