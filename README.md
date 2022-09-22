@@ -1804,15 +1804,15 @@ Screenshot:
 
 ### 05. Attribute Selectors
 
-| **Selector No.** | **Selector Name** | **Example** |           **Example Description**            |
-| :--------------: | :---------------: | :---------: | :------------------------------------------: |
-|        01        |    [attribute]    |  [target]   | Selects all elements with a target attribute |
-|        02        |                   |             |                                              |
-|        03        |                   |             |                                              |
-|        04        |                   |             |                                              |
-|        05        |                   |             |                                              |
-|        06        |                   |             |                                              |
-|        07        |                   |             |                                              |
+| **Selector No.** | **Selector Name**  |     **Example**      |                                  **Example Description**                                  |
+| :--------------: | :----------------: | :------------------: | :---------------------------------------------------------------------------------------: | ---- | ------------------------------------------------------------------- |
+|        01        |    [attribute]     |       [target]       |                       Selects all elements with a target attribute                        |
+|        02        | [attribute=value]  |   [target=_blank]    |                        Selects all elements with target="\_blank"                         |
+|        03        | [attribute~=value] |   [title~=flower]    |         Selects all elements with a title attribute containing the word "flower"          |
+|        04        |     [attribute     |       =value]        |                                           [lang                                           | =en] | Selects all elements with a lang attribute value starting with "en" |
+|        05        | [attribute^=value] |   a[href^="https"]   |        Selects every `<a>` element whose href attribute value begins with "https"         |
+|        06        | [attribute$=value] |   a[href$=".pdf"]    |          Selects every `<a>` element whose href attribute value ends with ".pdf"          |
+|        07        | [attribute*=value] | a[href*="w3schools"] | Selects every `<a>` element whose href attribute value contains the substring "w3schools" |
 
 #### Example Source Codes
 
