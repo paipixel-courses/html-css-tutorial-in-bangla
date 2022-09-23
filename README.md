@@ -22,7 +22,7 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 |                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |     Watch Now     |
 |                [14](#day-14-css-selectors)                 |                                  [CSS Selectors](#day-14-css-selectors)                                  |     Watch Now     |
 |                            [15]                            |                                       [CSS Text, Fonts and Icons]                                        |     Watch Now     |
-|                            [16]                            |                                    [CSS Navigation Bar and Dropdowns]                                    |     Watch Now     |
+|       [16](#day-16-css-navigation-bar-and-dropdowns)       |               [CSS Navigation Bar and Dropdowns](#day-16-css-navigation-bar-and-dropdowns)               |     Watch Now     |
 |                             17                             |                                                                                                          |     Watch Now     |
 |                             18                             |                                                                                                          |     Watch Now     |
 |    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |     Watch Now     |
@@ -1886,6 +1886,7 @@ a[href*="google"] {
 - [Introduction to CSS Navbar](#introduction-to-css-navbar)
 - [Simple Project to Create a Vertical Navbar](#simple-project-to-create-a-vertical-navbar)
 - [Simple Project to Create a Horizontal Navbar](#simple-project-to-create-a-horizontal-navbar)
+- [CSS Dropdowns Simple Project](#css-dropdowns-simple-project)
 
 ## Introduction to CSS Navbar
 
@@ -1919,6 +1920,16 @@ CSS Navigation Bar কিভাবে তৈরি করতে হয়, তা �
 ### Horizontal Navbar Live Project
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/eYrGdyx)
+
+## CSS Dropdowns Simple Project
+
+### Project Screenshot
+
+![dropdown](./day-16-css-navigation-bar-and-dropdowns/images/3.png)
+
+### Open Source Codes in CodePen
+
+[Open Source Codes in CodePen](https://codepen.io/travelerabdulalim/pen/qBYPqLV)
 
 # Day-19: Visualize and Play with CSS Properties
 
