@@ -19,10 +19,10 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 |                             10                             |                                                                                                          |     Watch Now     |
 |        [11](#day-11-css-position-z-index-overflow)         |                 [CSS Position, Z-index, Overflow](#day-11-css-position-z-index-overflow)                 |     Watch Now     |
 |         [12](#day-12-css-float-display-alignment)          |                 [CSS Float, Display and Alignment](#day-12-css-float-display-alignment)                  |     Watch Now     |
-|                 [13](#day-13-css-flexbox)                  |                                   [CSS Flexbox](#day-21-css-gradient)                                    |     Watch Now     |
+|                 [13](#day-13-css-flexbox)                  |                                    [CSS Flexbox](#day-13-css-flexbox)                                    |     Watch Now     |
 |                [14](#day-14-css-selectors)                 |                                  [CSS Selectors](#day-14-css-selectors)                                  |     Watch Now     |
-|                             15                             |                                                                                                          |     Watch Now     |
-|                             16                             |                                                                                                          |     Watch Now     |
+|                            [15]                            |                                       [CSS Text, Fonts and Icons]                                        |     Watch Now     |
+|                            [16]                            |                                    [CSS Navigation Bar and Dropdowns]                                    |     Watch Now     |
 |                             17                             |                                                                                                          |     Watch Now     |
 |                             18                             |                                                                                                          |     Watch Now     |
 |    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |     Watch Now     |
@@ -109,8 +109,6 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 ### Prerequisite
 
 - HTML সম্পর্কে অল্প ধারনা থাকলে ভালো, না থাকলেও সমস্যা নেই।
-
-# Day-01: Introduction To Bootstrap 5
 
 # Day-01: Introduction
 
@@ -573,7 +571,8 @@ The element is positioned relative to its normal position, so "left:20px" adds 2
 
 - [CSS Float](#css-float-property)
   - [CSS Float Property](#css-float-property)
-  - [Example of CSS Float Property](#example-of-css-float-property)
+  - [Example of CSS Float Property (Scource Codes)](#example-of-css-float-property-source-codes)
+  - [Example of CSS Float Property (Screenshot)](#example-of-css-float-property-sreenshot)
   - [Another Example of CSS Float Property](#another-example-of-css-float-property)
   - [Clear Property](#clear-property)
   - [Example of Clear Property](#example-of-css-clear-property)
@@ -602,7 +601,11 @@ The `float` property is used for positioning and formatting content e.g. let an 
 
 The simplest use of `float` property is to to wrap text around images.
 
-### Example of CSS Float Property
+### Example of CSS Float Property (Screenshot)
+
+![float example](./day-12-css-float-display-align/images/1.png)
+
+### Example of CSS Float Property (Source Codes)
 
 [Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/zYjvzXQ)
 
@@ -1804,17 +1807,15 @@ Screenshot:
 
 ### 05. Attribute Selectors
 
-| Selector No. | Selector Name      | Example              | Example Description                                                                     |
-|--------------|--------------------|----------------------|-----------------------------------------------------------------------------------------|
-| 01           | [attribute]        | [target]             | Selects all elements with a target attribute                                            |
-| 02           | [attribute=value]  | [target=_blank]      | Selects all elements with target="_blank"                                               |
-| 03           | [attribute~=value] | [title~=flower]      | Selects all elements with a title attribute containing the word "flower"                |
-| 04           | [attribute\|=value] | [lang\|=en]         | Selects all elements with a lang attribute value starting with "en"                   |
-| 05           | [attribute^=value] | a[href^="https"]     | Selects every `<a>` element whose href attribute value begins with "https"              |
-| 06           | [attribute$=value] | a[href$=".pdf"]      | Selects every `<a>` element whose href attribute value ends with ".pdf"                 |
-| 07           | [attribute*=value] | a[href*="w3schools"] | Selects every `<a>` element whose href attribute value contains the substring "w3schools" |
-
-
+| Selector No. | Selector Name       | Example              | Example Description                                                                       |
+| ------------ | ------------------- | -------------------- | ----------------------------------------------------------------------------------------- |
+| 01           | [attribute]         | [target]             | Selects all elements with a target attribute                                              |
+| 02           | [attribute=value]   | [target=_blank]      | Selects all elements with target="\_blank"                                                |
+| 03           | [attribute~=value]  | [title~=flower]      | Selects all elements with a title attribute containing the word "flower"                  |
+| 04           | [attribute\|=value] | [lang\|=en]          | Selects all elements with a lang attribute value starting with "en"                       |
+| 05           | [attribute^=value]  | a[href^="https"]     | Selects every `<a>` element whose href attribute value begins with "https"                |
+| 06           | [attribute$=value]  | a[href$=".pdf"]      | Selects every `<a>` element whose href attribute value ends with ".pdf"                   |
+| 07           | [attribute*=value]  | a[href*="w3schools"] | Selects every `<a>` element whose href attribute value contains the substring "w3schools" |
 
 #### Example Source Codes
 
@@ -1877,6 +1878,47 @@ a[href*="google"] {
 [Open in Codepen](https://codepen.io/travelerabdulalim/pen/eYrEKBJ)
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
+
+# Day-15: CSS Text, Fonts & Icons
+
+# Day-16: CSS Navigation Bar and Dropdowns
+
+- [Introduction to CSS Navbar](#introduction-to-css-navbar)
+- [Simple Project to Create a Vertical Navbar](#simple-project-to-create-a-vertical-navbar)
+- [Simple Project to Create a Horizontal Navbar](#simple-project-to-create-a-horizontal-navbar)
+
+## Introduction to CSS Navbar
+
+CSS Navigation Bar কিভাবে তৈরি করতে হয়, তা শিখার জন্য আমরা দুটি প্রোজেক্ট করবো। সেগুলো হলোঃ
+
+- এক, আমরা খুব সাধারন একটা Vertical Navbar তৈরি করবো।
+- দুই, আমরা আরও একটা খুব সাধারন Horizontal Navbar তৈরি করবো।
+
+## Simple Project to Create a Vertical Navbar
+
+এই প্রোজেক্ট এ বুঝার মতো যে কাজগুলো করা হয়েছে তা নিচে দেয়া হলোঃ
+
+1. আমরা ul element এর css এ `list-style-type: none` লিখে লিস্ট এর যে Bullet Sign ছিলো তা সরিয়ে ফেলেছি।
+2. a element এর মধ্যে `display: block` এবং `width: 80px` দিয়েছি, এর ফলে যেটা হলো তা হলো, শুধু Text ই না, পুরো 80px width জুড়েই জায়গাটা Clickable হয়ে গেলো।
+3. যেহেতু আমাদের সবগুলো লিঙ্ক ul element এর মধ্যে আছে, তাই 2 no point এ আমরা যে কাজ করেছি, তা যদি আমরা a এর মধ্যে `width: 80px` না দিয়ে যদি ul element এর মধ্যে দেই, তাহলে Same কাজই করবে।
+
+### Project Screenshot
+
+![vertical Navbar](./day-16-css-navigation-bar-and-dropdowns/images/1.png)
+
+### Vertical Navbar Live Project
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/LYmjqYx)
+
+## Simple Project to Create a Horizontal Navbar
+
+### Project Screenshot
+
+![Horizontal Navbar](./day-16-css-navigation-bar-and-dropdowns/images/2.png)
+
+### Horizontal Navbar Live Project
+
+[Open Live Project in CodePen](https://codepen.io/travelerabdulalim/pen/eYrGdyx)
 
 # Day-19: Visualize and Play with CSS Properties
 
