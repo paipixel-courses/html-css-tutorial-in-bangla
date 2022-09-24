@@ -23,12 +23,12 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 |                [14](#day-14-css-selectors)                 |                                  [CSS Selectors](#day-14-css-selectors)                                  |     Watch Now     |
 |                            [15]                            |                                       [CSS Text, Fonts and Icons]                                        |     Watch Now     |
 |       [16](#day-16-css-navigation-bar-and-dropdowns)       |               [CSS Navigation Bar and Dropdowns](#day-16-css-navigation-bar-and-dropdowns)               |     Watch Now     |
-|                             17                             |                                                                                                          |     Watch Now     |
+|     [17](#day-17-css-image-gallery-and-image-sprites)      |            [CSS Image Gallery and Image Sprites](#day-17-css-image-gallery-and-image-sprites)            |     Watch Now     |
 |                             18                             |                                                                                                          |     Watch Now     |
 |    [19](#day-19-visualize-and-play-with-css-properties)    |         [Visualize and Play with CSS Properties](#day-19-visualize-and-play-with-css-properties)         |     Watch Now     |
 |               [20](#day-20-css-grid-layout)                |                                [CSS Grid Layout](#day-20-css-grid-layout)                                |     Watch Now     |
 |                 [21](#day-21-css-gradient)                 |                                  [CSS Gradients](#day-21-css-gradient)                                   |     Watch Now     |
-|                             22                             |                                 CSS Shadows, Text Effects and Web Fonts                                  |     Watch Now     |
+|           [22](#day-22-css-2d-and-3d-transforms)           |                       [CSS 2D and 3D Transforms](#day-22-css-2d-and-3d-transforms)                       |     Watch Now     |
 |                             23                             |                                                                                                          |     Watch Now     |
 |                             24                             |                                                                                                          |     Watch Now     |
 |                             25                             |                                                                                                          |     Watch Now     |
@@ -1931,6 +1931,27 @@ CSS Navigation Bar কিভাবে তৈরি করতে হয়, তা �
 
 [Open Source Codes in CodePen](https://codepen.io/travelerabdulalim/pen/qBYPqLV)
 
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
+
+# Day-17: CSS Image Gallery and Image Sprites
+
+- [CSS Image Gallery: A Responsive Image Gallery Project](#css-image-gallery-a-responsive-image-gallery-project)
+  - [What We learn While Building This Project](#what-we-learn-while-building-this-project)
+
+## CSS Image Gallery: A Responsive Image Gallery Project
+
+কিভাবে Images নিয়ে কাজ করতে হয় এবং একটা Responsive Image Gallery তৈরি করা যায়, তা নিচের প্রোজেক্ট করার মাধ্যমে আমরা শিখবো ইনশাল্লাহ।
+
+এই প্রোজেক্ট এ আমরা Media Queries ব্যবহার করে Images গুলো কে Rearrange করবো । যেমন, 700px এর চেয়ে বড় Screen এ আমরা চারটা Image কে Side by Side দেখাবো। 700px এর চেয়ে ছোট Screen এ আমরা ২ টা Image কে side by side দেখাবো। এরপর, 500px এর চেয়ে ছোট Screen এ আমরা একটা image কে side by side দেখাবো।
+
+### What We learn While Building This Project
+
+এই প্রজেক্টি করার সময় যা যা শিখলামঃ
+
+- `figcaption` এর ব্যবহার ।
+
+### Project Screenshot
+
 # Day-19: Visualize and Play with CSS Properties
 
 Very Very helpful link to visualize, practice and play with css properties.
@@ -2572,3 +2593,47 @@ Screenshot:
 ![Repeating Conic](./day-21-css-gradients/img-conic/10.png)
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
+
+# Day-22: CSS 2D and 3D Transforms
+
+- [Introduction To CSS 2D Transforms]
+
+## Introduction To CSS 2D Transforms
+
+- CSS Transform আমাদেরকে কোন একটা element কে Move, Rotate, Scale এবং Skew করতে সাহায্য করে ।
+
+## 2D Transforms Methods At A Glance
+
+একনজরে CSS 2D Transform এর Methods গুলোঃ
+
+| Method No. | Method Name | Description                                                                                                                     | Example Description                                                                                                                                                                                                                                                                                                                                                         |
+| ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01         | translate() | translate() method, element এর Position পরিবর্তন করে।                                                                           | transform: translate(50px, 100px); এইটা যদি কোন একটা Div element কে দেয়া হয়, তাহলে ঐ Div element টি 50px Left থেকে Right এর দিকে সরে যাবে এবং 100px Top থেকে Bottom এর দিকে সরে যাবে।                                                                                                                                                                                       |
+| 02         | rotate()    | rotate() method, কোন একটা element কে Clockwise বা Counter-clockwise rotate করে                                                  | transform: rotate(20deg); এই প্রপার্টি যদি কোন একটা Div Element কে দেয়া হয়, তাহলে ঐ Div Element, 20deg Clockwise Rotate করবে।                                                                                                                                                                                                                                               |
+| 03         | scale()     | scale() method কোন একটা element এর Size কে Increase বা Decrease করে।                                                            | transform: scale(2, 3); এইটা কোন একটা Element এ যদি দেই, এর অর্থ হলো ঐ Element এর Width হবে 2 গুন এবং Height হবে 3 গুন।                                                                                                                                                                                                                                                     |
+| 04         | scaleX()    | scaleX() method কোন একটা element এর Width Increase বা Decrease করে।                                                             | transform: scaleX(2); এইটা কোন একটা element এর CSS এ যখন দিবো, এর অর্থ হলো ঐ element টির Width দিগুন হবে।                                                                                                                                                                                                                                                                   |
+| 05         | scaleY()    | scaleY() method কোন একটা element এর Height Increase বা Decrease করে।                                                            | transform: scaleY(0.5); এইটা কোন একটা element এর CSS এ যখন দিবো, এর অর্থ হলো ঐ element টির Height অর্ধেক হয়ে যাবে।                                                                                                                                                                                                                                                          |
+| 06         | skewX()     | skewX() method, X অক্ষ বরাবর Elements ডান থেকে বাম দিকে বা বাম থেকে ডান দিকে বাঁকিয়ে বা হেলিয়ে ফেলে।                            | transform: skewX(20deg); এর অর্থ হলো ঐ Element টি X অক্ষ বরাবর ডান থেকে বাম দিকে 20deg হেলে যাবে।                                                                                                                                                                                                                                                                           |
+| 09         | skewY()     | skewY() method, Y অক্ষ বরাবর কোন element কে উপর থেকে নিচ দিকে বা নিচ থেকে উপর দিকে Y অক্ষ বরাবর হেলে বা বেঁকে যাবে।             | transform: skewY(20deg); এর অর্থ হলো ঐ Element টি Y অক্ষ বরাবর উপর থেকে নিচ দিকে বেকে বা হেলে যাবে।                                                                                                                                                                                                                                                                         |
+| 10         | skew()      | skew() method হলো shorthand property of skewX() and skewY()                                                                     | transform: skew(20deg, 10deg) এইটা যদি কোন element কে দেয়া হয়, এর মানে হলো ঐ element টি X অক্ষ বরাবর ডান থেকে বাম দিকে 20deg এবং Y অক্ষ বরাবর উপর থেকে নিচ দিকে 10deg হেলে বা বেঁকে যাবে।                                                                                                                                                                                   |
+| 11         | matrix()    | matrix() method হলো একসাথে 6 টা Parameters নেয়। অর্থাৎ matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) | transform: matrix(2, -0.3, 0.2, 0.5, 20, 30); এইটা যদি কোন একটা Element কে দেয়া হয়, তাহলে ঐ Element টির Width দ্বিগুণ হয়ে যাবে, element টি Y অক্ষ বরাবর নিচ থেকে উপর ৩০ ডিগ্রি বেঁকে যাবে, X অক্ষ বরাবর 20 ডিগ্রি ডান থেকে বাম দিকে বেঁকে যাবে, element টির Height অর্ধেক হয়ে যাবে, element টি Left থেকে Right এর দিকে 20px সরে যাবে এবং উপর থেকে নিচের দিকে 30px সরে যাবে। |
+
+**Tips:**
+
+1. দেখো একটা বিষয় সেটা হলো `scaleX()` এবং `scaleY()` এই দুটো methods কখনই ব্যবহার করার দরকার নেই, কারন তোমার কাছে তো `scale()` method আছে । ধরো তোমার শুধু Width দ্বিগুণ করা দরকার, তাহলে তুমি `scale(2, 1)` এটা ব্যবহার করলেই হলো, Width দ্বিগুণ হবে, কিন্তু height same থাকবে। একইভাবে, তুমি চাইলে `skewX()` এবং `skewY()` ব্যবহার না করে শুধু `skew()` ব্যবহার করতে পারো।
+
+## 2D Transforms Screenshots
+
+![2d1](./day-22-css-2d-and-3d-transforms/images/1.png)
+
+![2d2](./day-22-css-2d-and-3d-transforms/images/2.png)
+
+![2d3](./day-22-css-2d-and-3d-transforms/images/3.png)
+
+![2d4](./day-22-css-2d-and-3d-transforms/images/4.png)
+
+![2d5](./day-22-css-2d-and-3d-transforms/images/5.png)
+
+![2d6](./day-22-css-2d-and-3d-transforms/images/6.png)
+
+![2d7](./day-22-css-2d-and-3d-transforms/images/7.png)

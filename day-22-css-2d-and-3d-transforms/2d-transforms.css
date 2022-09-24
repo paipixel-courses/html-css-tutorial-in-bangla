@@ -1,0 +1,54 @@
+div {
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  /* moves 50px to left, and 20px to bottom from current position */
+  transform: translate(50px, 20px);
+}
+
+.div2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  transform: rotate(50deg);
+}
+.div3 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  transform: scale(1.5, 1.2);
+}
+.div4 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  transform: skew(30deg, 0deg);
+}
+.div5 {
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+  background-color: lightblue;
+  transform: skew(0deg, 30deg);
+}
+.div6 {
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+  background-color: lightblue;
+  transform: skew(30deg, 20deg);
+}
+/* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+
+.div7 {
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+  background-color: lightblue;
+  transform: matrix(2.3, -0.8, 0.3, 1.1, 110, 50);
+}
