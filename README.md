@@ -70,28 +70,28 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 
 # 20 HTML & CSS Projects
 
-| Project No. | Project Name | Video Explanation | Live Demo |
-| :---------: | :----------: | :---------------: | :-------: |
-|     01      |              |     Watch Now     | Live Demo |
-|     02      |              |     Watch Now     | Live Demo |
-|     03      |              |     Watch Now     | Live Demo |
-|     04      |              |     Watch Now     | Live Demo |
-|     05      |              |     Watch Now     | Live Demo |
-|     06      |              |     Watch Now     | Live Demo |
-|     07      |              |     Watch Now     | Live Demo |
-|     08      |              |     Watch Now     | Live Demo |
-|     09      |              |     Watch Now     | Live Demo |
-|     10      |              |     Watch Now     | Live Demo |
-|     11      |              |     Watch Now     | Live Demo |
-|     12      |              |     Watch Now     | Live Demo |
-|     13      |              |     Watch Now     | Live Demo |
-|     14      |              |     Watch Now     | Live Demo |
-|     15      |              |     Watch Now     | Live Demo |
-|     16      |              |     Watch Now     | Live Demo |
-|     17      |              |     Watch Now     | Live Demo |
-|     18      |              |     Watch Now     | Live Demo |
-|     19      |              |     Watch Now     | Live Demo |
-|     20      |              |     Watch Now     | Live Demo |
+|                Project No.                 |                           Project Name                           | Video Explanation |                           Live Demo                           |
+| :----------------------------------------: | :--------------------------------------------------------------: | :---------------: | :-----------------------------------------------------------: |
+|                     01                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     02                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     03                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     04                     |                                                                  |     Watch Now     |                           Live Demo                           |
+| [05](#project-05-simple-3d-animation-page) | [Simple 3D Animation Page](#project-05-simple-3d-animation-page) |  [Watch Now](#)   | [Live Demo](https://codepen.io/travelerabdulalim/pen/zYjPVQp) |
+|                     06                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     07                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     08                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     09                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     10                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     11                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     12                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     13                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     14                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     15                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     16                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     17                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     18                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     19                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     20                     |                                                                  |     Watch Now     |                           Live Demo                           |
 
 # Day-00: How The Course is Designed
 
@@ -2749,7 +2749,7 @@ Screenshot:
 ### Project Screenshot
 
 _Click the following image to view Project_
-![Project 5](./project-05-simple-3d-animation-page/images/project5.png)
+[![Project 5](./project-05-simple-3d-animation-page/images/project5.png)](https://codepen.io/travelerabdulalim/pen/zYjPVQp)
 
 ### Live Project Link
 
