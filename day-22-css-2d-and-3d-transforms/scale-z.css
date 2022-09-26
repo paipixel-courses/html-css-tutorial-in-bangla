@@ -18,5 +18,5 @@
 }
 
 .child:hover {
-  transform: rotateY(60deg) translateZ(200px);
+  transform: scaleZ(4) rotateX(45deg);
 }

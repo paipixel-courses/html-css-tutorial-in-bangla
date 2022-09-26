@@ -2697,6 +2697,68 @@ Perspective Origin হলো এমন একটি property যেটার ম
 
 ### TranslateZ()
 
-- TranslateZ(), Z অক্ষ বরাবর তার Position Move করে। বিষয়টি আরও ভালো করে বুঝার জন্য এটা নিয়ে Dev Tool এ Inspect করো।
+- TranslateZ(), Z অক্ষ বরাবর অর্থাৎ Display Monitor থেকে চোখের সামনের দিকে আসতে থাকে । যেমন, যে element এ translateZ(60px) দেয়া হবে এর অর্থ হলো ঐ element টি তার বর্তমান Position থেকে সামনের দিকে অর্থাৎ Monitor থেকে তোমার চোখের সামনের দিকে 60px চলে আসবে । বিষয়টি আরও ভালো করে বুঝার জন্য এটা নিয়ে Dev Tool এ Inspect করো।
+
+Screenshot:
+
+![translatez](./day-22-css-2d-and-3d-transforms/images/13.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/poVdVKL)
 
 ### ScaleZ()
+
+- scaleZ() একা কাজ করতে পারে না। তার সাথে আরও কোন transform property দিয়ে কাজ করতে হয়।
+- বিষয়টি আরও ভালো করে বুঝার জন্য এটা নিয়ে Dev Tool এ Inspect করো।
+
+Screenshot:
+
+![scalez](./day-22-css-2d-and-3d-transforms/images/14.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/MWGOXKL)
+
+### CSS Tranform Style Property
+
+- খুব Important একটা Property এটি। আমরা যখন একটা Parent ও Child উভয় Div কেই 3D Property ব্যবহার করতে যাব, তখন Normally Parent এর 3D property কাজ করলেও Child এর 3D property কাজ করবে না। দুটোকেই কাজ করানোর জন্য `transform-style` property ব্যবহার করা হয়। By default, `transform-style` এর value `flat` দেওয়া থাকে।
+
+- `transform-style` property সবসময় Parent Element কে দিতে হয়, child যতই থাকুক না কেন।
+
+Screenshot:
+
+![transtyle](./day-22-css-2d-and-3d-transforms/images/15.png)
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/bGMYjeP)
+
+### Random Tips
+
+- যখনই এরকম প্রয়োজন হবে যে, একটা Box এর মধ্যে এক বা একাধিক elements যেখানে খুশি সেখানে রাখতে চাই, তাহলে box কে Parent এবং বাকি সবাইকে Child Elements দিতে হবে। আর box কে Position: Relative, এবং Childs দের Position: Absolute দিতে হবে।
+
+- বিভিন্ন elements (যেমন ঃ image etc) এগুলোর ক্ষেত্রে best practice হলো vh, vw এবং % use করা, এতে full responsive হয়। Pixel এগুলা একটা fixed area নিয়ে নেয়, এর ফলে ছোট screen এ Unexpected behave করে।
+
+# Project-05: Simple 3D Animation Page
+
+### Difficulty: Easy (3/10)
+
+### You Will Learn
+
+- কিভাবে 2D and 3D Transforms ব্যবহার করে 2D and 3D Elements/Objects/Projects বানানো যায়।
+
+### Project Description
+
+এই প্রজেক্টে আমরা একটা Simple 3D Animation Page বানাবো। যেখানে Background এ একটা image থাকবে, এবং তার সামনে 3 টা Elements থাকবে। Elements 3 টা কিভাবে 3D Space এ আছে এবং 2D/3D Transform Property ব্যবহার করে কিভাবে এই কাজটা করা হলো তা প্রোজেক্ট টি করার মাধ্যমে শিখা যাবে ।
+
+### Project Screenshot
+
+_Click the following image to view Project_
+![Project 5](./project-05-simple-3d-animation-page/images/project5.png)
+
+### Live Project Link
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/zYjPVQp)
+
+### Video Explanation
+
+Coming Soon...
+
+### Project Source Codes
+
+[Source Codes](./project-05-simple-3d-animation-page/)
