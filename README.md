@@ -2596,7 +2596,10 @@ Screenshot:
 
 # Day-22: CSS 2D and 3D Transforms
 
-- [Introduction To CSS 2D Transforms]
+- [Introduction To CSS 2D Transforms](#introduction-to-css-2d-transforms)
+- [2D Transforms Methods At A Glance](#2d-transforms-methods-at-a-glance)
+- [2D Transforms Screenshots](#2d-transforms-screenshots)
+- [Open 2D Transforms Source Codes in CodePen](#open-2d-transforms-source-codes-in-codepen)
 
 ## Introduction To CSS 2D Transforms
 
@@ -2641,3 +2644,59 @@ Screenshot:
 ## Open 2D Transforms Source Codes in CodePen
 
 [Open Project in CodePen](https://codepen.io/travelerabdulalim/pen/YzLrbYE)
+
+## CSS 3D Transforms
+
+- 3D Transform এ Perspective নামে একটা Property আছে, যা সিনেমা হলে দর্শকের মতো কাজ করে, অর্থাৎ আপনি যত দূর থেকে দেখবেন তত ভালো করে দেখতে পাবেন। Perspective এর Value যত বেশি দেয়া হবে তত খুব ভালো করে 3D Animation বুঝা যাবে।
+
+- Persective এর Value বাড়িয়ে বা কমিয়ে আমরা চাইলে সুন্দর সুন্দর Design করতে পারি।
+
+### RotateX()
+
+- RotateX() Method X অক্ষ বরাবর কোন element কে উপর থেকে নিচের দিকে rotate করে।
+
+Screenshot:
+
+![2d8](./day-22-css-2d-and-3d-transforms/images/8.png)
+
+### RotateY()
+
+- RotateY() Method Y অক্ষ বরাবর কোন Element কে বাম থেকে ডান দিকে Rotate করে।
+
+Screenshot:
+
+![2d9](./day-22-css-2d-and-3d-transforms/images/9.png)
+
+### RotateZ()
+
+- RotateZ() Method Z অক্ষ বরাবর কোন Element কে বাম থেকে ডান দিকে rotate করে।
+
+- সবচেয়ে মজার বিষয় হলো, 3D তে RotateZ() method আসলে 2D তে হুবুহু Rotate() method এর মতো কাজ করে।
+
+Screenshot:
+
+![2d10](./day-22-css-2d-and-3d-transforms/images/10.png)
+
+### Book Opening and Door Opening Effect Using RotateY and Tranform Origin
+
+Screenshot:
+
+![book opening](./day-22-css-2d-and-3d-transforms/images/11.png)
+
+![door opening](./day-22-css-2d-and-3d-transforms/images/12.png)
+
+### Book Opening and Door Opening Live Project
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjPqKy)
+
+### Perspective Origin
+
+Perspective Origin হলো এমন একটি property যেটার মাধ্যমে আমরা নির্ধারণ করে দিতে পারি, কোন Angle থেকে Object বা Element টা দেখা হচ্ছে।
+
+এর Value হিসেবে `left bottom`, `top center` , `right top` ইত্যাদি set করা যায়। By default, `center center` set করা থাকে।
+
+### TranslateZ()
+
+- TranslateZ(), Z অক্ষ বরাবর তার Position Move করে। বিষয়টি আরও ভালো করে বুঝার জন্য এটা নিয়ে Dev Tool এ Inspect করো।
+
+### ScaleZ()
