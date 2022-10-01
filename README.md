@@ -1952,6 +1952,15 @@ CSS Navigation Bar কিভাবে তৈরি করতে হয়, তা �
 
 ### Project Screenshot
 
+# Day-18: Website Layout
+
+- [How to Create A Website Layout](#how-to-create-a-website-layout)
+
+### How to Create A Website Layout
+
+- একটা Website Layout তৈরি করতে যে বিষয়টা খেয়াল করতে হবে তা হলো, প্রথমে Website কে উপর থেকে নিচ বরাবর (Row) কয়টা ভাগে ভাগ করা যায়, এরপর দেখতে হবে ঐ প্রতিটা ভাগে আবার উপর থেকে নিচ (row) বা বাম থেকে ডান (column) বরাবর কয়টা ভাগে ভাগ করা যায়। তারপর আবার সেই Sub-section কে আবার প্রথমে দেখতে হবে উপর থেকে নিচ বরাবর ভাগ করা যায় কিনা, যদি না যায়, তাহলে বাম থেকে ডান বরাবর ভাগ করতে হবে, এইভাবে চলতে থাকবে যতক্ষণ পর্যন্ত পুরো Website ভাগ না করা হয়। এভাবে একটি Website এর Layout তৈরি করা হয়।
+  Video তে বিষয়টি আরও ভালোভাবে বর্ণনা করা আছে।
+
 # Day-19: Visualize and Play with CSS Properties
 
 Very Very helpful link to visualize, practice and play with css properties.
@@ -2733,6 +2742,43 @@ Screenshot:
 - যখনই এরকম প্রয়োজন হবে যে, একটা Box এর মধ্যে এক বা একাধিক elements যেখানে খুশি সেখানে রাখতে চাই, তাহলে box কে Parent এবং বাকি সবাইকে Child Elements দিতে হবে। আর box কে Position: Relative, এবং Childs দের Position: Absolute দিতে হবে।
 
 - বিভিন্ন elements (যেমন ঃ image etc) এগুলোর ক্ষেত্রে best practice হলো vh, vw এবং % use করা, এতে full responsive হয়। Pixel এগুলা একটা fixed area নিয়ে নেয়, এর ফলে ছোট screen এ Unexpected behave করে।
+
+- CSS এর কোন কিছু ভালো করে বুঝতে না পারলে, Inspect Element করো। এটা best practice to learn and observe new things.
+
+### Backface-visibility Property
+
+- কোন একটা 3D Object কে Rotate করলে যদি আমরা চাই যে তার পিছনের দিকটা না দেখাতে তাহলে আমরা `backface-visibility: hidden` করে দিতে পারি, By default এটি `visible` থাকে।
+
+# Project-02: Simple Website Layout with Basic CSS
+
+### Difficulty: Easy (2/10)
+
+### You Will Learn
+
+- কিভাবে একটি Website এর Layout তৈরি করতে হয় শুধুমাত্র HTML and CSS এর Basic Concept দ্বারা ও float দ্বারা ।
+
+### Project Description
+
+এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Basic Concept ও Float ব্যবহার করে।
+
+### Project Screenshot
+
+_Click the following image to view Project_
+[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)](https://codepen.io/travelerabdulalim/pen/QWrrWgV)
+
+### Live Project Link
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/QWrrWgV)
+
+### Video Explanation
+
+Coming Soon...
+
+### Project Source Codes
+
+[Source Codes](./project-02-simple-website-layout-with-basic-css/)
+
+[<h3 align="center">Back to Project Section</h3>](#20-html--css-projects)
 
 # Project-05: Simple 3D Animation Page
 
