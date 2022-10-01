@@ -689,6 +689,8 @@ The following example shows the different behavior of `display: inline`, `displa
   - [Align Items Property in Flex](#align-items-property-in-flex)
   - [Align Items Property in Flex Example](#align-items-property-in-flex-example)
 - [The CSS Flexbox Container Properties Summary](#the-css-flexbox-container-properties-summary)
+- [A Basic Website Layout Using CSS Flexbox](#a-basic-website-layout-using-css-flexbox)
+- [কিছু গুরুত্বপূর্ণ Flex Items Property](#কিছু-গুরুত্বপূর্ণ-flex-items-property)
 
 ## CSS Flexbox
 
@@ -724,12 +726,12 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 
 ### Flex Direction
 
-`flex` has the following direction values:
+`flex-direction` এর Value, by default থাকে `row`. `flex-direction` এর কয়েকটি উদাহরণ নিচে দেওয়া হলোঃ
 
-- `flex: row;`
-- `flex: row-reverse;`
-- `flex: column;`
-- `flex: column-reverse;`
+- `flex-direction: row;`
+- `flex-direction: row-reverse;`
+- `flex-direction: column;`
+- `flex-direction: column-reverse;`
 
 `flex-wrap` has the following values:
 
@@ -745,11 +747,11 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 
 ### Justify Content Property in Flex
 
-- The `justify-content: center;` aligns the flex items at the center of the container.
-- The `justify-content: flex-start;` aligns the flex items at the beginning of the container (this is default).
-- The `justify-content: flex-end;` aligns the flex items at the end of the container.
-- The `justify-content: space-around;` displays the flex items with space before, between, and after the lines.
-- The `justify-content: space-between;` displays the flex items with space between the lines.
+- The `justify-content: center;` flex items গুলোকে Container এর Horizontally Center এ নিয়ে যায়।
+- The `justify-content: flex-start;` flex items গুলোকে Container এর শুরুতে নিয়ে যায় (this is default).
+- The `justify-content: flex-end;` flex items গুলোকে Container এর শেষে নিয়ে যায় ।
+- The `justify-content: space-around;` flex items গুলোর শুরু ও শেষে সমান Space নিয়ে তাদের Horizontally মাঝখানে রাখে ।
+- The `justify-content: space-between;` flex items গুলোর শুধু মাঝে সমান Space নিয়ে তাদের Horizontally মাঝখানে রাখে ।
 
 ![center](./day-13-css-flexbox/images/center.png)
 ![flex start](./day-13-css-flexbox/images/flex-start.png)
@@ -763,12 +765,13 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 
 ### ALIGN ITEMS Property in Flex
 
-- The align-items property is used to align the flex items.
-- The `align-items: center;` aligns the flex items in the middle of the container.
-- The `align-items: flex-start;` aligns the flex items at the top of the container.
-- The `align-items: flex-end;` aligns the flex items at the bottom of the container.
-- The `align-items: stretch;` stretches the flex items to fill the container (this is default).
-- The `align-items: baseline;` aligns the flex items such as their baselines aligns.
+The align-items property is used to align the flex items.
+
+- `align-items: center;` flex items গুলোকে Vertically Center এ নিয়ে যায়।
+- `align-items: flex-start;` flex items গুলোকে Vertically Top এ নিয়ে যায়।
+- `align-items: flex-end;` flex items গুলোকে Vertically Bottom এ নিয়ে যায়।
+- `align-items: stretch;` stretches the flex items to fill the container (this is default).
+- `align-items: baseline;` aligns the flex items such as their baselines aligns.
 
 ![align-items: center](./day-13-css-flexbox/images/align-center.png)
 ![align-items: flex start](./day-13-css-flexbox/images/align-flex-start.png)
@@ -781,15 +784,48 @@ Example: [Open in CodePen](https://codepen.io/travelerabdulalim/pen/xxjZLrx)
 
 ### The CSS Flexbox Container Properties Summary
 
-|  **Property**   |                                                             **Description**                                                              |
-| :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-|  align-content  | Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines. |
-|   align-items   |                    Vertically aligns the flex items when the items do not use all available space on the cross-axis.                     |
-|     display     |                                           Specifies the type of box used for an HTML element.                                            |
-| flex-direction  |                                  Specifies the direction of the flexible items inside a flex container.                                  |
-|    flex-flow    |                                          A shorthand property for flex-direction and flex-wrap.                                          |
-|    flex-wrap    |               Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.                |
-| justify-content |                    Horizontally aligns the flex items when the items do not use all available space on the main-axis.                    |
+|  **Property**   |                                                                                                                                                                          **Description**                                                                                                                                                                          |
+| :-------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  align-content  | এটা `align-items` এর মতোই কাজ করে, পার্থক্য হলো `align-items` দিলে Space কে প্রতিটা items এর উপরে নিচে ছড়িয়ে items গুলোকে Vertically Align করে, আর অন্যদিকে `align-content` শুধুমাত্র প্রথম ও শেষ item এর উপরে ও নিচে space দেয়, বাকি items কে space না দিয়েই vertically align করে। [align-content vs align-items Example](#align-content-vs-align-items-example) |
+|   align-items   |                                                                                                                                                                Vertically Items গুলোকে Align করে।                                                                                                                                                                 |
+|     display     |                                                                                                                                                              Element টি কি Type এর সেটা নির্দেশ করে।                                                                                                                                                              |
+| flex-direction  |                                                                                                            এই প্রপার্টি Flex Container এর মধ্যে দিতে হয়। Flex Container এর মধ্যে যে Items গুলো আছে তাদের direction এই প্রপার্টি দ্বারা নির্দেশ করা হয়।                                                                                                            |
+|    flex-flow    |                                                                                                                                                 এটি `flex-direction` এবং `flex-wrap` এর একটি shorthand property.                                                                                                                                                  |
+|    flex-wrap    |                                                                                                                                          Flex Items গুলো wrap করবে কি করবে না, সেটা এই প্রপার্টি দ্বারা ঠিক করে দেয়া হয়।                                                                                                                                          |
+| justify-content |                                                                                                                     `align-items` হলো Vertically items গুলোকে align করে, অন্যদিকে `justify-content` হলো Horizontally items গুলোকে align করে।                                                                                                                      |
+
+### Align Content vs Align Items Example
+
+![align-content](./day-13-css-flexbox/images/align-content.png)
+
+![align-items](./day-13-css-flexbox/images/align-items.png)
+
+### কিছু গুরুত্বপূর্ণ Flex Items Property
+
+**_1. order_**
+
+- `order` প্রপার্টি একটি Flex Item Property, অর্থাৎ এটি শুধু Flex Items গুলোর ক্ষেত্রে ব্যবহার করা যাবে, Flex Container এ না।
+- `oder` Property দিয়ে আমরা Markup Change না করেই, Flex items এর order পরিবর্তন করতে পারি।
+
+**_2. flex-grow_**
+
+- `flex-grow` প্রপার্টি একটি Flex Item Property, অর্থাৎ এটি শুধু Flex Items গুলোর ক্ষেত্রে ব্যবহার করা যাবে, Flex Container এ না।
+
+- `flex-grow: 1` দিলে যতগুলো Items আছে তারা সবাই মিলে Vertically or Horizontally সবটুকু যায়গা নিয়ে Resposive এর মতো behave করবে। অর্থাৎ Browser এর যায়গা টেনে ছোট করলে তারাও ধীরে ধীরে ছোট হবে, Browser এর যায়গা টেনে বড় করলে তারাও ধীরে ধীরে বড় হবে। এক্ষেত্রে, আমরা যদি Items গুলোর Fixed Width করে দেই, তাও তারা Window Size অনুযায়ী Grow করবে ।
+
+**_3. flex-shrink_**
+
+- `flex-shrink` `flex-grow` এর মতোই কাজ করে, শুধু উল্টা ভাবে। এক্ষেত্রে বলে রাখা ভালো যে, যখনই `flex-grow: 1` করা হবে তখন `flex-shrink` এর Valueও 1 হয়ে যাবে Responsive করার জন্য।
+
+**_4. flex-basis_**
+
+- খুবই গুরুত্বপূর্ণ একটা প্রপার্টি । এইটা দিয়ে আমরা Flex Items এর Width set করতে পারি । এটা অনেকটা min-width এর মতো কাজ করে, কিন্তু min-width এর সাথে এর পার্থক্য হলো, যদি কোন Item এর `flex-basis: 200px` দেয়া থাকে, তাহলে যদি তার জন্য পর্যাপ্ত যায়গা না থাকে, তাহলে সে ধীরে ধীরে Window Size অনুযায়ী কমতে থাকবে, যেটা `min-width` এর ক্ষেত্রে কখনই হবে না। তাই Responsive এর জন্য `flex-basis` খুবই গুরুত্বপূর্ণ একটি Property.
+
+**_5. flex_**
+
+- `flex` property হলো `flex-grow`, `flex-shrink` এবং `flex-basis` এর shorthand property. যেমন, `flex: 1 1 200px;`
+
+### A Basic Website Layout Using CSS Flexbox
 
 [<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
 
@@ -1816,6 +1852,8 @@ Screenshot:
 | 05           | [attribute^=value]  | a[href^="https"]     | Selects every `<a>` element whose href attribute value begins with "https"                |
 | 06           | [attribute$=value]  | a[href$=".pdf"]      | Selects every `<a>` element whose href attribute value ends with ".pdf"                   |
 | 07           | [attribute*=value]  | a[href*="w3schools"] | Selects every `<a>` element whose href attribute value contains the substring "w3schools" |
+
+Note: This table has some type because of vs-code extensions, plz visit https://www.w3schools.com/css/css_attribute_selectors.asp for original table.
 
 #### Example Source Codes
 
