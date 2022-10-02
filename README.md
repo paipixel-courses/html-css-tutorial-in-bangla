@@ -2867,7 +2867,7 @@ Coming Soon...
 ### Project Screenshot
 
 _Click the following image to view Project_
-[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)](https://codepen.io/travelerabdulalim/pen/poVVaYa)
+[![Project 2](./project-04-simple-website-layout-with-css-grid/images/grid-layout.png)](https://codepen.io/travelerabdulalim/pen/poVVaYa)
 
 ### Live Project Link
 
