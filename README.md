@@ -70,28 +70,28 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 
 # 20 HTML & CSS Projects
 
-|                Project No.                 |                           Project Name                           | Video Explanation |                           Live Demo                           |
-| :----------------------------------------: | :--------------------------------------------------------------: | :---------------: | :-----------------------------------------------------------: |
-|                     01                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     02                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     03                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     04                     |                                                                  |     Watch Now     |                           Live Demo                           |
-| [05](#project-05-simple-3d-animation-page) | [Simple 3D Animation Page](#project-05-simple-3d-animation-page) |  [Watch Now](#)   | [Live Demo](https://codepen.io/travelerabdulalim/pen/zYjPVQp) |
-|                     06                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     07                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     08                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     09                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     10                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     11                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     12                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     13                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     14                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     15                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     16                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     17                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     18                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     19                     |                                                                  |     Watch Now     |                           Live Demo                           |
-|                     20                     |                                                                  |     Watch Now     |                           Live Demo                           |
+|                     Project No.                      |                                       Project Name                                       | Video Explanation |                           Live Demo                           |
+| :--------------------------------------------------: | :--------------------------------------------------------------------------------------: | :---------------: | :-----------------------------------------------------------: |
+|                          01                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|  [02](#project-02-simple-website-layout-with-float)  |   [Simple Website Layout with CSS Float](#project-02-simple-website-layout-with-float)   |     Watch Now     |                           Live Demo                           |
+| [03](#project-03-simple-website-layout-with-flexbox) | [Simple Website Layout with CSS Flexbox](#project-03-simple-website-layout-with-flexbox) |     Watch Now     |                           Live Demo                           |
+|                          04                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|      [05](#project-05-simple-3d-animation-page)      |             [Simple 3D Animation Page](#project-05-simple-3d-animation-page)             |  [Watch Now](#)   | [Live Demo](https://codepen.io/travelerabdulalim/pen/zYjPVQp) |
+|                          06                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          07                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          08                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          09                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          10                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          11                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          12                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          13                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          14                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          15                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          16                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          17                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          18                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          19                          |                                                                                          |     Watch Now     |                           Live Demo                           |
+|                          20                          |                                                                                          |     Watch Now     |                           Live Demo                           |
 
 # Day-00: How The Course is Designed
 
@@ -2787,7 +2787,7 @@ Screenshot:
 
 - কোন একটা 3D Object কে Rotate করলে যদি আমরা চাই যে তার পিছনের দিকটা না দেখাতে তাহলে আমরা `backface-visibility: hidden` করে দিতে পারি, By default এটি `visible` থাকে।
 
-# Project-02: Simple Website Layout with Basic CSS
+# Project-02: Simple Website Layout with Float
 
 ### Difficulty: Easy (2/10)
 
@@ -2798,6 +2798,70 @@ Screenshot:
 ### Project Description
 
 এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Basic Concept ও Float ব্যবহার করে।
+
+### Project Screenshot
+
+_Click the following image to view Project_
+[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)](https://codepen.io/travelerabdulalim/pen/QWrrWgV)
+
+### Live Project Link
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/QWrrWgV)
+
+### Video Explanation
+
+Coming Soon...
+
+### Project Source Codes
+
+[Source Codes](./project-02-simple-website-layout-with-basic-css/)
+
+[<h3 align="center">Back to Project Section</h3>](#20-html--css-projects)
+
+# Project-03: Simple Website Layout with Flexbox
+
+### Difficulty: Easy (2/10)
+
+### You Will Learn
+
+- কিভাবে একটি Website এর Layout তৈরি করতে হয় CSS Flexbox দ্বারা ।
+- যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
+
+### Project Description
+
+এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Flexbox ব্যবহার করে। যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
+
+### Project Screenshot
+
+_Click the following image to view Project_
+[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)]()
+
+### Live Project Link
+
+[Open in CodePen]()
+
+### Video Explanation
+
+Coming Soon...
+
+### Project Source Codes
+
+[Source Codes](./project-03-simple-website-layout-with-flexbox/)
+
+[<h3 align="center">Back to Project Section</h3>](#20-html--css-projects)
+
+# Project-04: Simple Website Layout with CSS Grid
+
+### Difficulty: Easy (2/10)
+
+### You Will Learn
+
+- কিভাবে একটি Website এর Layout তৈরি করতে হয় CSS Flexbox দ্বারা ।
+- যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
+
+### Project Description
+
+এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Flexbox ব্যবহার করে। যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
 
 ### Project Screenshot
 
