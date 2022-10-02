@@ -2856,21 +2856,22 @@ Coming Soon...
 
 ### You Will Learn
 
-- কিভাবে একটি Website এর Layout তৈরি করতে হয় CSS Flexbox দ্বারা ।
-- যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
+- কিভাবে একটি Website এর Layout তৈরি করতে হয় CSS Grid দ্বারা ।
+- CSS Grid দ্বারা খুব সহজেই একটা Website এর Layout তৈরি করা যায়, যেখানে CSS Float বা CSS Flexbox দ্বারা Layout তৈরি করতে বেশ বেগ পেতে হয়। CSS Grid কতোটা কাজের, সেটা এই প্রজেক্ট করলে আরও স্পষ্ট হয়ে যাবে।
+- এই প্রজেক্টে আরও শিখতে পারবেন, `grid-template-area` কতোটা Amazing একটা Property.
 
 ### Project Description
 
-এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Flexbox ব্যবহার করে। যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
+এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Grid ব্যবহার করে। Float ব্যবহার করা আধুনিক Web Development এ অনেকটাই Deprecated. আবার যে কাজ CSS Flexbox দিয়ে তৈরি করা যায়, সে কাজ CSS Grid দিয়েও তৈরি করা যায় এবং CSS Flexbox এর চেয়ে অনেক সহজেই তৈরি করা যায় । তাই আমি বলবো, CSS Float বা CSS Flexbox এর চেয় CSS Grid ব্যবহার করা সবচেয়ে উত্তম এবং আধুনিক Web Development এ CSS Grid ব্যবহার করতে Encourage করা হয়।
 
 ### Project Screenshot
 
 _Click the following image to view Project_
-[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)](https://codepen.io/travelerabdulalim/pen/QWrrWgV)
+[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)](https://codepen.io/travelerabdulalim/pen/poVVaYa)
 
 ### Live Project Link
 
-[Open in CodePen](https://codepen.io/travelerabdulalim/pen/QWrrWgV)
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/poVVaYa)
 
 ### Video Explanation
 
@@ -2878,7 +2879,7 @@ Coming Soon...
 
 ### Project Source Codes
 
-[Source Codes](./project-02-simple-website-layout-with-basic-css/)
+[Source Codes](./project-04-simple-website-layout-with-css-grid/)
 
 [<h3 align="center">Back to Project Section</h3>](#20-html--css-projects)
 
