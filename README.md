@@ -29,7 +29,7 @@ While you complete the 60-days module, jump in the [Projects Section](#20-html--
 |               [20](#day-20-css-grid-layout)                |                                [CSS Grid Layout](#day-20-css-grid-layout)                                |     Watch Now     |
 |                 [21](#day-21-css-gradient)                 |                                  [CSS Gradients](#day-21-css-gradient)                                   |     Watch Now     |
 |           [22](#day-22-css-2d-and-3d-transforms)           |                       [CSS 2D and 3D Transforms](#day-22-css-2d-and-3d-transforms)                       |     Watch Now     |
-|                             23                             |                                                                                                          |     Watch Now     |
+|                [23](#day-23-css-animations)                |                                 [CSS Animations](#day-23-css-animations)                                 |     Watch Now     |
 |                             24                             |                                                                                                          |     Watch Now     |
 |                             25                             |                                                                                                          |     Watch Now     |
 |                             26                             |                                                                                                          |     Watch Now     |
@@ -2786,6 +2786,94 @@ Screenshot:
 ### Backface-visibility Property
 
 - কোন একটা 3D Object কে Rotate করলে যদি আমরা চাই যে তার পিছনের দিকটা না দেখাতে তাহলে আমরা `backface-visibility: hidden` করে দিতে পারি, By default এটি `visible` থাকে।
+
+[<h3 align="center">Go to Top</h3>](#learn-html-and-css-in-60-days)
+
+# Day-23: CSS Animations
+
+- [Introduction to CSS Animation](#introduction-to-css-animation)
+- [Keyframe](#keyframe)
+- [Some Animations Property and Examples](#some-animations-property-and-examples)
+- [Specify the Speed Curve of the Animation](#specify-the-speed-curve-of-the-animation)
+- [Animation Fill Mode Property](#animation-fill-mode-property)
+- [Animation Shorthand](#animation-shorthand)
+
+### Introduction to CSS Animation
+
+- CSS Animation দ্বারা আমরা চাইলে JavaScript বা কোন Library ব্যবহার না করেই শুধু CSS ব্যবহার করেই বিভিন্ন Animations তৈরি করতে পারি ।
+- Animation কাকে বলে? এক বা একাধিক Elements কে এক Style থেকে ধীরে ধীরে অন্য Style এ পরিবর্তন করাকেই Animation বলে।
+- CSS Animation তৈরি করার জন্য Keyframes ব্যবহার করতে হয়। একটা সুনির্দিষ্ট সময়ে কি রকম Style হবে সেটা নির্ধারণ করাই Keyframe এর কাজ।
+
+### Keyframe
+
+- CSS Animation তৈরি করার জন্য Keyframes ব্যবহার করতে হয়। একটা সুনির্দিষ্ট সময়ে কি রকম Style হবে সেটা নির্ধারণ করাই Keyframe এর কাজ।
+
+Example:
+
+```css
+/* The animation code */
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+```
+
+এখানে `animation-duration` 4 seconds. এই 4 Seconds সময়কে যদি 100% এ ভাগ করি, তাহলে 0% থেকে 0% সময় Background Color Red থাকবে, 0% থেকে 25% সময়ে Background Color Yellow থাকবে, 25% থেকে 50% সময় Blue থাকবে, এবং 50% থেকে 100% সময় পর্যন্ত Background Color Green থাকবে।
+
+### Some Animations Property and Examples
+
+- `animation-delay` Property দ্বারা কতক্ষন পর Animation শুরু হবে সেটা বলে দেয়া যায়। যেমন, `animation-delay: 4s` এর অর্থ হলো 4 seconds পর animations শুরু হবে।
+
+- `animation-iteration-count` দ্বারা বলে দেয়া যায়, Animation টি কতবার চলবে। যেমন, `animation-iteration-count: 3` এর অর্থ হলো Animation টি 3 বার চলবে। `animation-iteration-count: infinite;` এর অর্থ Animation টি কখনই থামবে না, চলতেই থাকবে।
+
+- `animation-direction` এই property এর কয়েকটি Value আছে, যেমন,
+  - `reverse` Animation টি 0% থেকে 100% না হয়ে, 100% থেকে 0% , অর্থাৎ উল্টাদিকে Animation হয়।
+  - `alternative` ব্যবহার করলে প্রথমে সোজাভাবে তারপর উল্টাভাবে animation হবে। এভাবে যতগুলো Iteration দেয়া থাকবে ততবার চলতে থাকবে।
+    `alternative-reverse` ব্যবহার করলে প্রথমে উল্টাভাবে তারপর সোজাভাবে animation হতে থাকবে। এভাবে যতগুলো Iteration দেয়া থাকবে ততবার চলতে থাকবে।
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/ZEommZJ)
+
+### Specify the Speed Curve of the Animation
+
+`animation-time-function` এর কয়েকটি value আছে, সেগুলো হলোঃ
+
+- `linear` , Animation এর শুরু থেকে শেষ পর্যন্ত একই Speed এ থাকবে।
+- `ease` , Animation এর শুরুতে ও শেষে Speed Slow থাকে এবং মাঝখানে Speed Fast থাকে, এটা By Default Property.
+- `ease-in`, Animation এর শুরুতে Speed Slow থাকে।
+- `ease-out`, Animation এর শেষে Speed Slow থাকে।
+- `ease-in-out`, Animation এর শুরু থেকে শেষ পর্যন্ত Speed Slow থাকে।
+
+[Open in CodePen](https://codepen.io/travelerabdulalim/pen/yLjQZJG)
+
+### Animation Fill Mode Property
+
+- Animation শেষ হবার পর Element টা কোন অবস্থায় থাকবে সেটা `animation-fill-mode` property দ্বারা বলে দেয়া যায়।
+- `animation-fill-mode` by defualt `none` থাকে ।
+- `animation-fill-mode: forwards` এর অর্থ হলো Animation শেষে Element টার State হবে Last Kayframe এর Style.
+- `animation-fill-mode: backwards` এর অর্থ হলো Animation শেষে Element টার State হবে First Kayframe এর Style.
+
+### Animation Shorthand
+
+`animation: name duration timing-function delay iteration-count direction fill-mode;`
 
 # Project-02: Simple Website Layout with Float
 
